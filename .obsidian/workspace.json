@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e151e277b8b60587",
+        "id": "a8ba1b1cd312d0d6",
         "type": "tabs",
         "children": [
           {
-            "id": "0d201e9598e72d35",
+            "id": "a60c2d18c23aa826",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#leetcode valid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,61 +85,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "95a0e70116a26a3e",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "010f8071bb34261e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2e5a5ae214092b26",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "3c80084d38731b48",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "8739e35fc8e6c524",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
         ]
       }
@@ -164,56 +109,58 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "06ff2a6485534040",
+  "active": "27d92382d6013d92",
   "lastOpenFiles": [
-    "Backend/storage/Google Drive.md",
-    "Backend/storage/Google Cloud Storage.md",
-    "Backend/storage",
-    "Backend/Untitled.md",
-    "Backend/email",
-    "Ideas/Untitled.md",
-    "Untitled.canvas",
-    "Daily Notes/2024-05-07.md",
-    "Database/Postgres.md",
-    "Hire10x/Ranking.md",
-    "Hire10x/Ai Assistance.md",
-    "BMO/Profiles/BMO.md",
-    "Backend/email/SMTP.md",
-    "AI/basic/Pandas Note.md",
+    "Notion/Problem-Solving/p-20-Valid Parentheses.md",
     "AI/basic/Numpy Note.md",
-    "GenAI/Dag.md",
-    "Ideas",
-    "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
-    "GenAI",
-    "AI/genai",
-    "EDT/AI Ideas.md",
-    "EDT/Final Ideas.md",
-    "Database/Untitled Kanban.md",
-    "Hire10x/Ranking/Untitled.md",
-    "Hire10x/Ranking",
-    "Hire10x",
-    "Daily Notes/0007-05-07.md",
-    "AI/basic",
-    "Untitled 1.md",
-    "Untitled.md",
-    "BMO/Profiles",
-    "BMO",
-    "smart-chats/UNTITLED CHAT 2024-05-07 15 05 54.md",
-    "smart-chats/UNTITLED CHAT 2024-05-07 15 04 13.md",
-    "smart-chats/UNTITLED CHAT 2024-05-07 15 03 38.md",
-    "smart-chats/UNTITLED CHAT 2024-05-07 14 52 22.md",
-    "Excalidraw/Drawing 2024-05-07 21.08.26.excalidraw.md",
-    "attachments/Pasted image 20240430002819.png",
-    "Excalidraw/attachments/Pasted Image 20240507164613_757.png",
-    "Excalidraw/attachments/Pasted Image 20240502173625_479.png",
-    "Pasted image 20240430002731.png",
-    "Pasted image 20240430002616.png",
-    "Pasted image 20240430001741.png",
-    "Pasted image 20240429231940.png",
+    "Notion/Courses/New TV series.md",
+    "Notion/Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
+    "Notion/Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+    "Notion/Backend/Backend.md",
+    "Notion/AlgoExpert/Backend.md",
+    "Notion/AlgoExpert/AWS.md",
+    "Notion/AlgoExpert/AlgoExpert.md",
+    "Notion/AI/AI.md",
+    "Notion/AI/Coding Session.md",
+    "Notion/AI/AI 2.md",
+    "Notion/10xScale/LinkedIn Data Extraction and Credit Management System.md",
+    "Notion/10xScale/10xScale.md",
+    "Notion/10xScale/New Product Spec (PRD).md",
+    "Notion/10xScale/New Brainstorm.md",
+    "Daily Notes/2024-05-08.md",
+    "Notion/Backend/k8s Service/attachments/module_04_labels.svg",
+    "Notion/EdTech/Course Page/attachments/Untitled 5.png",
+    "Notion/EdTech/Course Page/attachments/Untitled 4.png",
+    "Notion/EdTech/Course Page/attachments/Untitled 3.png",
+    "Notion/EdTech/Course Page/attachments/Untitled 2.png",
+    "Notion/EdTech/Course Page/attachments/Untitled 1.png",
+    "Notion/EdTech/Course Page/attachments/Untitled.png",
+    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
+    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
+    "Notion/Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
+    "Notion/10xScale/New Technical Spec.md",
+    "Notion/Problem-Solving/p-226. Invert Binary Tree.md",
+    "Notion/Problem-Solving/New Technical Spec.md",
+    "Notion/Problem-Solving/p88-Merge Sorted Array.md",
+    "Notion/Problem-Solving/p-104- Maximum Depth of Binary Tree.md",
+    "Notion/Problem-Solving/p-102-Binary Tree Level Order Traversal.md",
+    "Notion/Problem-Solving/p-83- Remove Duplicates from Sorted List.md",
+    "Notion/Problem-Solving/Floyd’s Algorithm.md",
+    "Notion/Problem-Solving/p-141-Linked List Cycle.md",
+    "Notion/Backend/k8s Service/attachments",
+    "Notion/EdTech/Course Page/attachments",
+    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments",
+    "Notion/Courses/LangChain for LLM Application Development/attachments",
+    "Notion/Backend/k8s Service",
+    "Notion/EdTech/Course Page",
+    "Notion/Courses/ChatGPT Prompt Engineering for Developers",
+    "Notion/Courses/LangChain for LLM Application Development",
+    "Notion/10xScale",
+    "Notion/Problem-Solving",
+    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
