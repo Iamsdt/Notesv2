@@ -1,3 +1,11 @@
+---
+tags:
+  - email
+  - smtp
+Date: 2024-05-07T23:43:00
+---
+
+
 That's how SMTP works. It's purely a protocol for dropping a mail off at a mail server, either by your originating client or an interim server dropping it off at another upstream server. SMTP servers work in chains; your client drops off at godaddy, today's might drop off at an upstream server, upstream server drops off at destination (or another upstream; many servers might handle it on the way).
 
 If SMTP stored mails in a sent mail folder, every server involved in the delivery chain would have a copy of every mail it ever transited - hard disks would be full in minutes!

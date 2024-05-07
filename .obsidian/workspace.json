@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79c7d3d30610891d",
+        "id": "2bbd0ad9d1553034",
         "type": "tabs",
         "children": [
           {
-            "id": "7af48f10691d57b5",
+            "id": "399552dcce4b8847",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 422.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,35 +164,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "06ff2a6485534040",
+  "active": "399552dcce4b8847",
   "lastOpenFiles": [
-    "GenAI/Dag.md",
     "Ideas/Untitled.md",
+    "Untitled.canvas",
     "Daily Notes/2024-05-07.md",
-    "Ideas",
+    "Database/Postgres.md",
+    "Hire10x/Ranking.md",
+    "Hire10x/Ai Assistance.md",
+    "BMO/Profiles/BMO.md",
     "Backend/SMTP.md",
+    "AI/basic/Pandas Note.md",
+    "AI/basic/Numpy Note.md",
+    "GenAI/Dag.md",
+    "Ideas",
     "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
     "GenAI",
     "AI/genai",
-    "Hire10x/Ranking.md",
-    "Hire10x/Ai Assistance.md",
     "EDT/AI Ideas.md",
     "EDT/Final Ideas.md",
-    "Database/Postgres.md",
     "Database/Untitled Kanban.md",
     "Hire10x/Ranking/Untitled.md",
     "Hire10x/Ranking",
     "Hire10x",
     "Daily Notes/0007-05-07.md",
-    "AI/basic/Pandas Note.md",
-    "AI/basic/Numpy Note.md",
     "AI/basic",
     "Untitled 1.md",
     "Untitled.md",
-    "BMO/Profiles/BMO.md",
     "BMO/Profiles",
     "BMO",
     "smart-chats/UNTITLED CHAT 2024-05-07 15 05 54.md",
@@ -203,8 +206,6 @@
     "smart-chats",
     "Daily Notes/Unplanned",
     "2024-05-03.md",
-    "2024-05-01.md",
-    "Untitled.canvas",
     "attachments/Pasted image 20240430002819.png",
     "Excalidraw/attachments/Pasted Image 20240507164613_757.png",
     "Excalidraw/attachments/Pasted Image 20240502173625_479.png",

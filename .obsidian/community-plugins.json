@@ -14,5 +14,7 @@
   "sets",
   "slash-commander",
   "calendar",
-  "bmo-chatbot"
+  "bmo-chatbot",
+  "obsidian-icons-plugin",
+  "obsidian-importer"
 ]
