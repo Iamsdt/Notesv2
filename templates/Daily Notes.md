@@ -17,7 +17,7 @@ Today did I...
 
 ## Notes
 ```dataviewjs
-list
+CALENDAR
 ```
 
 ## Tasks

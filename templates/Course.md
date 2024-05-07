@@ -1,9 +1,11 @@
 ---
-Author: {{author}}
-Link: {{link}}
-Score: {{score}}
-Completed At: {{date}}{{time}}
-Status: 
-Type: 
-tag: 
+Author:
+Link:
+Score:
+Status:
+Type:
+Completed At: {{date:YYYY-MM-DD}}T{{time:HH:mm}}
+Last edited time: 
+tags:
 ---
+
