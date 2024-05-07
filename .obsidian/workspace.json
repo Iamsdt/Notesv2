@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "81f31754a273fb92",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dbda366015ae57f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "033b92a0f94ebcbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2024-05-07.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "424ef04f4b4bf9c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "854311172328137e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06ff2a6485534040",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83d2969d45d6176a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"tags\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c1a99d7f2f168d7d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.5
+  },
+  "right": {
+    "id": "67191f62e6c1cda6",
+    "type": "split",
+    "children": [
+      {
+        "id": "34826c1a20880d4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d92382d6013d92",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "95a0e70116a26a3e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "010f8071bb34261e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/2024-05-07.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2e5a5ae214092b26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Notes/2024-05-07.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c80084d38731b48",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "8739e35fc8e6c524",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2024-05-07.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 422.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "bmo-chatbot:BMO Chatbot": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "033b92a0f94ebcbe",
+  "lastOpenFiles": [
+    "Ideas/Untitled.md",
+    "Daily Notes/2024-05-07.md",
+    "Ideas",
+    "Backend/SMTP.md",
+    "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
+    "GenAI/Dag.md",
+    "GenAI",
+    "AI/genai",
+    "Hire10x/Ranking.md",
+    "Hire10x/Ai Assistance.md",
+    "EDT/AI Ideas.md",
+    "EDT/Final Ideas.md",
+    "Database/Postgres.md",
+    "Database/Untitled Kanban.md",
+    "Hire10x/Ranking/Untitled.md",
+    "Hire10x/Ranking",
+    "Hire10x",
+    "Daily Notes/0007-05-07.md",
+    "AI/basic/Pandas Note.md",
+    "AI/basic/Numpy Note.md",
+    "AI/basic",
+    "Untitled 1.md",
+    "Untitled.md",
+    "BMO/Profiles/BMO.md",
+    "BMO/Profiles",
+    "BMO",
+    "smart-chats/UNTITLED CHAT 2024-05-07 15 05 54.md",
+    "smart-chats/UNTITLED CHAT 2024-05-07 15 04 13.md",
+    "smart-chats/UNTITLED CHAT 2024-05-07 15 03 38.md",
+    "smart-chats/UNTITLED CHAT 2024-05-07 14 52 22.md",
+    "Excalidraw/Drawing 2024-05-07 21.08.26.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-07 20.29.14.excalidraw.md",
+    "smart-chats",
+    "Daily Notes/Unplanned",
+    "2024-05-03.md",
+    "2024-05-01.md",
+    "Untitled.canvas",
+    "attachments/Pasted image 20240430002819.png",
+    "Excalidraw/attachments/Pasted Image 20240507164613_757.png",
+    "Excalidraw/attachments/Pasted Image 20240502173625_479.png",
+    "Pasted image 20240430002731.png",
+    "Pasted image 20240430002616.png",
+    "Pasted image 20240430001741.png",
+    "Pasted image 20240429231940.png",
+    "Untitled 1.canvas"
+  ]
+}
