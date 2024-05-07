@@ -16,13 +16,12 @@ Today did I...
 - 14:30-17:00 Client work
 
 ## Notes
-```
-dataviewjs
-await dv.view("code/created-today", {date: "{{date:YYYY-MM-DD}}", path: ''});
+```dataviewjs
+list
 ```
 
 ## Tasks
-```
+```dataview
 done on {{date:YYYY-MM-DD}}
 path does not include Journal
 ```

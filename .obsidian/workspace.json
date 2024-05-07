@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "985fffb70d2cf271",
+        "id": "c67db5d84d896afc",
         "type": "tabs",
         "children": [
           {
-            "id": "3ed1fbfb72c8dccd",
+            "id": "bd5aaea863e56c9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,19 +17,6 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "562397bd4a545ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2024-05-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
               }
             }
           }
@@ -199,10 +186,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3ed1fbfb72c8dccd",
+  "active": "bd5aaea863e56c9d",
   "lastOpenFiles": [
-    "templates/Note.md",
     "templates/Daily Notes.md",
+    "templates/Note.md",
     "Daily Notes/2024-05-08.md",
     "Untitled.md",
     "Untitled 1.md",

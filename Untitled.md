@@ -1,21 +1,16 @@
 ---
 tags: 
 Created by: Shudipto Trafder
-Created time: 2024-05-08
+Created time: 2024-05-08{time}}
 Last edited by: Shudipto Trafder
-Last edited time: 2024-05-08
+Last edited time: 2024-05-0800:55
 ---
+```dataview
+LIST
+FROM #ai 
+```
 
-
-
-
-
-
----
-date: 2024-05-08T00:50
-status: Idea
-publishurl: []
-tags:
-- writing/idea
-parent: "[[Writings MOC]]"
----
+```dataview
+TABLE author
+FROM #
+```
