@@ -11,6 +11,10 @@ FROM #ai
 ```
 
 ```dataview
-TABLE author
-FROM #
+TABLE file.ctime as "Created Time", file.mtime as "Updated Time"
+FROM #ai 
 ```
+
+
+
+Today is `= date(today)` - `= [[exams]].deadline - date(today)` until exams!

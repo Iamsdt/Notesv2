@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c67db5d84d896afc",
+        "id": "f0605c61d0641aa4",
         "type": "tabs",
         "children": [
           {
-            "id": "bd5aaea863e56c9d",
+            "id": "4b65d7a447069a69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Notion/AI/Coding Session.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Notion/AI/Coding Session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Notion/AI/Coding Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Notion/AI/Coding Session.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Untitled.md"
+                "file": "Notion/AI/Coding Session.md"
               }
             }
           }
@@ -186,18 +186,22 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "bd5aaea863e56c9d",
+  "active": "4b65d7a447069a69",
   "lastOpenFiles": [
+    "Notion/AI/AI 2.md",
+    "Notion/AI/AI.md",
+    "Untitled.md",
+    "Backend/email/SMTP.md",
+    "Backend/storage/Google Cloud Storage.md",
+    "AI/basic/Numpy Note.md",
+    "AI/basic/Pandas Note.md",
     "templates/Daily Notes.md",
     "templates/Note.md",
     "Daily Notes/2024-05-08.md",
-    "Untitled.md",
     "Untitled 1.md",
     "templates",
     "Backend/storage/Google Drive.md",
-    "Backend/storage/Google Cloud Storage.md",
     "Notion/Problem-Solving/p-20-Valid Parentheses.md",
-    "AI/basic/Numpy Note.md",
     "Notion/Courses/New TV series.md",
     "Notion/Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
@@ -205,9 +209,7 @@
     "Notion/AlgoExpert/Backend.md",
     "Notion/AlgoExpert/AWS.md",
     "Notion/AlgoExpert/AlgoExpert.md",
-    "Notion/AI/AI.md",
     "Notion/AI/Coding Session.md",
-    "Notion/AI/AI 2.md",
     "Notion/10xScale/LinkedIn Data Extraction and Credit Management System.md",
     "Notion/10xScale/10xScale.md",
     "Notion/10xScale/New Product Spec (PRD).md",
@@ -223,8 +225,6 @@
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
     "Notion/Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
     "Notion/10xScale/New Technical Spec.md",
-    "Notion/Problem-Solving/p-226. Invert Binary Tree.md",
-    "Notion/Problem-Solving/New Technical Spec.md",
     "Notion/Backend/k8s Service/attachments",
     "Notion/EdTech/Course Page/attachments",
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments",

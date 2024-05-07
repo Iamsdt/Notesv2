@@ -15,3 +15,4 @@ gsutil cp ./apc.pdf gs://10xscale1testing/collection_cvs
 ```bash
 gsutil -m cp -r . gs://10xscale1testing/collection_cvs
 ```
+`ris:Google`
