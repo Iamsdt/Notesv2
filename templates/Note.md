@@ -1,9 +1,9 @@
 ---
 tags: 
 Created by: Shudipto Trafder
-Created time: 2024-05-08
+Created time: {{date}}
 Last edited by: Shudipto Trafder
-Last edited time: 2024-05-08
+Last edited time: {{date}}
 ---
 
 
@@ -12,7 +12,7 @@ Last edited time: 2024-05-08
 
 
 ---
-date: 2024-05-08T00:50
+date: {{date:YYYY-MM-DD}}T{{time:HH:mm}}
 status: Idea
 publishurl: []
 tags:
