@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "efcc6c56f085112a",
+        "id": "f8dffe87820606ba",
         "type": "tabs",
         "children": [
           {
-            "id": "9d21887a09726910",
+            "id": "0b70f07c5178d12a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Learning Resources/All Completed Courses.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
               }
             }
           }
@@ -105,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/All Completed Courses.md",
+                "file": "Learning Resources/All Courses/attachments/Untitled 4.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/All Completed Courses.md",
+                "file": "Learning Resources/All Courses/attachments/Untitled 4.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/All Completed Courses.md"
+                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
               }
             }
           },
@@ -156,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning Resources/All Completed Courses.md"
+                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
               }
             }
           }
@@ -187,21 +184,27 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "9d21887a09726910",
+  "active": "06ff2a6485534040",
   "lastOpenFiles": [
-    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers.md",
-    "Learning Resources/All Completed Courses.md",
-    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+    "Learning Resources/All Courses/attachments/langchain_embedding.png",
+    "Learning Resources/All Courses/attachments/router_chain.png",
+    "Learning Resources/All Courses/attachments/sequential_chain.png",
+    "Learning Resources/All Courses/attachments/openai_api_call.png",
+    "Learning Resources/All Courses/attachments/langchain_output_parsing_work_with_prompts.png",
+    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers.md",
+    "Learning Resources/All Courses/attachments/iterative_prompt_development.png",
+    "Learning Resources/All Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
+    "Learning Resources/Courses.md",
     "templates/Course.md",
+    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
     "templates/Note.md",
     "templates/Daily Notes.md",
     "Untitled.md",
-    "Learning Resources/courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
     "Daily Notes/2024-05-08.md",
     "Courses/Courses.md",
     "Courses/All Courses.md",
     "Learning Resources/books",
-    "Learning Resources/courses",
+    "Learning Resources/All Courses",
     "Learning Resources",
     "Courses/Untitled/Untitled.md",
     "Courses/Untitled",
@@ -219,7 +222,6 @@
     "Docker/k8s Service/k8s Service.md",
     "Docker/Docker and compose in multi-service.md",
     "Docker/Docker tips and tricks.md",
-    "Interview Questions/Coding Session.md",
     "Backend/dja",
     "Docker",
     "Backend/scripts",
@@ -230,11 +232,6 @@
     "Notion/EdTech/Course Page/attachments/Untitled 4.png",
     "Notion/EdTech/Course Page/attachments/Untitled 3.png",
     "Notion/EdTech/Course Page/attachments/Untitled 2.png",
-    "Notion/EdTech/Course Page/attachments/Untitled 1.png",
-    "Notion/EdTech/Course Page/attachments/Untitled.png",
-    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
-    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
-    "Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -78,7 +78,7 @@ response = chat(messages)
 output_dict = output_parser.parse(response.content)
 ```
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled.png]]
+![[langchain_output_parsing_work_with_prompts.png]]
 
 ## LangChain: Memory
 
@@ -149,7 +149,7 @@ overall_simple_chain.run(product)
 
 SequentialChain
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 1.png]]
+![[sequential_chain.png]]
 
 when you have multiple chain and need combine in one and output
 
@@ -211,7 +211,7 @@ overall_chain(review)
 
 Router Chain:
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 2.png]]
+![[router_chain.png]]
 
 ```Python
 physics_template = """You are a very smart physics professor. \
@@ -374,7 +374,7 @@ chain.run("What is black body radiation?")
 
 ## LangChain: Q&A Over Documents
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 3.png]]
+![[langchain_embedding.png]]
 
 Embedding:
 
@@ -388,7 +388,7 @@ Word embeddings have proven useful in various NLP tasks, such as machine transla
 
 Beyond NLP, embeddings can be applied to other types of data as well. For example, item embeddings in recommendation systems, where products or items are represented in a lower-dimensional space based on user interactions, help capture item similarities and enhance recommendation accuracy.
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 4.png]]
+![[Learning Resources/All Courses/attachments/Untitled 4.png]]
 
 code:
 
@@ -418,7 +418,7 @@ response = llm.call_as_llm(f"{qdocs} Question: Please list all your \
 shirts with sun protection in a table in markdown and summarize each one.")
 ```
 
-![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 5.png]]
+![[Learning Resources/All Courses/attachments/Untitled 5.png]]
 
 ![[Untitled 6.png]]
 
