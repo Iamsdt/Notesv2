@@ -4,8 +4,8 @@ Created time: 2023-10-18T20:21
 Last edited by: Shudipto Trafder
 Last edited time: 2024-01-01T19:15
 tags:
-  - Docker
   - celery
+  - Docker
 ---
 Folder structure  
 structure  

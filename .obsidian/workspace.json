@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/AI/Coding Session.md",
+                "file": "Backend/scripts/Chrome Helper Selenium in Backend.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd16c194a423a53b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/storage/Google Cloud storage cors.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#leetcode valid",
+                "query": "tag:Docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/AI/Coding Session.md",
+                "file": "Backend/storage/Google Cloud storage cors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/AI/Coding Session.md",
+                "file": "Backend/storage/Google Cloud storage cors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/AI/Coding Session.md"
+                "file": "Backend/storage/Google Cloud storage cors.md"
               }
             }
           },
@@ -156,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notion/AI/Coding Session.md"
+                "file": "Backend/storage/Google Cloud storage cors.md"
               }
             }
           }
@@ -186,35 +200,41 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4b65d7a447069a69",
+  "active": "dd16c194a423a53b",
   "lastOpenFiles": [
-    "Notion/AI/AI 2.md",
-    "Notion/AI/AI.md",
-    "Untitled.md",
-    "Backend/email/SMTP.md",
     "Backend/storage/Google Cloud Storage.md",
-    "AI/basic/Numpy Note.md",
-    "AI/basic/Pandas Note.md",
-    "templates/Daily Notes.md",
-    "templates/Note.md",
-    "Daily Notes/2024-05-08.md",
-    "Untitled 1.md",
-    "templates",
-    "Backend/storage/Google Drive.md",
-    "Notion/Problem-Solving/p-20-Valid Parentheses.md",
-    "Notion/Courses/New TV series.md",
-    "Notion/Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
-    "Notion/Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+    "Backend/server/torchserve.md",
+    "Backend/server/sentry setup.md",
+    "Backend/server/reset migration.md",
+    "Backend/server/Jude0- Code execution Platform.md",
+    "Backend/server/Firebase As auth service Django-.md",
+    "Backend/server/Celery in multi module.md",
+    "Backend/scripts/DialogFlow.md",
+    "Backend/scripts/Chrome Helper Selenium in Backend.md",
+    "Backend/dja",
+    "Docker",
+    "Notion/Backend/New Technical Spec.md",
+    "Backend/scripts",
+    "Backend/server",
+    "Notion/Backend/New Product Spec (PRD).md",
+    "Notion/Backend/New Brainstorm.md",
+    "Docker/k8s Service/k8s Service.md",
+    "Backend/storage/Google Cloud storage cors.md",
+    "Docker/Docker tips and tricks.md",
+    "Docker/Docker and compose in multi-service.md",
     "Notion/Backend/Backend.md",
+    "Notion/AlgoExpert/Redis.md",
+    "Notion/AlgoExpert/React.md",
+    "Notion/AlgoExpert/Latency And Throughput.md",
+    "Notion/AlgoExpert/Code Reviews.md",
+    "Notion/AlgoExpert/CircleCI.md",
     "Notion/AlgoExpert/Backend.md",
     "Notion/AlgoExpert/AWS.md",
     "Notion/AlgoExpert/AlgoExpert.md",
-    "Notion/AI/Coding Session.md",
-    "Notion/10xScale/LinkedIn Data Extraction and Credit Management System.md",
-    "Notion/10xScale/10xScale.md",
-    "Notion/10xScale/New Product Spec (PRD).md",
-    "Notion/10xScale/New Brainstorm.md",
-    "Notion/Backend/k8s Service/attachments/module_04_labels.svg",
+    "Interview Questions/Python Question.md",
+    "Interview Questions",
+    "templates",
+    "Docker/k8s Service/attachments/module_04_labels.svg",
     "Notion/EdTech/Course Page/attachments/Untitled 5.png",
     "Notion/EdTech/Course Page/attachments/Untitled 4.png",
     "Notion/EdTech/Course Page/attachments/Untitled 3.png",
@@ -224,16 +244,10 @@
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
     "Notion/Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
-    "Notion/10xScale/New Technical Spec.md",
-    "Notion/Backend/k8s Service/attachments",
+    "Docker/k8s Service/attachments",
     "Notion/EdTech/Course Page/attachments",
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments",
     "Notion/Courses/LangChain for LLM Application Development/attachments",
-    "Notion/Backend/k8s Service",
-    "Notion/EdTech/Course Page",
-    "Notion/Courses/ChatGPT Prompt Engineering for Developers",
-    "Notion/Courses/LangChain for LLM Application Development",
-    "Notion/10xScale",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
