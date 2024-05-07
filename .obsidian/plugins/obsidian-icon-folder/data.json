@@ -31,7 +31,7 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
-  "Backend/SMTP.md": "📬",
   "AI/basic": "✒",
-  "GenAI/Dag.md": "🩹"
+  "GenAI/Dag.md": "🩹",
+  "Backend/email/SMTP.md": "📬"
 }
