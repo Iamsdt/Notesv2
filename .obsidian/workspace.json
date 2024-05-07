@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0dbda366015ae57f",
+        "id": "79c7d3d30610891d",
         "type": "tabs",
         "children": [
           {
-            "id": "033b92a0f94ebcbe",
+            "id": "7af48f10691d57b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2024-05-07.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024-05-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024-05-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily Notes/2024-05-07.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,14 +166,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "033b92a0f94ebcbe",
+  "active": "06ff2a6485534040",
   "lastOpenFiles": [
+    "GenAI/Dag.md",
     "Ideas/Untitled.md",
     "Daily Notes/2024-05-07.md",
     "Ideas",
     "Backend/SMTP.md",
     "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
-    "GenAI/Dag.md",
     "GenAI",
     "AI/genai",
     "Hire10x/Ranking.md",
