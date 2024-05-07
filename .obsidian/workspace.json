@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f8dffe87820606ba",
+        "id": "c519d20147149ddb",
         "type": "tabs",
         "children": [
           {
-            "id": "0b70f07c5178d12a",
+            "id": "e95fe952b7d7ccd1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
+                "file": "Notion/Work logs/React Firebase- Integrate.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -102,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/All Courses/attachments/Untitled 4.png",
+                "file": "Notion/Work logs/React Firebase- Integrate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/All Courses/attachments/Untitled 4.png",
+                "file": "Notion/Work logs/React Firebase- Integrate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
+                "file": "Notion/Work logs/React Firebase- Integrate.md"
               }
             }
           },
@@ -153,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning Resources/All Courses/attachments/Untitled 4.png"
+                "file": "Notion/Work logs/React Firebase- Integrate.md"
               }
             }
           }
@@ -184,54 +187,54 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "06ff2a6485534040",
+  "active": "e95fe952b7d7ccd1",
   "lastOpenFiles": [
+    "Notion/Work logs/New Technical Spec.md",
+    "Notion/Work logs/New Brainstorm.md",
+    "Scripts/Git clone- One repo to other repo.md",
+    "Git",
+    "Notion/Reading List/Reading List.md",
+    "Notion/Work logs/DATABASE OBSERVATION.md",
+    "Notion/Work logs/10xScale.md",
+    "Notion/Problem-Solving/p-20-Valid Parentheses.md",
+    "Notion/Project Ideas/Location Parser.md",
+    "Notion/Problem-Solving/New Brainstorm.md",
+    "Notion/Problem-Solving/New Technical Spec.md",
+    "Notion/Problem-Solving/New Product Spec (PRD).md",
+    "Notion/Problem-Solving/Floyd’s Algorithm.md",
+    "Notion/Problem-Solving/Boyer-Moore Majority.md",
+    "Notion/Problem-Solving/Problem-Solving.md",
+    "Scripts/ADB Server fix.md",
+    "Notion/Mobile/Mobile.md",
+    "Scripts",
+    "Notion/EdTech/Course Page/Course Page.md",
+    "Notion/EdTech/Redis.md",
+    "Notion/EdTech/React.md",
+    "Notion/EdTech/Code Reviews.md",
+    "Notion/EdTech/CircleCI.md",
+    "Notion/EdTech/Backend.md",
+    "Notion/EdTech/AWS.md",
+    "Notion/EdTech/EdTech.md",
+    "Database/backup docker data.md",
+    "Database/Database Series Generation.md",
+    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers",
+    "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
+    "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
+    "Learning Resources/All Courses/attachments/langchain_vector_database.png",
     "Learning Resources/All Courses/attachments/langchain_embedding.png",
     "Learning Resources/All Courses/attachments/router_chain.png",
     "Learning Resources/All Courses/attachments/sequential_chain.png",
     "Learning Resources/All Courses/attachments/openai_api_call.png",
     "Learning Resources/All Courses/attachments/langchain_output_parsing_work_with_prompts.png",
-    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers.md",
     "Learning Resources/All Courses/attachments/iterative_prompt_development.png",
-    "Learning Resources/All Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
-    "Learning Resources/Courses.md",
-    "templates/Course.md",
-    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
-    "templates/Note.md",
-    "templates/Daily Notes.md",
-    "Untitled.md",
-    "Daily Notes/2024-05-08.md",
-    "Courses/Courses.md",
-    "Courses/All Courses.md",
     "Learning Resources/books",
     "Learning Resources/All Courses",
     "Learning Resources",
-    "Courses/Untitled/Untitled.md",
     "Courses/Untitled",
-    "Courses/Untitled 3.md",
-    "Courses/Untitled 2.md",
-    "Courses/New TV series.md",
-    "Courses/New book.md",
-    "Courses/New article.md",
-    "Notion/Backend/New Technical Spec.md",
-    "Notion/Backend/New Product Spec (PRD).md",
-    "Notion/Backend/New Brainstorm.md",
-    "AI/Intro To Statistics.md",
-    "Backend/scripts/Chrome Helper Selenium in Backend.md",
     "Docker/k8s Service/attachments/module_04_labels.svg",
-    "Docker/k8s Service/k8s Service.md",
-    "Docker/Docker and compose in multi-service.md",
-    "Docker/Docker tips and tricks.md",
     "Backend/dja",
     "Docker",
     "Backend/scripts",
-    "Backend/server",
-    "Interview Questions",
-    "templates",
-    "Notion/EdTech/Course Page/attachments/Untitled 5.png",
-    "Notion/EdTech/Course Page/attachments/Untitled 4.png",
-    "Notion/EdTech/Course Page/attachments/Untitled 3.png",
-    "Notion/EdTech/Course Page/attachments/Untitled 2.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

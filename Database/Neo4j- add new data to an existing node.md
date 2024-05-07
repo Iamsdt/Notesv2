@@ -5,6 +5,7 @@ Last edited by: Shudipto Trafder
 Last edited time: 2024-01-01T19:10
 tags:
   - Graph
+  - neo4j
 ---
 Goal;
 

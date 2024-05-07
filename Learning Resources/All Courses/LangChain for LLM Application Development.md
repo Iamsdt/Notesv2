@@ -1,23 +1,20 @@
 ---
 Author: Deeplearning.ai
 Link: https://learn.deeplearning.ai/chatgpt-prompt-eng/
-Score: ⭐️⭐️⭐️⭐️⭐️
-Completed At: 2024-02-17
+Score: 5
 Status: Done
 Type: Course
+Completed: 2024-05-08T02:22
+Last edited time: 2024-05-08T02:22:00
 tags:
   - ai
-  - prompt
   - course
+  - langchain
 ---
 
 
-
-
 Summary:
-
 1. Use Chain: to do sequential tasks
-
   
 
 ## LangChain: Models, Prompts and Output Parse
@@ -388,7 +385,7 @@ Word embeddings have proven useful in various NLP tasks, such as machine transla
 
 Beyond NLP, embeddings can be applied to other types of data as well. For example, item embeddings in recommendation systems, where products or items are represented in a lower-dimensional space based on user interactions, help capture item similarities and enhance recommendation accuracy.
 
-![[Learning Resources/All Courses/attachments/Untitled 4.png]]
+![[langchain_vector_database.png]]
 
 code:
 
@@ -418,9 +415,9 @@ response = llm.call_as_llm(f"{qdocs} Question: Please list all your \
 shirts with sun protection in a table in markdown and summarize each one.")
 ```
 
-![[Learning Resources/All Courses/attachments/Untitled 5.png]]
+![[langchain_stuff_method.png]]
 
-![[Untitled 6.png]]
+![[langchain_chains_3_additional_methods.png]]
 
 ## Evaluation
 

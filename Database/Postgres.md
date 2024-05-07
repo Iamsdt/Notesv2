@@ -1,8 +1,12 @@
 ---
+Created by: Shudipto Trafder
+Created time: 2024-05-08T02:26
+Last edited time: 2024-05-08T02:26
 tags:
-  - db
   - pgsql
 ---
+
+
 
 Clear All the Data
 ```bash

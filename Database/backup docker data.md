@@ -5,6 +5,7 @@ Last edited by: Shudipto Trafder
 Last edited time: 2024-01-01T19:11
 tags:
   - Graph
+  - neo4j
 ---
 # Neo4j Database Backup and Restoration Guide
 
