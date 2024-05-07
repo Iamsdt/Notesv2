@@ -116,6 +116,12 @@
       "triggerMode": "anywhere",
       "chosen": false,
       "selected": false
+    },
+    {
+      "id": "insert-current-date",
+      "icon": "lucide-calendar-days",
+      "name": "Templates: Insert current date",
+      "mode": "any"
     }
   ]
 }

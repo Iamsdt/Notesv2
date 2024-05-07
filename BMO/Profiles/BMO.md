@@ -3,7 +3,7 @@ model: models/gemini-pro
 max_tokens: 4096
 temperature: 0.5
 reference_current_note: true
-prompt: You are assistance, where you job is to help write docs. And always output in markdown
+prompt: ""
 user_name: USER
 allow_header: true
 chatbot_container_background_color: --background-secondary

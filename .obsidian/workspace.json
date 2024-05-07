@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "a8ba1b1cd312d0d6",
+        "id": "47ad84ea877016e0",
         "type": "tabs",
         "children": [
           {
-            "id": "a60c2d18c23aa826",
+            "id": "56420fa8f84462a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/{{title}}.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c330bafd45f58ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -112,8 +130,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "27d92382d6013d92",
+  "active": "06ff2a6485534040",
   "lastOpenFiles": [
+    "templates/{{title}}.md",
+    "Untitled.md",
+    "templates",
+    "Backend/storage/Google Drive.md",
+    "Backend/storage/Google Cloud Storage.md",
     "Notion/Problem-Solving/p-20-Valid Parentheses.md",
     "AI/basic/Numpy Note.md",
     "Notion/Courses/New TV series.md",
@@ -146,10 +169,6 @@
     "Notion/Problem-Solving/New Technical Spec.md",
     "Notion/Problem-Solving/p88-Merge Sorted Array.md",
     "Notion/Problem-Solving/p-104- Maximum Depth of Binary Tree.md",
-    "Notion/Problem-Solving/p-102-Binary Tree Level Order Traversal.md",
-    "Notion/Problem-Solving/p-83- Remove Duplicates from Sorted List.md",
-    "Notion/Problem-Solving/Floyd’s Algorithm.md",
-    "Notion/Problem-Solving/p-141-Linked List Cycle.md",
     "Notion/Backend/k8s Service/attachments",
     "Notion/EdTech/Course Page/attachments",
     "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments",
@@ -159,7 +178,6 @@
     "Notion/Courses/ChatGPT Prompt Engineering for Developers",
     "Notion/Courses/LangChain for LLM Application Development",
     "Notion/10xScale",
-    "Notion/Problem-Solving",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
