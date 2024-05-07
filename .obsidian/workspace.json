@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Learning Resources/All Completed Courses.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Learning Resources/All Completed Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Learning Resources/All Completed Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/All Courses.md"
+                "file": "Learning Resources/All Completed Courses.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning Resources/All Courses.md"
+                "file": "Learning Resources/All Completed Courses.md"
               }
             }
           }
@@ -190,7 +190,7 @@
   "active": "9d21887a09726910",
   "lastOpenFiles": [
     "Learning Resources/courses/ChatGPT Prompt Engineering for Developers.md",
-    "Learning Resources/All Courses.md",
+    "Learning Resources/All Completed Courses.md",
     "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
     "templates/Course.md",
     "templates/Note.md",
