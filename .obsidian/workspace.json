@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c519d20147149ddb",
+        "id": "18914a403e433e1a",
         "type": "tabs",
         "children": [
           {
-            "id": "e95fe952b7d7ccd1",
+            "id": "a7cc7958ddf81aa9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Work logs/React Firebase- Integrate.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/Work logs/React Firebase- Integrate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/Work logs/React Firebase- Integrate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notion/Work logs/React Firebase- Integrate.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Notion/Work logs/React Firebase- Integrate.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -187,36 +176,37 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "e95fe952b7d7ccd1",
+  "active": "a7cc7958ddf81aa9",
   "lastOpenFiles": [
-    "Notion/Work logs/New Technical Spec.md",
-    "Notion/Work logs/New Brainstorm.md",
+    "Database/Neo4j- add new data to an existing node.md",
+    "Database/Neo4j- add new data to existing node.md",
+    "Backend/server/Celery in multi module.md",
+    "Backend/storage/Google Drive.md",
+    "Scripts/React Firebase- Integrate.md",
+    "Untitled.md",
+    "Scripts/Git remove sensitive Data.md",
     "Scripts/Git clone- One repo to other repo.md",
-    "Git",
-    "Notion/Reading List/Reading List.md",
-    "Notion/Work logs/DATABASE OBSERVATION.md",
-    "Notion/Work logs/10xScale.md",
-    "Notion/Problem-Solving/p-20-Valid Parentheses.md",
-    "Notion/Project Ideas/Location Parser.md",
-    "Notion/Problem-Solving/New Brainstorm.md",
-    "Notion/Problem-Solving/New Technical Spec.md",
-    "Notion/Problem-Solving/New Product Spec (PRD).md",
-    "Notion/Problem-Solving/Floyd’s Algorithm.md",
-    "Notion/Problem-Solving/Boyer-Moore Majority.md",
-    "Notion/Problem-Solving/Problem-Solving.md",
     "Scripts/ADB Server fix.md",
-    "Notion/Mobile/Mobile.md",
-    "Scripts",
-    "Notion/EdTech/Course Page/Course Page.md",
-    "Notion/EdTech/Redis.md",
-    "Notion/EdTech/React.md",
-    "Notion/EdTech/Code Reviews.md",
-    "Notion/EdTech/CircleCI.md",
-    "Notion/EdTech/Backend.md",
-    "Notion/EdTech/AWS.md",
-    "Notion/EdTech/EdTech.md",
+    "Hire10x/Release Cycle.md",
+    "Hire10x/Ranking.md",
+    "Hire10x/Ai Assistance.md",
+    "Docker/k8s Service/k8s Service.md",
     "Database/backup docker data.md",
-    "Database/Database Series Generation.md",
+    "Database/PGSQL visualization with DBDOCS.md",
+    "Database/Postgres.md",
+    "Database/SQL USED TO CHANGE DATABASE.md",
+    "AI/Intro To Statistics.md",
+    "Notion/Reading List/Probabilistic Machine Learning.md",
+    "Notion/Reading List/New TV series.md",
+    "Notion/Reading List/New book.md",
+    "Notion/Reading List/New article.md",
+    "Notion/Reading List/Math for Deep Learning- What You Need to Know to Understand Neural Networks.md",
+    "Notion/Reading List/Langchain (Typesense + Google).md",
+    "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
+    "Notion/Reading List/Docker Secrects.md",
+    "Problem Solving",
+    "Git",
+    "Scripts",
     "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers",
     "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
     "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
@@ -234,7 +224,6 @@
     "Docker/k8s Service/attachments/module_04_labels.svg",
     "Backend/dja",
     "Docker",
-    "Backend/scripts",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

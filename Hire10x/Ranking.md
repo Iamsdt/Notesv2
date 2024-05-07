@@ -1,7 +1,6 @@
 ---
 tags:
   - ai
-  - hire10x
   - ranking
   - graph
   - neo4j

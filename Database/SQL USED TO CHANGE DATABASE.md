@@ -3,6 +3,8 @@ Created by: Shudipto Trafder
 Created time: 2023-12-23T22:13
 Last edited by: Shudipto Trafder
 Last edited time: 2024-01-31T18:04
+tags:
+  - pgsql
 ---
 ### t_jd_task → template id as foreign key
 
