@@ -2,23 +2,16 @@
 Author: Deeplearning.ai
 Link: https://learn.deeplearning.ai/chatgpt-prompt-eng/
 Score: ⭐️⭐️⭐️⭐️⭐️
-Completed: 2024-01-17
+Completed At: 2024-01-17
 Status: Done
 Type: Course
 tags:
   - ai
   - prompt
+  - course
 ---
 
----
-Author: Deeplearning.ai
-Link: https://learn.deeplearning.ai/chatgpt-prompt-eng/
-Score: ⭐️⭐️⭐️⭐️⭐️
-Completed At: 2024-01-17
-Status: Done
-Type: Course
-tag: 
----
+
 
 
 > [!NOTE] Summary
@@ -295,7 +288,7 @@ Format everything as HTML that can be used in a website.
 Place the description in a <div> element.
 ```
 
-![[Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png|Untitled.png]]
+![[Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png|Untitled.png]]
 
 ## Summarizing
 
@@ -400,6 +393,6 @@ answer on behalf of some
 
 ## Chatbot
 
-![[Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png|Untitled 1.png]]
+![[Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png|Untitled 1.png]]
 
 system message: Developer message, so the bot can understand better

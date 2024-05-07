@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6ca8d25c34dcad04",
+        "id": "a9eb1a1497969701",
         "type": "tabs",
         "children": [
           {
-            "id": "d5984cab446e9c12",
+            "id": "1be1d62f88aeda31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+                "file": "Learning Resources/All Courses.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+                "file": "Learning Resources/All Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+                "file": "Learning Resources/All Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md"
+                "file": "Learning Resources/All Courses.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md"
+                "file": "Learning Resources/All Courses.md"
               }
             }
           }
@@ -186,11 +186,25 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d5984cab446e9c12",
+  "active": "1be1d62f88aeda31",
   "lastOpenFiles": [
+    "Daily Notes/2024-05-08.md",
+    "Courses/Courses.md",
+    "Courses/All Courses.md",
+    "Learning Resources/All Courses.md",
+    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+    "Learning Resources/courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
+    "Learning Resources/books",
+    "Learning Resources/courses",
+    "Learning Resources",
+    "Courses/Untitled/Untitled.md",
+    "Courses/Untitled",
+    "Courses/Untitled 3.md",
+    "Courses/Untitled 2.md",
+    "Courses/New TV series.md",
+    "Courses/New book.md",
+    "Courses/New article.md",
     "templates/Course.md",
-    "Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
-    "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
     "templates/Note.md",
     "templates/Daily Notes.md",
     "Notion/Backend/New Technical Spec.md",
@@ -205,16 +219,6 @@
     "Interview Questions/Coding Session.md",
     "Interview Questions/DL question.md",
     "Interview Questions/DSA.md",
-    "Interview Questions/ML Question.md",
-    "Interview Questions/Python Question.md",
-    "Backend/storage/Google Cloud Storage.md",
-    "Backend/storage/Google Drive.md",
-    "Backend/storage/Google Cloud storage cors.md",
-    "Backend/server/torchserve.md",
-    "Backend/server/sentry setup.md",
-    "Backend/server/reset migration.md",
-    "Backend/server/Jude0- Code execution Platform.md",
-    "Backend/server/Firebase As auth service Django-.md",
     "Backend/dja",
     "Docker",
     "Backend/scripts",
@@ -227,13 +231,9 @@
     "Notion/EdTech/Course Page/attachments/Untitled 2.png",
     "Notion/EdTech/Course Page/attachments/Untitled 1.png",
     "Notion/EdTech/Course Page/attachments/Untitled.png",
-    "Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
-    "Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
-    "Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
-    "Docker/k8s Service/attachments",
-    "Notion/EdTech/Course Page/attachments",
-    "Courses/ChatGPT Prompt Engineering for Developers/attachments",
-    "Courses/LangChain for LLM Application Development/attachments",
+    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
+    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
+    "Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

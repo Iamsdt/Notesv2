@@ -1,12 +1,19 @@
 ---
 Author: Deeplearning.ai
-Link: https://learn.deeplearning.ai/langchain
-Score: ⭐️⭐️⭐️⭐️
-Completed: 2024-02-17
+Link: https://learn.deeplearning.ai/chatgpt-prompt-eng/
+Score: ⭐️⭐️⭐️⭐️⭐️
+Completed At: 2024-02-17
 Status: Done
 Type: Course
-tag: ai, langchain
+tags:
+  - ai
+  - prompt
+  - course
 ---
+
+
+
+
 Summary:
 
 1. Use Chain: to do sequential tasks
@@ -71,7 +78,7 @@ response = chat(messages)
 output_dict = output_parser.parse(response.content)
 ```
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled.png]]
 
 ## LangChain: Memory
 
@@ -142,7 +149,7 @@ overall_simple_chain.run(product)
 
 SequentialChain
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled 1.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 1.png]]
 
 when you have multiple chain and need combine in one and output
 
@@ -204,7 +211,7 @@ overall_chain(review)
 
 Router Chain:
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled 2.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 2.png]]
 
 ```Python
 physics_template = """You are a very smart physics professor. \
@@ -367,7 +374,7 @@ chain.run("What is black body radiation?")
 
 ## LangChain: Q&A Over Documents
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled 3.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 3.png]]
 
 Embedding:
 
@@ -381,7 +388,7 @@ Word embeddings have proven useful in various NLP tasks, such as machine transla
 
 Beyond NLP, embeddings can be applied to other types of data as well. For example, item embeddings in recommendation systems, where products or items are represented in a lower-dimensional space based on user interactions, help capture item similarities and enhance recommendation accuracy.
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled 4.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 4.png]]
 
 code:
 
@@ -411,7 +418,7 @@ response = llm.call_as_llm(f"{qdocs} Question: Please list all your \
 shirts with sun protection in a table in markdown and summarize each one.")
 ```
 
-![[Courses/LangChain for LLM Application Development/attachments/Untitled 5.png]]
+![[Learning Resources/courses/LangChain for LLM Application Development/attachments/Untitled 5.png]]
 
 ![[Untitled 6.png]]
 
