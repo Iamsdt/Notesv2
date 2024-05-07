@@ -5,20 +5,28 @@ Score: ⭐️⭐️⭐️⭐️⭐️
 Completed: 2024-01-17
 Status: Done
 Type: Course
-tag: ai, prompt eng
+tags:
+  - ai
+  - prompt
 ---
-# Summary
 
-1. Use delimiters to clearly indicate distinct parts of the input (```, """, < >, `<tag> </tag>`, `:`) (this will help to prevent prompt injection).
-2. Allow the model to think (send step-by-step task)
-3. Be precise about what you want
-4. Chatbot: system message: Developer message, so the bot can understand better
+---
+Author: Deeplearning.ai
+Link: https://learn.deeplearning.ai/chatgpt-prompt-eng/
+Score: ⭐️⭐️⭐️⭐️⭐️
+Completed At: 2024-01-17
+Status: Done
+Type: Course
+tag: 
+---
 
-  
 
-  
+> [!NOTE] Summary
+> 1. Use delimiters to clearly indicate distinct parts of the input (```, """, < >, `<tag> </tag>`, `:`) (this will help to prevent prompt injection).
+> 2. Allow the model to think (send step-by-step task)
+> 3. Be precise about what you want
+> 4. Chatbot: system message: Developer message, so the bot can understand better
 
-  
 
 ## Guidelines:
 
@@ -287,7 +295,7 @@ Format everything as HTML that can be used in a website.
 Place the description in a <div> element.
 ```
 
-![[Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png|Untitled.png]]
+![[Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png|Untitled.png]]
 
 ## Summarizing
 
@@ -392,6 +400,6 @@ answer on behalf of some
 
 ## Chatbot
 
-![[Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png|Untitled 1.png]]
+![[Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png|Untitled 1.png]]
 
 system message: Developer message, so the bot can understand better

@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f0605c61d0641aa4",
+        "id": "6ca8d25c34dcad04",
         "type": "tabs",
         "children": [
           {
-            "id": "4b65d7a447069a69",
+            "id": "d5984cab446e9c12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/scripts/Chrome Helper Selenium in Backend.md",
+                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd16c194a423a53b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/storage/Google Cloud storage cors.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Docker",
+                "query": "tag:prompt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/storage/Google Cloud storage cors.md",
+                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/storage/Google Cloud storage cors.md",
+                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/storage/Google Cloud storage cors.md"
+                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md"
               }
             }
           },
@@ -170,12 +156,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Backend/storage/Google Cloud storage cors.md"
+                "file": "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -200,54 +186,54 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "dd16c194a423a53b",
+  "active": "d5984cab446e9c12",
   "lastOpenFiles": [
+    "templates/Course.md",
+    "Courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
+    "Courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
+    "templates/Note.md",
+    "templates/Daily Notes.md",
+    "Notion/Backend/New Technical Spec.md",
+    "Notion/Backend/New Product Spec (PRD).md",
+    "Notion/Backend/New Brainstorm.md",
+    "AI/Intro To Statistics.md",
+    "Backend/scripts/Chrome Helper Selenium in Backend.md",
+    "Docker/k8s Service/attachments/module_04_labels.svg",
+    "Docker/k8s Service/k8s Service.md",
+    "Docker/Docker and compose in multi-service.md",
+    "Docker/Docker tips and tricks.md",
+    "Interview Questions/Coding Session.md",
+    "Interview Questions/DL question.md",
+    "Interview Questions/DSA.md",
+    "Interview Questions/ML Question.md",
+    "Interview Questions/Python Question.md",
     "Backend/storage/Google Cloud Storage.md",
+    "Backend/storage/Google Drive.md",
+    "Backend/storage/Google Cloud storage cors.md",
     "Backend/server/torchserve.md",
     "Backend/server/sentry setup.md",
     "Backend/server/reset migration.md",
     "Backend/server/Jude0- Code execution Platform.md",
     "Backend/server/Firebase As auth service Django-.md",
-    "Backend/server/Celery in multi module.md",
-    "Backend/scripts/DialogFlow.md",
-    "Backend/scripts/Chrome Helper Selenium in Backend.md",
     "Backend/dja",
     "Docker",
-    "Notion/Backend/New Technical Spec.md",
     "Backend/scripts",
     "Backend/server",
-    "Notion/Backend/New Product Spec (PRD).md",
-    "Notion/Backend/New Brainstorm.md",
-    "Docker/k8s Service/k8s Service.md",
-    "Backend/storage/Google Cloud storage cors.md",
-    "Docker/Docker tips and tricks.md",
-    "Docker/Docker and compose in multi-service.md",
-    "Notion/Backend/Backend.md",
-    "Notion/AlgoExpert/Redis.md",
-    "Notion/AlgoExpert/React.md",
-    "Notion/AlgoExpert/Latency And Throughput.md",
-    "Notion/AlgoExpert/Code Reviews.md",
-    "Notion/AlgoExpert/CircleCI.md",
-    "Notion/AlgoExpert/Backend.md",
-    "Notion/AlgoExpert/AWS.md",
-    "Notion/AlgoExpert/AlgoExpert.md",
-    "Interview Questions/Python Question.md",
     "Interview Questions",
     "templates",
-    "Docker/k8s Service/attachments/module_04_labels.svg",
     "Notion/EdTech/Course Page/attachments/Untitled 5.png",
     "Notion/EdTech/Course Page/attachments/Untitled 4.png",
     "Notion/EdTech/Course Page/attachments/Untitled 3.png",
     "Notion/EdTech/Course Page/attachments/Untitled 2.png",
     "Notion/EdTech/Course Page/attachments/Untitled 1.png",
     "Notion/EdTech/Course Page/attachments/Untitled.png",
-    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
-    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
-    "Notion/Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
+    "Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled 1.png",
+    "Courses/ChatGPT Prompt Engineering for Developers/attachments/Untitled.png",
+    "Courses/LangChain for LLM Application Development/attachments/Untitled 6.png",
     "Docker/k8s Service/attachments",
     "Notion/EdTech/Course Page/attachments",
-    "Notion/Courses/ChatGPT Prompt Engineering for Developers/attachments",
-    "Notion/Courses/LangChain for LLM Application Development/attachments",
+    "Courses/ChatGPT Prompt Engineering for Developers/attachments",
+    "Courses/LangChain for LLM Application Development/attachments",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -3,6 +3,8 @@ Created by: Shudipto Trafder
 Created time: 2023-12-11T23:13
 Last edited by: Shudipto Trafder
 Last edited time: 2023-12-12T18:49
+tags:
+  - coding
 ---
 **1. A data set is given to you about spam detection. You have built a classifier model and achieved a performance score of 98.0%. Is this a good model? If yes, justify. If not, what can you do about it?**
 
