@@ -25,6 +25,8 @@
     "excalidraw-open-md": "checkbox",
     "Date": "datetime",
     "Last edited time": "datetime",
-    "Completed At": "datetime"
+    "Completed At": "datetime",
+    "Score": "number",
+    "Author": "text"
   }
 }

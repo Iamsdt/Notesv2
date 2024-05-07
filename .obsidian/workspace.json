@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/All Courses.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/All Courses.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning Resources/All Courses.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -188,12 +188,16 @@
   },
   "active": "1be1d62f88aeda31",
   "lastOpenFiles": [
+    "templates/Note.md",
+    "Untitled.md",
+    "templates/Course.md",
+    "Learning Resources/All Courses.md",
+    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers.md",
+    "Learning Resources/courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
+    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
     "Daily Notes/2024-05-08.md",
     "Courses/Courses.md",
     "Courses/All Courses.md",
-    "Learning Resources/All Courses.md",
-    "Learning Resources/courses/ChatGPT Prompt Engineering for Developers/ChatGPT Prompt Engineering for Developers.md",
-    "Learning Resources/courses/LangChain for LLM Application Development/LangChain for LLM Application Development.md",
     "Learning Resources/books",
     "Learning Resources/courses",
     "Learning Resources",
@@ -204,8 +208,6 @@
     "Courses/New TV series.md",
     "Courses/New book.md",
     "Courses/New article.md",
-    "templates/Course.md",
-    "templates/Note.md",
     "templates/Daily Notes.md",
     "Notion/Backend/New Technical Spec.md",
     "Notion/Backend/New Product Spec (PRD).md",
@@ -217,8 +219,6 @@
     "Docker/Docker and compose in multi-service.md",
     "Docker/Docker tips and tricks.md",
     "Interview Questions/Coding Session.md",
-    "Interview Questions/DL question.md",
-    "Interview Questions/DSA.md",
     "Backend/dja",
     "Docker",
     "Backend/scripts",
