@@ -11,12 +11,9 @@
             "id": "8dedd826fd7ef7d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Daily Notes/2024-05-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           }
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024-05-08.md",
+                "file": "Excalidraw/RecruiterAssistance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024-05-08.md",
+                "file": "Excalidraw/RecruiterAssistance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024-05-08.md"
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           },
@@ -157,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Daily Notes/2024-05-08.md"
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           }
@@ -193,10 +190,10 @@
   },
   "active": "8dedd826fd7ef7d8",
   "lastOpenFiles": [
+    "Daily Notes/2024-05-08.md",
     "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
     "Hire10x/Ai Assistance.md",
     "GenAI/Dag.md",
-    "Daily Notes/2024-05-08.md",
     "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Learning Resources/papers/2402.03620v1.pdf",
     "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
@@ -238,7 +235,6 @@
     "Learning Resources/All Courses",
     "Learning Resources",
     "Courses/Untitled",
-    "Docker/k8s Service/attachments/module_04_labels.svg",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
