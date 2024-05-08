@@ -4,16 +4,41 @@
     "type": "split",
     "children": [
       {
+        "id": "00416916ed03419f",
+        "type": "tabs",
+        "dimension": 69.9360341151386,
+        "children": [
+          {
+            "id": "476f18a782309cc2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Learning Resources/papers/2402.03620v1.pdf",
+                "page": 1,
+                "left": 35,
+                "top": 622,
+                "zoom": 1.9
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "4bd40d49babea014",
         "type": "tabs",
+        "dimension": 30.06396588486141,
         "children": [
           {
             "id": "02d61f8cff7debc0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf"
+                "file": "Learning Resources/papers/notes.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -67,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -102,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf",
+                "file": "Learning Resources/papers/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf",
+                "file": "Learning Resources/papers/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf"
+                "file": "Learning Resources/papers/notes.md"
               }
             }
           },
@@ -153,7 +179,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf"
+                "file": "Learning Resources/papers/notes.md"
               }
             }
           }
@@ -181,13 +207,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "02d61f8cff7debc0",
   "lastOpenFiles": [
-    "Learning Resources/papers/notes.md",
     "Learning Resources/papers/2402.03620v1.pdf",
+    "Learning Resources/papers/notes.md",
     "Daily Notes/2024-05-08.md",
     "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
     "Excalidraw/RecruiterAssistance.md",

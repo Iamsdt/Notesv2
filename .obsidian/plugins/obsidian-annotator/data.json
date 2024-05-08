@@ -6,7 +6,7 @@
     "sepia": 0
   },
   "debugLogging": false,
-  "customDefaultPath": "",
+  "customDefaultPath": "https://arxiv.org/pdf/2104.13478.pdf",
   "epubSettings": {
     "readingMode": "pagination",
     "fontSize": 100
