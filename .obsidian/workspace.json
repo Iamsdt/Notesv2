@@ -4,21 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "11ada01a71c80946",
+        "id": "5d85af1b5bf7b6fb",
         "type": "tabs",
         "children": [
           {
-            "id": "7eb184bb7e98efd2",
+            "id": "8dedd826fd7ef7d8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf",
-                "page": 4,
-                "left": 117,
-                "top": 745,
-                "zoom": 2.8
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -71,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -107,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -157,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Learning Resources/papers/2402.03620v1.pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -192,7 +179,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7eb184bb7e98efd2",
+  "active": "06ff2a6485534040",
   "lastOpenFiles": [
     "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Learning Resources/papers/2402.03620v1.pdf",
