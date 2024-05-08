@@ -11,12 +11,9 @@
             "id": "8dedd826fd7ef7d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "GenAI/Dag.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           }
@@ -70,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GenAI/Dag.md",
+                "file": "Excalidraw/RecruiterAssistance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GenAI/Dag.md",
+                "file": "Excalidraw/RecruiterAssistance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GenAI/Dag.md"
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           },
@@ -156,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "GenAI/Dag.md"
+                "file": "Excalidraw/RecruiterAssistance.md"
               }
             }
           }
@@ -192,13 +190,15 @@
   },
   "active": "8dedd826fd7ef7d8",
   "lastOpenFiles": [
+    "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
+    "Hire10x/Ai Assistance.md",
+    "GenAI/Dag.md",
     "Daily Notes/2024-05-08.md",
     "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Learning Resources/papers/2402.03620v1.pdf",
     "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
     "Excalidraw/RecruiterAssistance.md",
     "Learning Resources/papers",
-    "Hire10x/Ai Assistance.md",
     "Hire10x/Ranking.md",
     "Hire10x/Release Cycle.md",
     "Database/Neo4j- add new data to an existing node.md",
@@ -218,7 +218,6 @@
     "AI/Intro To Statistics.md",
     "Notion/Reading List/Probabilistic Machine Learning.md",
     "Notion/Reading List/New TV series.md",
-    "Notion/Reading List/New book.md",
     "Problem Solving",
     "Git",
     "Scripts",
