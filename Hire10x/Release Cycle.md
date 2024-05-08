@@ -15,7 +15,7 @@ We will release code three days a week on the following days:
 _Release Process:_
 
 1. **Merge Deadline:**
-    - All pull requests (PRs) and code changes must be merged into the main branch before the start of the standup meeting.
+    - All pull requests (PRs) and code changes must be merged into the main branch before the start of the stand up meeting.
 2. **Standup Meeting:**
     - After the standup meeting, the tester will begin testing the merged code.
 3. **Testing:**
