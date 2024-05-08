@@ -1,3 +1,9 @@
+## Summary
+
+> ([[2402.03620v1.pdf#page=4&annotation=326R|2402.03620v1, p.4]])
+
+
+
 > [!PDF|] [[2402.03620v1.pdf#page=1&selection=58,0,63,22|2402.03620v1, p.1]]
 > > Core to the framework is a selfdiscovery process where LLMs select multiple atomic reasoning modules such as critical thinking and step-by-step thinking, and compose them into an explicit reasoning structure for LLMs to follow during decoding
 > 
@@ -12,8 +18,19 @@
 
 > [!PDF|] [[2402.03620v1.pdf#page=3&selection=135,0,161,2|2402.03620v1, p.3]]
 > > SELECT First, not every reasoning module is helpful for every task, so the first stage of SELF-DISCOVER guides model to select modules that are useful based on task examples. For example, “reflective thinking” might help search for first-principle theories on science problems, while “creative thinking” helps on generating a novel continuation to a story. Given raw set of reasoning module descriptions D such as “critical thinking”, and “break the problem into sub-problems” 
+> 
+
 > [!PDF|] [[2402.03620v1.pdf#page=3&selection=217,0,230,27|2402.03620v1, p.3]]
-> > ADAPT Since each reasoning module provides a general description of how to solve problems, the next step of SELFDISCOVER aims at tailoring each selected module to the 
+> > ADAPT Since each reasoning module provides a general description of how to solve problems, the next step of SELFDISCOVER aims at tailoring each selected module to the task at hand. For example, from “break the problem into subproblems” to “calculate each arithmetic operation in order” for arithmetic problems. Given selected reasoning module subset DS from the previous step, ADAPT rephrases each of the selected module to be more specific to the task. Similarly to SELECT, this stage uses a meta-prompt pA and a generative model M to generate the adapted reasoning module descriptions
 > 
 > 
+
+> [!PDF|] [[2402.03620v1.pdf#page=3&selection=289,0,324,46|2402.03620v1, p.3]]
+> > IMPLEMENT Finally, given the adapted reasoning module descriptions DA, SELF-DISCOVER operationalizes the reasoning modules into an implemented reasoning structure DI with specified instruction on what to generate for each step. In addition to a meta prompt pI , IMPLEMENT also provides a demonstration of a human-written reasoning structure Shuman on another task to better convert the natural language descriptions into a reasoning
+
+> [!PDF|] [[2402.03620v1.pdf#page=3&selection=357,0,369,31|2402.03620v1, p.3]]
+> > After the three stages, we have an implemented reasoning structure DI uniquely adapted for the task we need to solve T . Then we can simply append the reasoning structure to all instances of the task and prompt models to follow the reasoning structure to generate
+> 
+>
+
 
