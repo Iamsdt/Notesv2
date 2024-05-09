@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024-05-09.md",
+                "file": "Hire10x/Design Patters.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2024-05-09.md",
+                "file": "Hire10x/Design Patters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2024-05-09.md",
+                "file": "Hire10x/Design Patters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2024-05-09.md"
+                "file": "Hire10x/Design Patters.md"
               }
             }
           },
@@ -156,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Daily Notes/2024-05-09.md"
+                "file": "Hire10x/Design Patters.md"
               }
             }
           }
@@ -192,13 +193,16 @@
   },
   "active": "bfefaffd51d179ba",
   "lastOpenFiles": [
+    "Hire10x/attachments/Pasted image 20240509192828.png",
+    "Hire10x/attachments",
+    "Daily Notes/2024-05-09.md",
+    "Hire10x/Design Patters.md",
     "Daily Notes/2024-05-08.md",
     "Excalidraw/RecruiterAssistance.md",
     "Hire10x/Ai Assistance.md",
     "Hire10x/Release Cycle.md",
     "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
-    "Daily Notes/2024-05-09.md",
     "Daily Notes/2024-05-07.md",
     "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
     "GenAI/Dag.md",
@@ -219,8 +223,6 @@
     "Database/backup docker data.md",
     "Database/PGSQL visualization with DBDOCS.md",
     "Database/Postgres.md",
-    "Database/SQL USED TO CHANGE DATABASE.md",
-    "AI/Intro To Statistics.md",
     "Problem Solving",
     "Git",
     "Scripts",
@@ -237,7 +239,6 @@
     "Learning Resources/books",
     "Learning Resources/All Courses",
     "Learning Resources",
-    "Courses/Untitled",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
