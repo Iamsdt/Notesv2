@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d05286cbd40bc066",
+        "id": "afbc36f17b58d64e",
         "type": "tabs",
         "children": [
           {
-            "id": "bfefaffd51d179ba",
+            "id": "dda3be277f4bf729",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Hire10x/Design Patters.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
               }
             }
           }
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hire10x/Design Patters.md",
+                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hire10x/Design Patters.md",
+                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hire10x/Design Patters.md"
+                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
               }
             }
           },
@@ -157,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Hire10x/Design Patters.md"
+                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
               }
             }
           }
@@ -191,12 +188,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bfefaffd51d179ba",
+  "active": "dda3be277f4bf729",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Hire10x/Design Patters.md",
     "Hire10x/attachments/Pasted image 20240509192828.png",
     "Hire10x/attachments",
     "Daily Notes/2024-05-09.md",
-    "Hire10x/Design Patters.md",
     "Daily Notes/2024-05-08.md",
     "Excalidraw/RecruiterAssistance.md",
     "Hire10x/Ai Assistance.md",
@@ -235,7 +233,6 @@
     "Learning Resources/All Courses/attachments/sequential_chain.png",
     "Learning Resources/All Courses/attachments/openai_api_call.png",
     "Learning Resources/All Courses/attachments/langchain_output_parsing_work_with_prompts.png",
-    "Learning Resources/All Courses/attachments/iterative_prompt_development.png",
     "Learning Resources/books",
     "Learning Resources/All Courses",
     "Learning Resources",
