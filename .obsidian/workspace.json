@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ef90d70e5567b614",
+        "id": "d05286cbd40bc066",
         "type": "tabs",
         "children": [
           {
-            "id": "733606b682225d9f",
+            "id": "bfefaffd51d179ba",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md"
+                "file": "Hire10x/Ai Assistance.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -102,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
+                "file": "Hire10x/Ai Assistance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
+                "file": "Hire10x/Ai Assistance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md"
+                "file": "Hire10x/Ai Assistance.md"
               }
             }
           },
@@ -153,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md"
+                "file": "Hire10x/Ai Assistance.md"
               }
             }
           }
@@ -187,13 +190,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "733606b682225d9f",
+  "active": "bfefaffd51d179ba",
   "lastOpenFiles": [
+    "Hire10x/Release Cycle.md",
+    "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
+    "Excalidraw/Drawing 2024-05-02 16.50.30.excalidraw.md",
     "Daily Notes/2024-05-09.md",
     "Daily Notes/2024-05-08.md",
     "Excalidraw/RecruiterAssistance.md",
     "Daily Notes/2024-05-07.md",
-    "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
     "Hire10x/Ai Assistance.md",
     "GenAI/Dag.md",
@@ -201,7 +206,6 @@
     "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
     "Learning Resources/papers",
     "Hire10x/Ranking.md",
-    "Hire10x/Release Cycle.md",
     "Database/Neo4j- add new data to an existing node.md",
     "Database/Neo4j- add new data to existing node.md",
     "Backend/server/Celery in multi module.md",
@@ -217,7 +221,6 @@
     "Database/Postgres.md",
     "Database/SQL USED TO CHANGE DATABASE.md",
     "AI/Intro To Statistics.md",
-    "Notion/Reading List/Probabilistic Machine Learning.md",
     "Problem Solving",
     "Git",
     "Scripts",
