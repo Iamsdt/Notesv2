@@ -20,3 +20,4 @@ Date: 2024-05-07T23:44:00
 
 
 # Date: 9-5-24
+Today, I have planned to user supervised design pattern
