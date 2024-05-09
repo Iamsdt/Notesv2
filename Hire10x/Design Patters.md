@@ -1,5 +1,5 @@
 
-![[Pasted image 20240509192828.png]]
+
 
 # Backend
 1. Design Pattern:
