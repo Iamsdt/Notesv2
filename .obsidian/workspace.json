@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5d85af1b5bf7b6fb",
+        "id": "ef90d70e5567b614",
         "type": "tabs",
         "children": [
           {
-            "id": "8dedd826fd7ef7d8",
+            "id": "733606b682225d9f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/RecruiterAssistance.md"
+                "file": "Daily Notes/2024-05-09.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -67,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/RecruiterAssistance.md",
+                "file": "Daily Notes/2024-05-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/RecruiterAssistance.md",
+                "file": "Daily Notes/2024-05-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/RecruiterAssistance.md"
+                "file": "Daily Notes/2024-05-09.md"
               }
             }
           },
@@ -154,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/RecruiterAssistance.md"
+                "file": "Daily Notes/2024-05-09.md"
               }
             }
           }
@@ -188,16 +190,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8dedd826fd7ef7d8",
+  "active": "733606b682225d9f",
   "lastOpenFiles": [
     "Daily Notes/2024-05-08.md",
+    "Excalidraw/RecruiterAssistance.md",
+    "Daily Notes/2024-05-07.md",
+    "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
+    "Daily Notes/2024-05-09.md",
     "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
     "Hire10x/Ai Assistance.md",
     "GenAI/Dag.md",
-    "Learning Resources/papers/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
     "Learning Resources/papers/2402.03620v1.pdf",
     "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
-    "Excalidraw/RecruiterAssistance.md",
     "Learning Resources/papers",
     "Hire10x/Ranking.md",
     "Hire10x/Release Cycle.md",
@@ -217,7 +221,6 @@
     "Database/SQL USED TO CHANGE DATABASE.md",
     "AI/Intro To Statistics.md",
     "Notion/Reading List/Probabilistic Machine Learning.md",
-    "Notion/Reading List/New TV series.md",
     "Problem Solving",
     "Git",
     "Scripts",
