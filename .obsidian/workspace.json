@@ -11,9 +11,12 @@
             "id": "dda3be277f4bf729",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
+                "file": "Daily Notes/2024-05-10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+                "file": "Daily Notes/2024-05-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+                "file": "Daily Notes/2024-05-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
+                "file": "Daily Notes/2024-05-10.md"
               }
             }
           },
@@ -154,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
+                "file": "Daily Notes/2024-05-10.md"
               }
             }
           }
@@ -191,6 +194,7 @@
   "active": "dda3be277f4bf729",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Daily Notes/2024-05-10.md",
     "Hire10x/Design Patters.md",
     "Hire10x/attachments/Pasted image 20240509192828.png",
     "Hire10x/attachments",
@@ -220,7 +224,6 @@
     "Docker/k8s Service/k8s Service.md",
     "Database/backup docker data.md",
     "Database/PGSQL visualization with DBDOCS.md",
-    "Database/Postgres.md",
     "Problem Solving",
     "Git",
     "Scripts",
