@@ -1,11 +1,8 @@
 ## Summary
 
-> ([[2402.03620v1.pdf#page=4&annotation=326R|2402.03620v1, p.4]])
-
-
 
 > [!PDF|] [[2402.03620v1.pdf#page=1&selection=58,0,63,22|2402.03620v1, p.1]]
-> > Core to the framework is a selfdiscovery process where LLMs select multiple atomic reasoning modules such as critical thinking and step-by-step thinking, and compose them into an explicit reasoning structure for LLMs to follow during decoding
+> > Core to the framework is a self discovery process where LLMs select multiple atomic reasoning modules such as critical thinking and step-by-step thinking, and compose them into an explicit reasoning structure for LLMs to follow during decoding
 > 
 > 
 
