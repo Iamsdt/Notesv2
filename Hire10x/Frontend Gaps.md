@@ -2,15 +2,15 @@
 Frontend Gaps: 
 Common:
 1. React 19 + 18 + React Hooks
-3. React Query
+3. Tanstack Query
 4. Redux Toolkit
-5. React hook form + yep
+5. React hook form + zod
 6. react-i18next
 7. Jest
 8. axios, axios-mock-adapter
 9. Storybook
 10. Firebase
-11. react router dom
+11. Tanstack Router
 12. Module Federation
 13. proptype
 

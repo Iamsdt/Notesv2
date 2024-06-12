@@ -3,3 +3,6 @@
 [Source](https://archive.org/details/NilamataPuranaACulturalAnLiteraryStudyOfKashmiriPuranaVedKumari "goto glossary/dictionary page"): archive.org: Nilamata Purana: a cultural and literary study
 
 **Vaiśākha** (वैशाख) or “Vaiśākha Pūrnimā” is the name of a festival that once existed in ancient Kashmir (Kaśmīra) as mentioned in the Nīlamatapurāṇa.—Vaiśākha Pūrnimā proceeds as folows: Honouring of five or seven Brāhmaṇas with sesame mixed with honey, and worship of Dharmarāja are prescribed on this day.
+
+
+https://www.wisdomlib.org/index.php?type=search&division=text&input=widow&input_proximity=&input_proximity_slop=&book_id=&cats%5B%5D=16
