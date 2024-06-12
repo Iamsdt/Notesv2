@@ -27,6 +27,7 @@
     "Last edited time": "datetime",
     "Completed At": "datetime",
     "Score": "number",
-    "Author": "text"
+    "Author": "text",
+    "excalidraw-embeddable-theme": "text"
   }
 }

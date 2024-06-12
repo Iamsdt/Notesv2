@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "152100c554a714d5",
+        "id": "fb3cd78f4203b139",
         "type": "tabs",
         "children": [
           {
-            "id": "0ce8d9779237f905",
+            "id": "eb78aa7e87f45354",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Typesense.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SQL",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Typesense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Typesense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Backend/Typesense.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Backend/Typesense.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -171,52 +160,54 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "bmo-chatbot:BMO Chatbot": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "random-note:Open random note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "bmo-chatbot:BMO Chatbot": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "0ce8d9779237f905",
+  "active": "eb78aa7e87f45354",
   "lastOpenFiles": [
-    "Backend/Typesense.md",
     "Excalidraw/RecruiterAssistance.md",
+    "Untitled.md",
     "Excalidraw/whatsapp bot.md",
+    "Hire10x/Assistance Plans.md",
+    "misc/Mount Device in linux.md",
+    "Hire10x/Ai Assistance.md",
+    "Hire10x/Design Patters.md",
+    "Hire10x/AI Assistance Docs.md",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Hire10x/Frontend Gaps.md",
+    "Hire10x/Frontend.md",
+    "Learning Resources/All Courses/LangChain for LLM Application Development.md",
+    "GenAI/Dag.md",
+    "GenAI/Langgraph.md",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Religion/Findings.md",
+    "Religion/Glory.md",
+    "30 Days Plans.md",
+    "misc",
+    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
+    "Backend/Typesense.md",
     "Hire10x/issues.md",
     "Hire10x/PR.md",
-    "Hire10x/AI Assistance Docs.md",
-    "Hire10x/Ai Assistance.md",
-    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
     "AI/Plans.md",
-    "30 Days Plans.md",
     "templates/Note.md",
     "templates/Daily Notes.md",
     "templates/Course.md",
-    "Web/2305.04091 1.md",
-    "Web/2305.04091.md",
-    "Daily Notes/2024-05-22.md",
-    "Daily Notes/2024-05-07.md",
-    "Daily Notes/2024-05-08.md",
-    "Daily Notes/2024-05-10.md",
-    "Daily Notes/2024-05-09.md",
-    "Daily Notes/2024-05-13.md",
-    "Daily Notes/2024-05-11.md",
-    "Daily Notes/2024-05-12.md",
-    "Daily Notes/2024-05-14.md",
-    "Daily Notes/2024-05-15.md",
-    "Daily Notes/2024-05-16.md",
     "Learning Resources/papers/genai/2402.03620v1.pdf",
     "Learning Resources/papers/genai/2305.04091.pdf",
     "Web",
@@ -229,7 +220,6 @@
     "Hire10x/attachments",
     "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
     "Learning Resources/papers/2402.03620v1.pdf",
-    "Learning Resources/papers",
     "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
     "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
     "Learning Resources/All Courses/attachments/langchain_vector_database.png",
