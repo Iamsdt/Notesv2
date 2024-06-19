@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fb3cd78f4203b139",
+        "id": "b03eae1ddd1683b3",
         "type": "tabs",
         "children": [
           {
-            "id": "eb78aa7e87f45354",
+            "id": "8710d3a95524746e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Weekly Activities/Week 3 ( June 2024).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gith",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Weekly Activities/Week 3 ( June 2024).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Weekly Activities/Week 3 ( June 2024).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,24 +145,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "5045e0dbf4c25ac0",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Weekly Activities/Week 3 ( June 2024).md"
+              }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,63 +171,61 @@
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "bmo-chatbot:BMO Chatbot": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "eb78aa7e87f45354",
+  "active": "8710d3a95524746e",
   "lastOpenFiles": [
-    "Excalidraw/RecruiterAssistance.md",
+    "Untitled Kanban.md",
+    "Weekly Activities/Week 3 ( June 2024).md",
     "Untitled.md",
+    "Untitled.canvas",
+    "30 Days Plans.md",
+    "GenAI/Dag.md",
+    "GenAI/Langgraph.md",
+    "Excalidraw/RecruiterAssistance.md",
     "Excalidraw/whatsapp bot.md",
+    "Excalidraw/attachments/Pasted Image 20240619164618_249.png",
+    "Excalidraw/attachments/Pasted Image 20240516132802_946.png",
+    "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
+    "Excalidraw/attachments/Pasted Image 20240507164613_757.png",
+    "Excalidraw/attachments/Pasted Image 20240502173625_479.png",
+    "Hire10x/Backend API Managements.md",
+    "Daily Notes/2024-05-08.md",
+    "Daily Notes/2024-05-10.md",
+    "Daily Notes/2024-05-13.md",
+    "Daily Notes/2024-05-14.md",
+    "Daily Notes/2024-05-15.md",
+    "Daily Notes/2024-05-22.md",
+    "Weekly Activities/Week 2 (June 2024).md",
+    "Daily Notes/2024-05-07.md",
+    "Weekly Activities",
+    "Scripts/Git clone- One repo to other repo.md",
+    "Ideas/Untitled.md",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "AI/basic/Intro To Statistics.md",
+    "Server Vs No Server Confusion.md",
     "Hire10x/Assistance Plans.md",
     "misc/Mount Device in linux.md",
     "Hire10x/Ai Assistance.md",
-    "Hire10x/Design Patters.md",
-    "Hire10x/AI Assistance Docs.md",
-    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
-    "Hire10x/Frontend Gaps.md",
-    "Hire10x/Frontend.md",
-    "Learning Resources/All Courses/LangChain for LLM Application Development.md",
-    "GenAI/Dag.md",
-    "GenAI/Langgraph.md",
-    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
-    "Religion/Findings.md",
-    "Religion/Glory.md",
-    "30 Days Plans.md",
     "misc",
-    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
-    "Backend/Typesense.md",
-    "Hire10x/issues.md",
-    "Hire10x/PR.md",
-    "AI/Plans.md",
-    "templates/Note.md",
-    "templates/Daily Notes.md",
-    "templates/Course.md",
     "Learning Resources/papers/genai/2402.03620v1.pdf",
     "Learning Resources/papers/genai/2305.04091.pdf",
     "Web",
     "Browser",
     "Learning Resources/papers/server/3593856.3595909.pdf",
-    "Excalidraw/attachments/Pasted Image 20240516132802_946.png",
     "Learning Resources/papers/2308.08155v2.pdf",
     "Religion",
     "Hire10x/attachments/Pasted image 20240509192828.png",
     "Hire10x/attachments",
-    "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
-    "Learning Resources/papers/2402.03620v1.pdf",
     "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
     "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
     "Learning Resources/All Courses/attachments/langchain_vector_database.png",
     "Learning Resources/All Courses/attachments/langchain_embedding.png",
-    "Learning Resources/All Courses/attachments/router_chain.png",
-    "Learning Resources/All Courses/attachments/sequential_chain.png",
-    "Learning Resources/All Courses/attachments/openai_api_call.png",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }

@@ -1,7 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "obsidian-kanban",
   "obsidian-git",
   "obsidian-icon-folder",
   "obsidian-day-planner",
@@ -16,5 +15,6 @@
   "calendar",
   "bmo-chatbot",
   "obsidian-icons-plugin",
-  "pdf-plus"
+  "pdf-plus",
+  "todoist-sync-plugin"
 ]
