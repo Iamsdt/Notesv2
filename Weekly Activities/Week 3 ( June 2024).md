@@ -22,6 +22,9 @@ filter: "due:23/6"
 >
 
 Date: 19/6/24: Working with the recruiter assistance, where fixed the rag issues with planner and re planner. Only executor part left.
+Date: 20/6/24: Working with react recruiter assistance, planner not able to generated plans correctly, working with it.
+Date: 21/6/24: Looking for new methods, Checking all the Langraph Notebook.
+
 
 ## Frontend
 - Date 17/6/24: Had a details discussion with Elsin about next action items
@@ -35,8 +38,13 @@ Date: 19/6/24: Working with the recruiter assistance, where fixed the rag issues
 > [! Note] Date: 18/6/ 24: Plans for cleanup on backend apis and table
 > Note reference [[Backend API Managements#V1]]
 
+> [! Note] Date: 20/6/ 24: Plans for cleanup on backend apis and table
+> Note reference [[Backend API Managements#V2]]
+
+
 # Personal
 - Date 18/6/24: Basic statistics and started d2l after a long gaph. Complete Chapter 2 and 3. 
+- Date: 20/6/24: Started chapter 4
 
 
 

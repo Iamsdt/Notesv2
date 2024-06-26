@@ -3,19 +3,17 @@
 **Objective**: Deepen your understanding of the mathematical concepts that underpin machine learning.
 
 1. **Linear Algebra**:
-    
     - **Topics**: Vector spaces, Matrix operations, Eigenvalues, Singular Value Decomposition (SVD), Principal Component Analysis (PCA).
     - **Resources**:
         - Book: "Linear Algebra and Its Applications" by Gilbert Strang.
         - Online Course: Linear Algebra on Khan Academy.
-2. **Probability and Statistics**:
-    
+        
+1. **Probability and Statistics**:
     - **Topics**: Probability distributions, Bayesian inference, Markov chains, Statistical learning theory.
     - **Resources**:
         - Book: "Probability and Statistics for Machine Learning" by José Unpingco.
         - Online Course: Stanford's Probability Theory course on Coursera.
-3. **Optimization**:
-    
+2. **Optimization**:
     - **Topics**: Convex optimization, Gradient descent, Stochastic optimization, Lagrange multipliers.
     - **Resources**:
         - Book: "Convex Optimization" by Stephen Boyd and Lieven Vandenberghe.
