@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "07be7e1e88a3273a",
+        "id": "72f371c589fdb38f",
         "type": "tabs",
         "children": [
           {
-            "id": "b23d451eed2c5474",
+            "id": "a29d6958284a791e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Syllabus for Generative AI.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -106,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Syllabus for Generative AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Syllabus for Generative AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,17 +138,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/Syllabus for Generative AI.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "ab90c3dae6e9af77",
+            "type": "leaf",
+            "state": {
+              "type": "chatbot-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,9 +177,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b23d451eed2c5474",
+  "active": "a29d6958284a791e",
   "lastOpenFiles": [
+    "Server Vs No Server Confusion.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Hire10x/Frontend Storybook.md",
+    "Hire10x/attachments/Pasted image 20240627182644.png",
+    "Hire10x/attachments",
     "AI/Syllabus for Generative AI.md",
+    "AI/Projects.md",
     "AI/Plans.md",
     "Learning Resources/books/32713.pdf",
     "Hire10x/Frontend.md",
@@ -196,7 +201,6 @@
     "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
     "Excalidraw/whatsapp bot.md",
     "Hire10x/Backend API Managements.md",
-    "Untitled.md",
     "Untitled Kanban.md",
     "Untitled.canvas",
     "30 Days Plans.md",
@@ -213,21 +217,15 @@
     "Daily Notes/2024-05-14.md",
     "Daily Notes/2024-05-15.md",
     "Daily Notes/2024-05-22.md",
-    "Weekly Activities/Week 2 (June 2024).md",
-    "Daily Notes/2024-05-07.md",
     "Weekly Activities",
-    "Scripts/Git clone- One repo to other repo.md",
-    "Ideas/Untitled.md",
     "misc",
     "Learning Resources/papers/genai/2402.03620v1.pdf",
     "Learning Resources/papers/genai/2305.04091.pdf",
     "Web",
     "Browser",
     "Learning Resources/papers/2308.08155v2.pdf",
-    "Religion",
     "Hire10x/attachments/Pasted image 20240509192828.png",
     "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
-    "Learning Resources/All Courses/attachments/langchain_vector_database.png",
     "Untitled 1.canvas"
   ]
 }

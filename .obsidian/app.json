@@ -3,10 +3,10 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./attachments",
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "0",
-    "downscalePercent": 10
+    "margin": "2",
+    "downscalePercent": 100
   }
 }
