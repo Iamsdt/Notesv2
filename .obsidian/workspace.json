@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "72f371c589fdb38f",
+        "id": "b3531984fb520eb3",
         "type": "tabs",
         "children": [
           {
-            "id": "a29d6958284a791e",
+            "id": "f3e59b586ec35d70",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hire10x/Transitioning from Django to FastAPI.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linu",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 303.5
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -87,7 +92,7 @@
             }
           },
           {
-            "id": "0e3c344821863e66",
+            "id": "275c4d449e76c839",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -95,11 +100,12 @@
             }
           },
           {
-            "id": "b4f333a59e04894f",
+            "id": "d4f4aaf204a73ac5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hire10x/Transitioning from Django to FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,18 +117,19 @@
             }
           },
           {
-            "id": "704480f4afe50a6a",
+            "id": "a768617e84f5152f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hire10x/Transitioning from Django to FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8c0941133f1b8eeb",
+            "id": "90de1cfdfa6ea160",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -134,23 +141,17 @@
             }
           },
           {
-            "id": "c26db97c9a094350",
+            "id": "d76ddafcadf0735c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "ab90c3dae6e9af77",
-            "type": "leaf",
-            "state": {
-              "type": "chatbot-view",
-              "state": {}
+              "state": {
+                "file": "Hire10x/Transitioning from Django to FastAPI.md"
+              }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -169,7 +170,6 @@
       "obsidian-day-planner:Timeline": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "bmo-chatbot:BMO Chatbot": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -177,55 +177,55 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a29d6958284a791e",
+  "active": "f3e59b586ec35d70",
   "lastOpenFiles": [
-    "Server Vs No Server Confusion.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Hire10x/Frontend Storybook.md",
+    "Hire10x/Release Cycle.md",
+    "Hire10x/Ranking.md",
+    "Hire10x/PR.md",
+    "Hire10x/issues.md",
+    "Hire10x/Frontend Gaps.md",
+    "Hire10x/Frontend.md",
+    "Hire10x/Design Patters.md",
+    "Hire10x/Backend Libraries.md",
+    "Hire10x/Backend Code Guideline.md",
+    "Hire10x/Backend API Managements.md",
+    "Hire10x/Assistance Plans.md",
+    "Hire10x/Api Design Guideline.md",
+    "Hire10x/Ai Assistance.md",
+    "Hire10x/AI Assistance Docs.md",
+    "Hire10x/backend/API Structures.md",
+    "Weekly Activities/Week 30 (22-07 -> 28-07).md",
+    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Excalidraw/10xscale product.md",
+    "Excalidraw/RecruiterAssistance.md",
+    "Excalidraw/whatsapp bot.md",
+    "Hire10x/Backend Coding Style.md",
+    "Hire10x/Backed Coding Style.md",
+    "Hire10x/backend",
+    "Weekly Activities/Week 3 ( June 2024).md",
+    "Weekly Activities/Week 2 (June 2024).md",
+    "Excalidraw/attachments/Pasted Image 20240716142347_948.png",
+    "Excalidraw/attachments/Pasted Image 20240716135136_864.png",
+    "Excalidraw/attachments/Pasted Image 20240716135106_862.png",
+    "Excalidraw/attachments/Pasted Image 20240716133108_775.png",
+    "Excalidraw/attachments/Pasted Image 20240716133015_660.png",
+    "Hire10x/attachments/Pasted image 20240712230242.png",
+    "Backend/tips/attachments/Pasted image 20240706200325.png",
+    "Backend/tips/attachments",
+    "Backend/tips",
     "Hire10x/attachments/Pasted image 20240627182644.png",
     "Hire10x/attachments",
-    "AI/Syllabus for Generative AI.md",
-    "AI/Projects.md",
-    "AI/Plans.md",
     "Learning Resources/books/32713.pdf",
-    "Hire10x/Frontend.md",
-    "Excalidraw/RecruiterAssistance.md",
-    "misc/Mount Device in linux.md",
     "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
     "Learning Resources/All Courses/attachments/iterative_prompt_development.png",
     "Learning Resources/papers/server/3593856.3595909.pdf",
-    "Learning Resources/papers/server/Modular Monolith.md",
-    "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
-    "Weekly Activities/Week 3 ( June 2024).md",
-    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
-    "Excalidraw/whatsapp bot.md",
-    "Hire10x/Backend API Managements.md",
-    "Untitled Kanban.md",
     "Untitled.canvas",
-    "30 Days Plans.md",
-    "GenAI/Dag.md",
-    "GenAI/Langgraph.md",
-    "Excalidraw/attachments/Pasted Image 20240619164618_249.png",
-    "Excalidraw/attachments/Pasted Image 20240516132802_946.png",
-    "Excalidraw/attachments/Pasted Image 20240508210014_148.png",
-    "Excalidraw/attachments/Pasted Image 20240507164613_757.png",
-    "Excalidraw/attachments/Pasted Image 20240502173625_479.png",
-    "Daily Notes/2024-05-08.md",
-    "Daily Notes/2024-05-10.md",
-    "Daily Notes/2024-05-13.md",
-    "Daily Notes/2024-05-14.md",
-    "Daily Notes/2024-05-15.md",
-    "Daily Notes/2024-05-22.md",
     "Weekly Activities",
     "misc",
     "Learning Resources/papers/genai/2402.03620v1.pdf",
     "Learning Resources/papers/genai/2305.04091.pdf",
-    "Web",
-    "Browser",
-    "Learning Resources/papers/2308.08155v2.pdf",
-    "Hire10x/attachments/Pasted image 20240509192828.png",
-    "Learning Resources/All Courses/attachments/langchain_stuff_method.png",
     "Untitled 1.canvas"
   ]
 }
