@@ -61,15 +61,6 @@ DDD will be central to our architecture, focusing on modeling the core business 
 * **Increased maintainability:** Modular design based on business concepts makes it easier to understand, modify, and extend the system.
 * **Enhanced flexibility:**  Bounded Contexts allow for independent evolution and scaling of different parts of the system.
 
-#### 2.2 Domains
-List of Domain in our application
-1. JD
-2. Candidate
-3. User
-4. Communication
-5. AI
-6. Vendor Database Managements
-
 ### 2.3 Repository Pattern
 
 The Repository Pattern will be used to abstract the persistence layer, providing a consistent interface for accessing and manipulating domain objects. 
