@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3531984fb520eb3",
+        "id": "cd02660647cd592e",
         "type": "tabs",
         "children": [
           {
-            "id": "f3e59b586ec35d70",
+            "id": "7807c1ae089e730b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hire10x/Transitioning from Django to FastAPI.md",
+                "file": "Learning Resources/Tree (Java).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "linu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hire10x/Transitioning from Django to FastAPI.md",
+                "file": "Learning Resources/Tree (Java).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hire10x/Transitioning from Django to FastAPI.md",
+                "file": "Learning Resources/Tree (Java).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hire10x/Transitioning from Django to FastAPI.md"
+                "file": "Learning Resources/Tree (Java).md"
               }
             }
           }
@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 422.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,55 +178,89 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f3e59b586ec35d70",
+  "floating": {
+    "id": "c98fa327eb9f1c10",
+    "type": "floating",
+    "children": [
+      {
+        "id": "344818f93c47ba73",
+        "type": "window",
+        "children": [
+          {
+            "id": "a614faa27bf5cb39",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9b822c8c64428f3d",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Tree.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 140,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7807c1ae089e730b",
   "lastOpenFiles": [
-    "Hire10x/Release Cycle.md",
-    "Hire10x/Ranking.md",
-    "Hire10x/PR.md",
-    "Hire10x/issues.md",
-    "Hire10x/Frontend Gaps.md",
-    "Hire10x/Frontend.md",
-    "Hire10x/Design Patters.md",
-    "Hire10x/Backend Libraries.md",
-    "Hire10x/Backend Code Guideline.md",
-    "Hire10x/Backend API Managements.md",
-    "Hire10x/Assistance Plans.md",
-    "Hire10x/Api Design Guideline.md",
-    "Hire10x/Ai Assistance.md",
-    "Hire10x/AI Assistance Docs.md",
-    "Hire10x/backend/API Structures.md",
-    "Weekly Activities/Week 30 (22-07 -> 28-07).md",
-    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Learning Resources/Tree.md",
+    "Excalidraw/Tree.md",
+    "Learning Resources/Tree (Java).md",
+    "Excalidraw/attachments/Pasted Image 20240903191517_914.png",
+    "Excalidraw/attachments/Pasted Image 20240903184524_237.png",
+    "Excalidraw/attachments/Pasted Image 20240903183720_196.png",
+    "Excalidraw/attachments/Pasted Image 20240903183533_154.png",
+    "Excalidraw/attachments/Pasted Image 20240903183301_003.png",
+    "Excalidraw/attachments/Pasted Image 20240903183146_000.png",
+    "Excalidraw/attachments/Pasted Image 20240903182415_987.png",
+    "Excalidraw/attachments/Pasted Image 20240903182330_979.png",
+    "Excalidraw/attachments/Pasted Image 20240903182215_941.png",
+    "Excalidraw/attachments/Pasted Image 20240903182028_633.png",
+    "Excalidraw/LinkedList.md",
+    "Excalidraw/Untitled 1.md",
+    "Excalidraw/Untitled.md",
+    "Learning Resources/LinkedList.md",
+    "Learning Resources/leetcode.md",
+    "Learning Resources/Linkedlist python.md",
+    "Learning Resources/attachments",
     "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
-    "Excalidraw/10xscale product.md",
+    "Hire10x/Java Training Program (8 Weeks, 8 hours per day).md",
+    "Hire10x/Backend Code Guideline.md",
+    "Excalidraw/Algo.md",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Contact and Credits Management.md",
+    "misc/Mount Device in linux.md",
     "Excalidraw/RecruiterAssistance.md",
+    "Hire10x/Testing Syllabus Microservice with React Frontend.md",
+    "Hire10x/Api Design Guideline.md",
+    "Hire10x/Transitioning from Django to FastAPI.md",
+    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
     "Excalidraw/whatsapp bot.md",
-    "Hire10x/Backend Coding Style.md",
-    "Hire10x/Backed Coding Style.md",
+    "Hire10x/Frontend Notes.md",
+    "Hire10x/Hire10x.ai.md",
+    "Excalidraw/Assistancev2.md",
     "Hire10x/backend",
-    "Weekly Activities/Week 3 ( June 2024).md",
-    "Weekly Activities/Week 2 (June 2024).md",
-    "Excalidraw/attachments/Pasted Image 20240716142347_948.png",
-    "Excalidraw/attachments/Pasted Image 20240716135136_864.png",
-    "Excalidraw/attachments/Pasted Image 20240716135106_862.png",
-    "Excalidraw/attachments/Pasted Image 20240716133108_775.png",
-    "Excalidraw/attachments/Pasted Image 20240716133015_660.png",
-    "Hire10x/attachments/Pasted image 20240712230242.png",
-    "Backend/tips/attachments/Pasted image 20240706200325.png",
     "Backend/tips/attachments",
     "Backend/tips",
-    "Hire10x/attachments/Pasted image 20240627182644.png",
     "Hire10x/attachments",
     "Learning Resources/books/32713.pdf",
-    "Learning Resources/All Courses/attachments/langchain_chains_3_additional_methods.png",
-    "Learning Resources/All Courses/attachments/iterative_prompt_development.png",
     "Learning Resources/papers/server/3593856.3595909.pdf",
     "Untitled.canvas",
     "Weekly Activities",
     "misc",
     "Learning Resources/papers/genai/2402.03620v1.pdf",
-    "Learning Resources/papers/genai/2305.04091.pdf",
     "Untitled 1.canvas"
   ]
 }
