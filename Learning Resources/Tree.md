@@ -34,9 +34,6 @@ A tree is a hierarchical data structure consisting of nodes connected by edges. 
    - **Breadth-First Traversal (BFT)**:
      - Also known as Level-order traversal. Visit nodes level by level from the root down to the leaves.
 
-![[Pasted image 20240903161658.png]]
-
-
 ### 4. Binary Tree (BT): 
 A Binary Tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. It is not necessarily ordered, and the structure of the tree can vary widely.
 
@@ -450,6 +447,8 @@ class Solution:
 
 
 105: [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+post order: [9, 15, 7, 20, 3]
 ```python
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
@@ -463,7 +462,29 @@ class Solution:
         return root
 ```
 
-124. BT Maximum Path Sum
+And 106
+
+[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) (amazon)
+```python
+class Solution:
+    def isBalanced(self, root: Optional[TreeNodef]) -> bool:
+        
+        def dfs(root):
+            if not root: return [True, 0]
+            
+            left, right = dfs(root.left), dfs(root.right)
+            
+            balanced = (left[0] and right[0] and 
+                        abs(left[1] - right[1]) <= 1)
+
+            return [balanced, 1 + max(left[1], right[1])]
+
+        return dfs(root)[0]
+```
+
+
+
+124. BT Maximum Path Sum (dfs)
 
 ```python
 class Solution:
@@ -489,3 +510,69 @@ class Solution:
 
         return res[0]
 ```
+
+
+572. Subtree of Another Tree (same as 100)  (dfs)
+```python
+class Solution:
+    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
+        if not t: return True
+        if not s: return False
+        
+        if self.sameTree(s, t):
+            return True
+            
+        return (self.isSubtree(s.left, t) or
+                self.isSubtree(s.right, t))
+    
+    def sameTree(self, s, t):
+        if not s and not t:
+            return True
+        if s and t and s.val == t.val:
+            return (self.sameTree(s.left, t.left) and
+                    self.sameTree(s.right, t.right))
+        return False
+```
+
+98. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (dfs)
+```python
+class Solution:
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        
+        def check(node, left, right):
+            if not node:
+                return True
+            # check actual condition
+            if not (left < node.val < right):
+                return False
+            
+            return check(node.left, left, node.val) and check(node.right, node.val, right)
+        
+        return check(root, float("-inf"), float('inf'))
+```
+
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+```python
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        res = []
+        self.bfs(root, 0, res)
+        return res
+    
+    def bfs(self, node: Optional[TreeNode], level: int, res: List[List[int]]):
+        if not node:
+            return
+        
+        if len(res) == level:
+            res.append([])
+        
+        res[level].append(node.val)
+        
+        self.bfs(node.left, level + 1, res)
+        self.bfs(node.right, level + 1, res)
+```
+
+Tree:
+DFS
+BFS

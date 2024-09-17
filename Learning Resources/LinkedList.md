@@ -170,7 +170,6 @@ public static void traverse(Node head) {
   - **Time Complexity**: O(n).
 
 ## **3. Advanced LinkedList Operations**
-
 ### **Reversing a LinkedList**:
 - **Iterative Approach**:
 ```java
@@ -332,3 +331,18 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 - [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 
+
+
+Linked List:
+Simple traversal:
+don't modify head. Use temporary variable to keep tracking of current node.
+
+Two Pointer:
+1. Slow and Fast -> slow takes one step and fast takes 2 steps (find the middle point or cycle in linked list)
+2. prev and current -> prev node and current node
+
+Dummy head:
+when the head is not fixed, for example you need to merge two list into one, there dummy node will be helpful. At the end, return `dummy.next` it will return actual value.
+
+Divide and Conquer:
+Divide the problem into smaller problems and solve the small problem first. Example: Merging K Sorted Lists. 

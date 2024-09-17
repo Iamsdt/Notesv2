@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "cd02660647cd592e",
+        "id": "c41b34e2f7f720e1",
         "type": "tabs",
         "children": [
           {
-            "id": "7807c1ae089e730b",
+            "id": "bce19c5a99bd225f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Resources/Tree (Java).md",
+                "file": "Learning Resources/PostgreSQL Cheatsheet.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad6d4dcbb9d17f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Resources/sql.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linu",
+                "query": "tag:#leetcode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resources/Tree (Java).md",
+                "file": "Learning Resources/PostgreSQL Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resources/Tree (Java).md",
+                "file": "Learning Resources/PostgreSQL Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,12 +160,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resources/Tree (Java).md"
+                "file": "Learning Resources/PostgreSQL Cheatsheet.md"
               }
+            }
+          },
+          {
+            "id": "99665e34ef65e7b9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "310752e76f7dd83f",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -178,46 +208,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "floating": {
-    "id": "c98fa327eb9f1c10",
-    "type": "floating",
-    "children": [
-      {
-        "id": "344818f93c47ba73",
-        "type": "window",
-        "children": [
-          {
-            "id": "a614faa27bf5cb39",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9b822c8c64428f3d",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Tree.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 140,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7807c1ae089e730b",
+  "active": "bce19c5a99bd225f",
   "lastOpenFiles": [
+    "Learning Resources/sql.md",
+    "Learning Resources/PostgreSQL Cheatsheet.md",
+    "Hire10x/training/Week2.md",
+    "Hire10x/training/Leetcode Preparation.md",
+    "Hire10x/Hire10x.ai.md",
+    "Learning Resources/Problem Solving.md",
+    "Learning Resources/LinkedList.md",
+    "Learning Resources/papers/genai/2308.08155v2.pdf",
+    "Learning Resources/papers/genai/2305.04091.pdf",
+    "Learning Resources/papers/genai/Plan-and-Solve Prompting Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.md",
+    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
+    "Learning Resources/All Courses/ChatGPT Prompt Engineering for Developers.md",
+    "templates/Note.md",
+    "Untitled.md",
+    "Daily Notes/Test.md",
+    "Untitled.canvas",
+    "Daily Notes/attachments/Test 2024-09-15 23.36.30.excalidraw.md",
+    "Daily Notes/attachments",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Hire10x/training",
+    "Excalidraw/attachments/Pasted Image 20240913200328_197.png",
+    "Learning Resources/Solid.md",
+    "Learning Resources/Java Question.md",
+    "Learning Resources/Paper.md",
+    "Learning Resources/dp.md",
+    "Learning Resources/Sliding Window.md",
+    "Hire10x/Untitled.md",
+    "Hire10x/Frontend Coding Instruction.md",
+    "Database/backup docker data.md",
+    "Database/pgsql backup docker.md",
     "Learning Resources/Tree.md",
-    "Excalidraw/Tree.md",
-    "Learning Resources/Tree (Java).md",
+    "Learning Resources/leetcode.md",
+    "Excalidraw/attachments/Pasted Image 20240906195355_811.png",
+    "Excalidraw/attachments/Pasted Image 20240906195119_762.png",
     "Excalidraw/attachments/Pasted Image 20240903191517_914.png",
     "Excalidraw/attachments/Pasted Image 20240903184524_237.png",
     "Excalidraw/attachments/Pasted Image 20240903183720_196.png",
@@ -225,42 +251,12 @@
     "Excalidraw/attachments/Pasted Image 20240903183301_003.png",
     "Excalidraw/attachments/Pasted Image 20240903183146_000.png",
     "Excalidraw/attachments/Pasted Image 20240903182415_987.png",
-    "Excalidraw/attachments/Pasted Image 20240903182330_979.png",
-    "Excalidraw/attachments/Pasted Image 20240903182215_941.png",
-    "Excalidraw/attachments/Pasted Image 20240903182028_633.png",
-    "Excalidraw/LinkedList.md",
-    "Excalidraw/Untitled 1.md",
-    "Excalidraw/Untitled.md",
-    "Learning Resources/LinkedList.md",
-    "Learning Resources/leetcode.md",
-    "Learning Resources/Linkedlist python.md",
     "Learning Resources/attachments",
-    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
-    "Hire10x/Java Training Program (8 Weeks, 8 hours per day).md",
-    "Hire10x/Backend Code Guideline.md",
-    "Excalidraw/Algo.md",
-    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
-    "Contact and Credits Management.md",
-    "misc/Mount Device in linux.md",
-    "Excalidraw/RecruiterAssistance.md",
-    "Hire10x/Testing Syllabus Microservice with React Frontend.md",
-    "Hire10x/Api Design Guideline.md",
-    "Hire10x/Transitioning from Django to FastAPI.md",
-    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
-    "Excalidraw/whatsapp bot.md",
-    "Hire10x/Frontend Notes.md",
-    "Hire10x/Hire10x.ai.md",
-    "Excalidraw/Assistancev2.md",
     "Hire10x/backend",
     "Backend/tips/attachments",
     "Backend/tips",
     "Hire10x/attachments",
     "Learning Resources/books/32713.pdf",
-    "Learning Resources/papers/server/3593856.3595909.pdf",
-    "Untitled.canvas",
-    "Weekly Activities",
-    "misc",
-    "Learning Resources/papers/genai/2402.03620v1.pdf",
     "Untitled 1.canvas"
   ]
 }
