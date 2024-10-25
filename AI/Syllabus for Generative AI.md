@@ -1,7 +1,4 @@
 
-# Syllabus for Generative AI
-
-
 ### Table Of Content
 
 
