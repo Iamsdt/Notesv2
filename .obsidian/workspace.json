@@ -5,10 +5,12 @@
     "children": [
       {
         "id": "a140e867dae79199",
+        "id": "6fe92e506a00acbd",
         "type": "tabs",
         "children": [
           {
             "id": "1aedbe89c0946ab3",
+            "id": "d8455e8d277adac4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,6 +47,9 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,11 +59,15 @@
               "type": "search",
               "state": {
                 "query": "genai",
+                "query": "genai",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -72,6 +81,9 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -79,6 +91,8 @@
     ],
     "direction": "horizontal",
     "width": 372.5
+    "width": 372.5,
+    "collapsed": true
   },
   "right": {
     "id": "67191f62e6c1cda6",
@@ -99,6 +113,9 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -106,6 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
@@ -118,6 +138,7 @@
               "type": "backlink",
               "state": {
                 "file": "AI/basic/Probability and Statistics.md",
+                "file": "AI/basic/Probability and Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +146,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Probability and Statistics"
               },
               "icon": "links-coming-in",
               "title": "Backlinks for Probability and Statistics"
@@ -137,8 +161,12 @@
               "type": "outgoing-link",
               "state": {
                 "file": "AI/basic/Probability and Statistics.md",
+                "file": "AI/basic/Probability and Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Probability and Statistics"
               },
               "icon": "links-going-out",
               "title": "Outgoing links from Probability and Statistics"
@@ -156,6 +184,9 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -164,6 +195,10 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "AI/basic/Probability and Statistics.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Probability and Statistics"
                 "file": "AI/basic/Probability and Statistics.md"
               },
               "icon": "lucide-list",
@@ -178,9 +213,13 @@
               "state": {},
               "icon": "spreadsheet",
               "title": "Advanced Tables"
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
+            "id": "4598120ea1d35a44",
             "id": "4598120ea1d35a44",
             "type": "leaf",
             "state": {
@@ -188,8 +227,12 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
+        ]
         ]
       }
     ],
@@ -214,6 +257,8 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": false
     }
