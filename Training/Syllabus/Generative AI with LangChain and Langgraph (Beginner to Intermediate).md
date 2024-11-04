@@ -4,12 +4,10 @@
 **Target Audience:** Individuals with basic programming knowledge interested in learning Generative AI concepts and tools.
 
 **Course Objectives:**  Upon completion of this course, students will be able to:
-
 * Understand core concepts in Generative AI, including prompt engineering, Chain-of-Thought (CoT), Retrieval Augmented Generation (RAG), LangChain, and LangGraph.
 * Build and deploy basic generative AI applications using popular tools and frameworks.
 * Explore advanced topics like multi-agent systems.
 * Prepare for technical interviews related to Generative AI roles.
-
 
 ## Course Schedule
 
@@ -90,7 +88,6 @@
 * Student Project Presentations: Showcasing final projects and sharing learnings. (5 hours)
 * Career guidance: Discussing career paths in Generative AI and job search strategies. (3 hours)
 * Open Q&A and wrap-up. (2 hours)
-
 
 **Assessment:**
 * Weekly quizzes on theoretical concepts.
@@ -175,7 +172,6 @@
     3. The tool identifies relevant skills and experiences and highlights any gaps.
     4. The LLM generates optimized content for the CV based on the JD requirements.
     5. The tool outputs the optimized CV in a desired format.
-
 
 * **Key Considerations:**
     * **Ethical Implications:**  It's crucial to emphasize that the tool should be used to enhance a CV, not fabricate information.  The generated content should always be based on the user's actual skills and experience.

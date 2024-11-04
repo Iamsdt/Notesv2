@@ -57,7 +57,6 @@ class Node {
 
 ### **Insertion**:
 - **At the Beginning**:
-- 
 ```python
 def insert_at_beginning(head, data):
     new_node = Node(data)

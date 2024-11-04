@@ -1,8 +1,4 @@
 
-
-SOLID
-
-
 ### 1. **Single Responsibility Principle (SRP)**:
 - **Definition**: A class should have only **one responsibility** or reason to change.
 - **Car Example**: Imagine a `Car` class that handles **both driving the car** and **calculating fuel efficiency**. These are two different responsibilities. If something changes in fuel efficiency calculations, it shouldn't impact the driving logic. 

@@ -57,7 +57,27 @@ class Solution:
 
 1. Two sum
 ```python
+class Solution:
 
+def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+di = {}
+
+for i, v in enumerate(nums):
+
+r = target - v
+
+if r in di:
+
+return [di[r], i]
+
+else:
+
+di[v] = i
+
+  
+
+return [0, 0]
 ```
 
 1. Two sum 2
