@@ -1,27 +1,25 @@
 {
   "main": {
-    "id": "81f31754a273fb92",
+    "id": "cdb3014055dd0aa6",
     "type": "split",
     "children": [
       {
-        "id": "a140e867dae79199",
-        "id": "6fe92e506a00acbd",
+        "id": "f46c049110de2a14",
         "type": "tabs",
         "children": [
           {
-            "id": "1aedbe89c0946ab3",
-            "id": "d8455e8d277adac4",
+            "id": "a564f565cbf5d17f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Training/Syllabus/Prompt Engineering with LangChain.md",
+                "file": "Courses/Data Engineering/GCP - DataProc.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering with LangChain"
+              "title": "GCP - DataProc"
             }
           }
         ]
@@ -30,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "424ef04f4b4bf9c9",
+    "id": "358285c71b495968",
     "type": "split",
     "children": [
       {
-        "id": "854311172328137e",
+        "id": "97783cd8214213b8",
         "type": "tabs",
         "children": [
           {
-            "id": "06ff2a6485534040",
+            "id": "65074b51342875b8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,19 +45,15 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
             }
           },
           {
-            "id": "83d2969d45d6176a",
+            "id": "7cea0407775ea324",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "genai",
-                "query": "genai",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,19 +62,13 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
             }
           },
           {
-            "id": "c1a99d7f2f168d7d",
+            "id": "04394f51bae7992a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
@@ -90,55 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
-    "width": 372.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "67191f62e6c1cda6",
+    "id": "ee49d911c92e7964",
     "type": "split",
     "children": [
       {
-        "id": "34826c1a20880d4a",
+        "id": "2db33f5eb9253a29",
         "type": "tabs",
         "children": [
           {
-            "id": "27d92382d6013d92",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "275c4d449e76c839",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "d4f4aaf204a73ac5",
+            "id": "0741cf8d379e8a56",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/basic/Probability and Statistics.md",
-                "file": "AI/basic/Probability and Statistics.md",
+                "file": "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,32 +105,38 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Probability and Statistics"
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Probability and Statistics"
+              "title": "Backlinks for Drawing 2024-07-15 19.38.11.excalidraw"
             }
           },
           {
-            "id": "a768617e84f5152f",
+            "id": "57220df811b2b108",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/basic/Probability and Statistics.md",
-                "file": "AI/basic/Probability and Statistics.md",
+                "file": "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Probability and Statistics"
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Probability and Statistics"
+              "title": "Outgoing links from Drawing 2024-07-15 19.38.11.excalidraw"
             }
           },
           {
-            "id": "90de1cfdfa6ea160",
+            "id": "ee046bdfa160778d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c5754fa2491f012",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -184,60 +147,45 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
             }
           },
           {
-            "id": "d76ddafcadf0735c",
+            "id": "ed85542b94b80a19",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/basic/Probability and Statistics.md"
+                "file": "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Probability and Statistics"
-                "file": "AI/basic/Probability and Statistics.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Probability and Statistics"
+              "title": "Outline of Drawing 2024-07-15 19.38.11.excalidraw"
             }
           },
           {
-            "id": "99665e34ef65e7b9",
+            "id": "6610f563e168ba64",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "calendar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
-            "id": "4598120ea1d35a44",
-            "id": "4598120ea1d35a44",
+            "id": "bfccf8fad6bf1ad4",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
             }
           }
-        ]
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -245,73 +193,30 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
       "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-day-planner:Timeline": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1aedbe89c0946ab3",
+  "active": "a564f565cbf5d17f",
   "lastOpenFiles": [
-    "Hire10x/Backend Action Item.md",
-    "Training/Syllabus/Prompt Engineering with LangChain.md",
-    "Hire10x/Assistance Plans.md",
-    "Hire10x/backend/API Structures.md",
-    "Training/Syllabus/Generative AI with LangChain and Langgraph (Beginner to Intermediate).md",
-    "Learning Resources/LinkedList.md",
-    "Learning Resources/Sliding Window.md",
-    "Learning Resources/Tree.md",
-    "Learning Resources/Solid.md",
-    "Training/Neo4j.md",
-    "Training/Notes- Kafka, RabbitMQ, and Redis.md",
-    "Training/course/Data Engineering Projects.md",
-    "Training/Java OOP.md",
-    "Assignment- Zoo Management System.md",
-    "Learning Resources/Linkedlist python.md",
-    "Excalidraw/LinkedList.md",
-    "Training/course/Data Engineering with GCP.md",
-    "Training/course/Data Engineering.md",
-    "Training/Syllabus/Data Analyst & Data Engineer.md",
-    "Training/Java Methods and Classes.md",
+    "Courses/Data Engineering/PySpark.md",
+    "Courses/Data Engineering/GCP - DataProc.md",
+    "Courses/Data Engineering",
+    "Courses",
     "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
-    "Excalidraw/attachments/image.png",
     "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
-    "Training/Time Complexity & Space Complexity.md",
-    "Learning Resources/System Design - Online Course App.md",
-    "Learning Resources/Array.md",
-    "Training/attachments/Pasted image 20241028195940.png",
-    "Training/Syllabus",
-    "Training/CV Evulation",
-    "Excalidraw/attachments/Pasted Image 20241008190550_666.png",
-    "Excalidraw/attachments/Pasted Image 20241008182714_877.png",
-    "Excalidraw/attachments/Pasted Image 20241008174948_752.png",
-    "Excalidraw/attachments/Pasted Image 20241008174918_779.png",
-    "Excalidraw/attachments/Pasted Image 20241008174918_748.png",
-    "Training/course",
-    "Training/exam",
-    "Excalidraw/attachments/Pasted Image 20241003191600_497.png",
-    "Training/attachments/Pasted image 20241001190910.png",
-    "Training/attachments",
-    "Training",
-    "Learning Resources/Untitled",
-    "Learning Resources/attachments/Pasted image 20240925182224.png",
-    "Untitled.canvas",
-    "Learning Resources/papers/genai/2308.08155v2.pdf",
-    "Learning Resources/papers/genai/2305.04091.pdf",
-    "Daily Notes/attachments",
-    "Untitled 1.canvas"
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md"
   ]
 }
