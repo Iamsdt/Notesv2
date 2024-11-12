@@ -1,3 +1,12 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - syllabus
+---
+
 
 **Week 1: Foundations, Arrays, and Strings**
 * **Fundamentals:** Big O, basic data structures review (as before).

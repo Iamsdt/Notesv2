@@ -6,6 +6,7 @@ Last edited time: 2024-01-19T01:09
 Date: 2024-01-19
 tags:
   - pgsql
+  - sql
 ---
 card table
 

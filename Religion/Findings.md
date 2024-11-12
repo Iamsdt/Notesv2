@@ -1,3 +1,13 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - dharma
+---
+
+
 **Vaiśākha** (वैशाख).—A month. This month comes after the month of Caitra and before the month of Jyeṣṭha. It is stated in Mahābhārata, Anuśāsana Parva, Chapter 106, that by observing the fast of taking food only once, daily in this month, one could acquire prominence among kinsmen and people of one’s own caste.
 
 [Source](https://archive.org/details/NilamataPuranaACulturalAnLiteraryStudyOfKashmiriPuranaVedKumari "goto glossary/dictionary page"): archive.org: Nilamata Purana: a cultural and literary study

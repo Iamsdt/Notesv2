@@ -1,9 +1,13 @@
 ---
 Author: Hans-Jürgen Schönig
-Status: In progress
 Type: Book
-tag: pgsql
+Status: In progress
+tags:
+  - database
+  - pgsql
+  - book
 ---
+
   
 
 # CH1: PostgreSQL 15 Overview

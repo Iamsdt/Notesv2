@@ -1,3 +1,11 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - syllabus
+---
 
 **Program Overview:** This program equips learners with the skills to design, build, and manage data processing systems on Google Cloud Platform (GCP), while also introducing comparable tools and services from AWS and Apache ecosystems.  Students will learn to work with massive datasets, build data lakes, automate data pipelines, and develop proficiency in core data engineering tools.
 
@@ -75,7 +83,6 @@
 
 
 **Course 4: Automating Data Pipelines**
-
 * **Course Project:** Building a Data Pipeline for a Gaming Platform (using Cloud Composer and Cloud Functions, discussing alternatives like AWS Airflow and Lambda)
 * **Lesson 1: Data Pipelines**
     * Defining data pipelines and their uses

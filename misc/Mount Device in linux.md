@@ -1,3 +1,13 @@
+---
+Created by: Shudipto Trafder
+Created time: 2023-12-11T23:32
+Last edited by: Shudipto Trafder
+Last edited time: 2023-12-12T16:17
+tags:
+  - linux
+  - storage
+---
+
 Great to hear that step 2 worked for you! Here’s a quick recap of what likely resolved the issue:
 
 1. **Install ntfs-3g**:

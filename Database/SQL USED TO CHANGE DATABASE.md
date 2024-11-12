@@ -5,6 +5,7 @@ Last edited by: Shudipto Trafder
 Last edited time: 2024-01-31T18:04
 tags:
   - pgsql
+  - sql
 ---
 ### t_jd_task → template id as foreign key
 

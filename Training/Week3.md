@@ -1,3 +1,12 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-11T23:32
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-11T23:32
+tags:
+  - leetcode
+---
+
 ### Question 1
 
 **Scenario:** You have a table of customers with their names and email addresses. Retrieve the names and email addresses of all customers whose first name is 'John'.

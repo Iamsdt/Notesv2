@@ -1,6 +1,6 @@
 ---
 tags:
-  - prompt
+  - paper
   - ai
   - genai
 Created time: 2024-05-20T19:00:00

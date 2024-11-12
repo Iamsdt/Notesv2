@@ -6,6 +6,7 @@ Last edited time: 2024-01-01T19:13
 tags:
   - pgsql
   - Docker
+  - sql
 ---
 # PostgreSQL Database Backup, Restoration, and Transfer Guide
 

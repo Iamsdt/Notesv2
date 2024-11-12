@@ -1,3 +1,15 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - kafka
+  - rabitmq
+  - redis
+---
+
+
 ![[Pasted image 20241001190910.png]]
 
 

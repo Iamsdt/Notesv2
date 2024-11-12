@@ -1,3 +1,14 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T22:05:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - guidline
+  - django
+  - fastapi
+---
+
 ## Summary
 
 In response to evolving technological demands and the need for enhanced performance and scalability, we propose transitioning our platform from Django to FastAPI. This document outlines the strategic benefits, anticipated learning curve, and projected timeline for this significant migration.

@@ -1,11 +1,12 @@
 ---
+Created by: Shudipto Trafder
+Created time: 2023-12-11T23:32
+Last edited by: Shudipto Trafder
+Last edited time: 2023-12-12T16:17
 tags:
   - email
   - smtp
-Date: 2024-05-07T23:43:00
-Last edited time: 2024-05-08T01:10:00
 ---
-
 
 That's how SMTP works. It's purely a protocol for dropping a mail off at a mail server, either by your originating client or an interim server dropping it off at another upstream server. SMTP servers work in chains; your client drops off at godaddy, today's might drop off at an upstream server, upstream server drops off at destination (or another upstream; many servers might handle it on the way).
 

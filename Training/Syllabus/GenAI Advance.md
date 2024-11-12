@@ -1,3 +1,13 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - syllabus
+---
+
+
 **5. GitHub PR Agent (Automated Pull Request Reviewer):**
 * **Objective:** Create an AI-powered agent that automates the process of reviewing pull requests (PRs) on GitHub, providing feedback on code quality, style, and potential issues.
 

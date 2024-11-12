@@ -10,6 +10,7 @@ tags:
   - ai
   - course
   - langchain
+  - genai
 ---
 
 

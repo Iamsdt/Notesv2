@@ -6,6 +6,7 @@ Last edited time: 2024-01-01T23:16
 tags:
   - pgsql
   - dbdocs
+  - sql
 ---
 1. First export from current Database to SQL
 

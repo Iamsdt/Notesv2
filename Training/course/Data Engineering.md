@@ -1,4 +1,11 @@
-
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - syllabus
+---
 ## Course Overview
 This course provides a comprehensive introduction to data engineering, covering fundamental concepts and skills required for entry to medium-level data engineering positions. The curriculum focuses on core principles applicable across various technologies, while also introducing popular tools and services.
 

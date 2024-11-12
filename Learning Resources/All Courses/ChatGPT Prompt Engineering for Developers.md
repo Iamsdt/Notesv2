@@ -8,8 +8,8 @@ Completed: 2024-05-08T01:55
 Last edited time: 2024-05-08T01:55:00
 tags:
   - ai
-  - prompt
   - course
+  - genai
 ---
 
 > [!NOTE] Summary

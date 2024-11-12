@@ -1,3 +1,13 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-11T23:32
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-11T23:32
+tags:
+  - leetcode
+---
+
+
 ### Problem 1: Calculate the Tri-Fib Sequence
 1137
 

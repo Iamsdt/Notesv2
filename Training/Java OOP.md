@@ -1,3 +1,12 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - java
+  - oop
+---
 
 Object-Oriented Programming (OOP) is a dominant programming paradigm that structures software design around "objects," which encapsulate both data (fields/attributes) and the procedures (methods/functions) that operate on that data. This approach offers significant advantages in terms of modularity, reusability, maintainability, and scalability.  Let's delve into the core OOP concepts, using an extended `Car` example and the concept of sealed classes.
 

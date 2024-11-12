@@ -1,4 +1,11 @@
-
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - leetcode
+---
 # Problem 1: Make Profit Everyday
 
 You are given an array `prices` where `prices[i]` is the price of a given stock on the `i`th day. 

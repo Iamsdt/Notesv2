@@ -1,3 +1,12 @@
+---
+Created by: Shudipto Trafder
+Created time: 2024-11-12T17:50:00
+Last edited by: Shudipto Trafder
+Last edited time: 2024-11-12T17:54:00
+tags:
+  - syllabus
+---
+
 ## Project 1: Real-Time Log Analytics Platform
 
 ### Business Context
