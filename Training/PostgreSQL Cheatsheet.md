@@ -9,8 +9,6 @@ tags:
   - database
 ---
 
-
-
 ### 1. DBML Commands (Database Markup Language)
 
 | Command    | Description                           | Example                                                                      |
@@ -387,3 +385,279 @@ EXECUTE FUNCTION update_order_total();
     - Executes **after** any `INSERT`, `UPDATE`, or `DELETE` operation on the `order_items` table.
     - It's a **row-level trigger** ( `FOR EACH ROW`), so it runs for every row changed.
     - It calls the `update_order_total()` function to recalculate and update the order's total amount.
+
+
+
+# Generate Data in Series
+```sql
+CREATE TABLE customers (
+    customer_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    city VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+```sql
+INSERT INTO customers (first_name, last_name, email, city)
+SELECT 
+    'John' || i, 'Doe' || i, 
+    'john.doe' || i || '@example.com', 
+    'City' || (i % 100), 
+FROM generate_series(1, 10000) AS s(i);
+```
+
+
+
+```sql
+CREATE TABLE employees (
+    employee_id SERIAL PRIMARY KEY,
+    employee_name VARCHAR(100) NOT NULL,
+    department VARCHAR(50),
+    hire_date DATE,
+    salary NUMERIC(10, 2),
+    is_active BOOLEAN DEFAULT TRUE
+);
+```
+
+
+```sql
+CREATE TABLE products (
+    product_id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    unit_price NUMERIC(10, 2) NOT NULL,
+    stock INT CHECK (stock >= 0)
+);
+
+```
+
+
+```sql
+CREATE TABLE orders (
+    order_id SERIAL PRIMARY KEY,
+    customer_id INT REFERENCES customers(customer_id),
+    order_date DATE DEFAULT CURRENT_DATE,
+    total_amount NUMERIC(10, 2) NOT NULL,
+    status VARCHAR(20) CHECK (status IN ('Pending', 'Shipped', 'Delivered', 'Cancelled'))
+);
+
+```
+
+
+```sql
+INSERT INTO orders (customer_id, order_date, total_amount, status)
+SELECT 
+    (random() * 9999 + 1)::int AS customer_id,
+    CURRENT_DATE - (random() * 365)::int AS order_date,
+    round((random() * 980 + 20), 2) AS total_amount,
+    CASE 
+        WHEN random() < 0.25 THEN 'Pending'
+        WHEN random() < 0.5 THEN 'Shipped'
+        WHEN random() < 0.75 THEN 'Delivered'
+        ELSE 'Cancelled'
+    END AS status
+FROM generate_series(1, 10000);
+```
+
+### Latest Partition Code
+```sql
+-- master table
+
+CREATE TABLE orders_partitioned (
+
+order_id SERIAL,
+
+customer_id INT REFERENCES customers(customer_id),
+
+order_date DATE,
+
+total_amount NUMERIC(10, 2),
+
+status VARCHAR(20) CHECK (status IN ('Pending', 'Shipped', 'Delivered', 'Cancelled')),
+
+PRIMARY KEY (order_id, order_date)
+
+) PARTITION BY RANGE (order_date);
+
+  
+  
+
+-- Create partitions for specific years
+
+  
+
+CREATE TABLE orders_2023 PARTITION OF orders_partitioned
+
+FOR VALUES FROM ('2023-01-01') TO ('2024-01-01');
+
+  
+
+CREATE TABLE orders_2024 PARTITION OF orders_partitioned
+
+FOR VALUES FROM ('2024-01-01') TO ('2025-01-01');
+
+  
+  
+
+-- Insert Data
+
+INSERT INTO orders_partitioned (order_id, customer_id, order_date, total_amount, status)
+
+SELECT order_id, customer_id, order_date, total_amount, status
+
+FROM orders;
+
+  
+  
+
+-- query data
+
+select * from orders_partitioned;
+
+  
+
+explain select * from orders_partitioned;
+
+  
+
+select * from orders_partitioned where order_date BETWEEN '2024-01-01' AND '2024-12-31';
+
+  
+
+explain select * from orders_partitioned where order_date BETWEEN '2024-01-01' AND '2024-12-31';
+```
+
+
+```sql
+-- 1. Table for order items
+
+CREATE TABLE products (
+
+product_id SERIAL PRIMARY KEY,
+
+name VARCHAR(100) NOT NULL,
+
+category VARCHAR(50),
+
+unit_price NUMERIC(10, 2) NOT NULL,
+
+stock INT CHECK (stock >= 0)
+
+);
+
+  
+
+CREATE TABLE order_items (
+
+order_id INT REFERENCES orders(order_id),
+
+product_id INT REFERENCES products(product_id),
+
+quantity INT,
+
+price DECIMAL(10, 2)
+
+);
+
+  
+
+-- 2. Function to calculate and update the order total
+
+CREATE OR REPLACE FUNCTION update_order_total()
+
+RETURNS TRIGGER AS $$
+
+BEGIN
+
+UPDATE orders
+
+SET total_amount = (
+
+SELECT SUM(quantity * price)
+
+FROM order_items
+
+WHERE order_id = NEW.order_id
+
+)
+
+WHERE order_id = NEW.order_id;
+
+RETURN NEW;
+
+END;
+
+$$ LANGUAGE plpgsql;
+
+  
+  
+
+-- 3. Trigger to call the function after changes to order_items
+
+CREATE OR REPLACE TRIGGER update_order_total_trigger
+
+AFTER INSERT OR UPDATE OR DELETE ON order_items
+
+FOR EACH ROW
+
+EXECUTE FUNCTION update_order_total();
+
+  
+  
+
+-- Add data
+
+INSERT INTO products (name, category, unit_price, stock)
+
+VALUES
+
+('Laptop', 'Electronics', 1200.00, 50),
+
+('Phone', 'Electronics', 800.00, 100),
+
+('Book', 'Stationery', 20.00, 200);
+
+  
+
+select * from products;
+
+  
+
+INSERT INTO orders (customer_id, order_date, total_amount, status)
+
+VALUES (1, '2024-11-13', 0.00, 'Pending') RETURNING order_id;
+
+  
+
+INSERT INTO order_items (order_id, product_id, quantity, price)
+
+VALUES
+
+(1, 1, 2, 1200.00), -- 2 Laptops
+
+(1, 2, 1, 800.00); -- 1 Phone
+
+  
+
+-- verify
+
+SELECT * FROM orders WHERE order_id = 1;
+
+  
+
+UPDATE order_items
+
+SET quantity = 3
+
+WHERE order_id = 1 AND product_id = 1;
+
+  
+  
+
+DELETE FROM order_items
+
+WHERE order_id = 1 AND product_id = 2;
+```

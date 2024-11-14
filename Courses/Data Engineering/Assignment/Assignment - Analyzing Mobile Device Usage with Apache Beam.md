@@ -1,11 +1,10 @@
 ---
 Created by: Shudipto Trafder
-Created time: {{date:YYYY-MM-DD}}T{{time:HH:mm}}
-Last edited time: {{date:YYYY-MM-DD}}T{{time:HH:mm}}
-tags: 
-	- assignement
-	- beam
-	- de
+Created time: 2024-11-13T00:00:00
+Last edited time: 2024-11-13T00:00:00
+tags:
+  - pyspark
+  - de
 ---
 
 

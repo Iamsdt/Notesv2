@@ -111,11 +111,7 @@ This course provides a comprehensive introduction to data engineering, covering 
 
 ## Module 11: Data Visualization and Reporting
 1. Basics of Data Visualization
-2. Common Visualization Tools Overview:
-   - Google Data Studio
-   - Tableau
-   - Power BI
-3. Creating Dashboards and Reports
+2. Creating Dashboards and Reports
 4. Best Practices for Data Presentation
 5. Connecting BigQuery to Visualization Tools
 
@@ -125,6 +121,3 @@ This course provides a comprehensive introduction to data engineering, covering 
 3. Problem-Solving and Troubleshooting
 4. Keeping Up with Industry Trends
 5. Ethics in Data Engineering
-
-## Final Project
-Design and implement a small-scale data pipeline that incorporates various concepts learned throughout the course, utilizing a combination of tools and services such as Dataflow, Apache Beam, Dataproc, BigQuery, Pub/Sub, Apache Spark, and Kafka.
