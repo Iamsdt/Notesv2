@@ -7,7 +7,6 @@ tags:
   - mongo
   - database
 ---
-
 **1. Connect via MongoDB Shell**
 
 ```bash
@@ -57,6 +56,45 @@ db.coll.updateMany({}, {$inc: {age: 1}}) // increment age
 db.coll.deleteOne({name: "Charlie"}) 
 db.coll.deleteMany({age: {$lt: 20}})
 ```
+
+
+Aggregation
+
+```
+db.comments.aggregate([
+   { $group: { _id: "$movie_id", totalComments: { $count: {} } } },
+   { $sort: { totalComments: -1 } }, // Sort by the number of comments
+   { $limit: 10 } // Top 10 movies by comments
+]);
+```
+
+```
+db.movies.aggregate([
+   { $match: { "imdb.rating": { $exists: true } } },
+   { $group: { 
+      _id: "$year", 
+      averageRating: { $avg: "$imdb.rating" },
+      totalMovies: { $count: {} }
+   }},
+   { $sort: { averageRating: -1 } }
+]);
+```
+
+
+Lookup
+```
+db.movies.aggregate([
+   { $lookup: {
+      from: "comments",
+      localField: "_id",
+      foreignField: "movie_id",
+      as: "movieComments"
+   }},
+   { $project: { title: 1, movieComments: 1 } } // Display title and comments
+]);
+
+```
+
 
 **4. Databases & Collections**
 
@@ -120,6 +158,13 @@ sh.status()
 sh.addShard("rs1/mongodb1.example.net:27017")
 sh.shardCollection("mydb.orders", {orderId: 1})
 sh.moveChunk("mydb.orders", {orderId: 123}, "shard002")
+```
+
+
+Text Search
+```
+db.movies.createIndex({ title: "text", plot: "text" });
+db.movies.find({ $text: { $search: "adventure thriller" } });
 ```
 
 **Wrap Up**

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a8b8b2e72aa6023b",
+        "id": "638a4610046c843c",
         "type": "tabs",
         "children": [
           {
-            "id": "ab6af7128d5114d0",
+            "id": "6506b4438899bdc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
+                "file": "Learning Resources/papers/genai/REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PostgreSQL Cheatsheet (Advance)"
+              "title": "REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS"
             }
           }
         ]
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Data Engineering/database/SQL Advance.md",
-                "collapseAll": true,
+                "file": "Hire10x/Backend Code Guideline.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SQL Advance"
+              "title": "Backlinks for Backend Code Guideline"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md"
+                "file": "Learning Resources/papers/genai/REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-07-15 19.38.11.excalidraw"
+              "title": "Outline of REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS"
             }
           },
           {
@@ -180,7 +180,8 @@
               "title": "Timeline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,10 +209,38 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ab6af7128d5114d0",
+  "active": "6506b4438899bdc9",
   "lastOpenFiles": [
-    "Courses/Data Engineering/database/SQL Advance.md",
+    "Learning Resources/papers/genai/Agent Planning with World Knowledge Model.md",
+    "Learning Resources/papers/genai/REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS.md",
+    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
+    "Learning Resources/papers/genai/Plan-and-Solve Prompting Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.md",
+    "Learning Resources/papers/genai/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
+    "Hire10x/Backend Code Guideline.md",
+    "Courses/Data Engineering/database/MongoDB Cheat Sheet (Advance).md",
+    "Excalidraw/Batch1.md",
+    "AI/Research/Idea 1.md",
+    "Courses/Data Engineering/database/attachments/Pasted image 20241118193721.png",
+    "Excalidraw/attachments/image_6.png",
+    "Excalidraw/attachments/image_5.png",
+    "Excalidraw/attachments/image_4.png",
+    "Courses/Data Engineering/database/attachments",
+    "Training/MongoDB Cheat Sheet.md",
+    "Courses/Data Engineering/database/SQL Question Answer.md",
     "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
+    "Untitled.md",
+    "Untitled",
+    "AI/Research",
+    "Untitled 1/Untitled 1.md",
+    "Untitled 1",
+    "Training/Time Complexity & Space Complexity.md",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Excalidraw/attachments/image_3.png",
+    "Excalidraw/attachments/image_2.png",
+    "Excalidraw/attachments/image_1.png",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
+    "Courses/Data Engineering/database/SQL Advance.md",
     "Training/PostgreSQL Cheatsheet.md",
     "Database/Database Series Generation.md",
     "Courses/Data Engineering/Result/Result - PySpark.md",
@@ -219,36 +248,14 @@
     "Training/course/Data Engineering.md",
     "Training/course/Data Engineering Fundamentals Course.md",
     "Training/course/Data Engineering Projects.md",
-    "Weekly Activities/Week 1.md",
     "Weekly Activities/attachments/Pasted image 20241113005747.png",
     "Weekly Activities/attachments/Pasted image 20241113005744.png",
     "Weekly Activities/attachments",
-    "Courses/Data Engineering/Result/Result - Beam.md",
-    "Courses/Data Engineering/Assignment/Assignment - Advanced Data Manipulation and Predictive Analysis with Apache Spark.md",
-    "Courses/Data Engineering/Assignment/Assignment - Analyzing Mobile Device Usage with Apache Beam.md",
-    "Courses/Data Engineering/Apache Hive.md",
-    "Backend/Setup Jupyter Lab for assignment.md",
     "Learning Resources/books/32713.pdf",
-    "Learning Resources/books/Hans-Jürgen Schönig - Mastering PostgreSQL 15_ Advanced techniques to build and manage scalable, reliable, and fault-tolerant database applications Publishing (2023).md",
-    "Hire10x/Hire10x.ai.md",
-    "Backend/Typesense.md",
-    "AI/Syllabus for Generative AI.md",
-    "AI/Projects.md",
-    "Courses/Data Engineering/Data-Prep.md",
-    "Problem Solving/p-232- Implement Queue using Stacks.md",
-    "Courses/Data Engineering/PySpark.md",
-    "Courses/Data Engineering/GCP - DataProc.md",
-    "templates/Note.md",
-    "Learning Resources/All Courses/LangChain for LLM Application Development.md",
     "Hire10x/attachments/Pasted image 20240810204559.png",
-    "Hire10x/attachments/Pasted image 20240810204542.png",
-    "Hire10x/attachments/Pasted image 20240712230242.png",
-    "Hire10x/attachments/Pasted image 20240627182644.png",
     "Courses/Data Engineering/database",
     "Courses/Data Engineering/Result",
-    "Excalidraw/attachments/image_0.png",
     "Courses/Data Engineering/Assignment",
-    "Courses/Data Engineering",
-    "Courses"
+    "Courses/Data Engineering"
   ]
 }
