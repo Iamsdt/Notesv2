@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b33399abdb299843",
+        "id": "6ac825f21be76a18",
         "type": "tabs",
         "children": [
           {
-            "id": "05e1d1bf2a198e10",
+            "id": "2b910f0ecfcf29f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Data Engineering/Data Modeling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Data Modeling"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -154,11 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/Data Engineering/Data Modeling.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Data Modeling"
+              "title": "Outline"
             }
           },
           {
@@ -222,14 +214,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "05e1d1bf2a198e10",
+  "active": "2b910f0ecfcf29f6",
   "lastOpenFiles": [
+    "Excalidraw/whatsapp bot.md",
+    "Excalidraw/Tree.md",
+    "Excalidraw/RecruiterAssistance.md",
+    "Excalidraw/Python.md",
+    "Excalidraw/LinkedList.md",
+    "Excalidraw/Drawing 2024-07-15 19.38.11.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-09 20.29.41.excalidraw.md",
+    "Excalidraw/Batch1.md",
+    "Excalidraw/Assistancev2.md",
+    "Excalidraw/Algo.md",
+    "Excalidraw/attachments/Pasted Image 20241008174948_752.png",
+    "Excalidraw/10xscale product.md",
+    "Excalidraw/attachments/Pasted Image 20240913200328_197.png",
+    "Excalidraw/attachments/Pasted Image 20241008174918_748.png",
+    "Excalidraw/attachments/Pasted Image 20241008174918_779.png",
+    "Excalidraw/attachments/Pasted Image 20241008182714_877.png",
+    "Excalidraw/attachments/Pasted Image 20241008190550_666.png",
+    "Excalidraw/attachments/Pasted Image 20241119204024_358.png",
+    "Courses/Data Engineering/Data Modeling.md",
     "Courses/Data Engineering/database/SQL Question Answer.md",
     "Courses/Data Engineering/database/MongoDB Cheat Sheet (Advance).md",
     "Courses/Data Engineering/Assignment/Intelligent Candidate-Job Matching and Analytics Platform.md",
     "Courses/Data Engineering/Result/Result - PySpark.md",
     "Courses/Data Engineering/Result/Result - Beam.md",
-    "Courses/Data Engineering/Data Modeling.md",
     "Courses/Data Engineering/BigQuery - A Comprehensive Guide.md",
     "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
     "Courses/Data Engineering/Apache Hive.md",
@@ -238,33 +249,14 @@
     "Courses/Data Engineering/GCP - DataProc.md",
     "Courses/Data Engineering/PySpark.md",
     "Backend/Typesense.md",
-    "Backend/server/sentry setup.md",
-    "Backend/nginx.md",
-    "Backend/storage/Google Cloud Storage.md",
-    "Training/Sliding Window.md",
-    "Excalidraw/Batch1.md",
-    "Excalidraw/attachments/Pasted Image 20241119204024_358.png",
-    "Training/Problem Solving.md",
     "Untitled.canvas",
-    "Learning Resources/papers/genai/REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS.md",
-    "Learning Resources/papers/genai/Agent Planning with World Knowledge Model.md",
-    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
-    "Learning Resources/papers/genai/Plan-and-Solve Prompting Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.md",
-    "Learning Resources/papers/genai/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
-    "Hire10x/Backend Code Guideline.md",
     "Courses/Data Engineering/database/attachments/Pasted image 20241118193721.png",
     "Excalidraw/attachments/image_6.png",
     "Excalidraw/attachments/image_5.png",
-    "Excalidraw/attachments/image_4.png",
     "Courses/Data Engineering/database/attachments",
     "Untitled",
     "AI/Research",
     "Untitled 1",
-    "Excalidraw/attachments/image_3.png",
-    "Excalidraw/attachments/image_2.png",
-    "Excalidraw/attachments/image_1.png",
-    "Weekly Activities/attachments/Pasted image 20241113005747.png",
-    "Weekly Activities/attachments/Pasted image 20241113005744.png",
     "Weekly Activities/attachments",
     "Learning Resources/books/32713.pdf",
     "Courses/Data Engineering/database",
