@@ -36,7 +36,26 @@ def getMaxSum(arr, k):
     return maxSum
 ```
 
+```java
+	public static int getMaxSum(int[] arr, int k) {
+        int maxSum = 0;
+        int windowSum = 0;
+        int start = 0;
 
+        for (int i = 0; i < arr.length; i++) {
+            windowSum += arr[i];
+
+            // Check if the window size is k
+            if ((i - start + 1) == k) {
+                maxSum = Math.max(maxSum, windowSum);
+                windowSum -= arr[start];
+                start++;
+            }
+        }
+
+        return maxSum;
+    }
+```
 
 ### 2. Difference Between the Maximum and Minimum Average of all K-Length Continuous Subarrays
 
