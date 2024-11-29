@@ -582,7 +582,3 @@ class Solution:
         self.bfs(node.left, level + 1, res)
         self.bfs(node.right, level + 1, res)
 ```
-
-Tree:
-DFS
-BFS

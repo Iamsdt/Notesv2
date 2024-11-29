@@ -1,14 +1,10 @@
 ---
 Created by: Shudipto Trafder
-Created time: 
-Last edited time: 
-tags: 
-	- pyspark
-	- dataproc
-	- gcp
-	- de
+Created time: 2024-11-29T22:20:00
+tags:
+  - pyspark
+  - de
 ---
-
 Google Cloud Dataproc is a fully managed service designed to run Apache Spark, Apache Hadoop, and other Big Data tools and frameworks on Google Cloud. Dataproc simplifies data processing by automating cluster management, making it easy to run large-scale data processing jobs, whether they are batch, streaming, or interactive workloads. 
 
 Dataproc offers two primary deployment models:

@@ -85,7 +85,7 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 2. **Distribution by Degree Level**:
     - Count of candidates grouped by `degree` and `tier_level` (e.g., Tier 1 colleges).
 3. **Skills Analysis**:
-    - Top 10 technical and non-technical skills from the `technical_skills` and `non_technical_skills` fields.
+    - Top 10 technical and non-technical skills from the `skills` fields.
     - Skill popularity across candidates.
 4. **Notice Period Analysis**:
     - Average notice period across candidates.
