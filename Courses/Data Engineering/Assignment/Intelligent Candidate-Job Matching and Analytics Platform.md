@@ -3,7 +3,6 @@
 This project aims to develop a comprehensive data engineering pipeline that processes candidate and job data to deliver actionable insights. Using **Apache Spark** and **BigQuery** on **Google Cloud Platform (GCP)**, the platform enables advanced analytics and visualization via **BI tools** such as **Google Looker Studio**. The system’s primary objectives include matching candidates to jobs based on compatibility, analyzing hiring trends, and assessing company hiring efficiencies.
 
 ---
-
 ## **Key Objectives**
 1. **Data Processing**: Clean and transform raw data from multiple sources (e.g., candidates, job descriptions, education, work experience) into structured, analyzable formats.
 2. **Matching Algorithm**: Build a robust candidate-job matching algorithm using job description (JD) and curriculum vitae (CV) data to compute compatibility scores.
@@ -11,7 +10,6 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 4. **Visualization**: Use BI tools to create interactive dashboards highlighting hiring trends, skills distribution, and job metrics.
 
 ---
-
 ## **Technology Stack**
 - **Data Storage**: Google Cloud Storage (GCS), BigQuery
 - **Data Processing**: Apache Spark (PySpark)
@@ -83,17 +81,18 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 1. **Total Candidates Processed**:
     - Count of unique candidates (`cid`).
 2. **Distribution by Degree Level**:
-    - Count of candidates grouped by `degree` and `tier_level` (e.g., Tier 1 colleges).
-3. **Skills Analysis**:
+    - Count of candidates grouped by `degree`
+    - Top 10 Colleges
+1. **Skills Analysis**:
     - Top 10 technical and non-technical skills from the `skills` fields.
     - Skill popularity across candidates.
-4. **Notice Period Analysis**:
+2. **Notice Period Analysis**:
     - Average notice period across candidates.
-    - Count of candidates by notice period ranges (e.g., <30 days, 30–60 days, >60 days).
-5. **Experience Distribution**:
+    - Count of candidates by notice period ranges (e.g., <=7 days, <=15 days, <30 days, 30–60 days, >60 days). (7, 15, 30, 45, 60)
+3. **Experience Distribution**:
     - Candidates grouped by total experience (`total_exp` from work experience table).
-    - Count of freshers vs. experienced candidates.
-6. **Candidate Location Insights**:
+    - Count of freshers vs. experienced candidates. (1 or less than 1 consider as freshers)
+4. **Candidate Location Insights**:
     - Candidates grouped by `location` (from work experience).
 
 ---
@@ -103,12 +102,12 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 1. **Open vs. Filled JDs**:
     - Count of JDs with `jd_status_value` as open vs. filled.
 2. **Jobs by Location and Industry**:
-    - Distribution of JDs by `pref_location` and `company_name` industry (can be inferred from job names or company profiles).
+    - Distribution of JDs by `pref_location`.
 3. **Job Designation and Skills Mapping**:
     - Top required skills for each `designation` extracted from `technical_skills`.
     - JDs grouped by designations and their respective required skill sets.
 4. **Notice Period Trends**:
-    - Average required notice period across JDs.
+    - Average required notice period across JDs. (same as cv)
 5. **Popular Job Roles**:
     - Count of JDs grouped by `designation`.
 
@@ -117,9 +116,7 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 
 1. **Average Matching Score per JD**:
     - Aggregate `jd_cv_matching_score` by `jd_id` to compute average matching scores.
-2. **Top JDs by Candidate Interest**:
-    - Top 10 JDs based on the count of candidates with `is_interested` as true.
-3. **Skills Match Trends**:
+2. **Skills Match Trends**:
     - Average skill match percentage for JDs with higher matching scores.
 4. **Candidate-JD Overlap**:
     - Number of candidates interested in multiple JDs (grouped by `cid`).
@@ -127,13 +124,10 @@ This project aims to develop a comprehensive data engineering pipeline that proc
     - Compare top skills required in JDs vs. candidate skills to identify gaps.
     - For example:
 ```
-Missing Skills = JD Technical Skills - Candidate Technical Skills
+Missing Skills = JD Technical Skills - Candidate Skills
 ```
 6. **Candidate Performance**:
     - Ranking candidates based on their matching scores across multiple JDs.
-7. **Job Demand vs. Candidate Supply**:
-    - Ratio of open JDs to total candidates for specific skills, locations, or industries.
-
 ---
 #### **Company Efficiency Metrics**
 
@@ -145,8 +139,9 @@ Hiring Completion Rate = (Filled JDs / Total JDs) * 100
 ```
 2. **Time to Fill Positions**:
     - Average time taken to fill a JD (`updated_at - created_at` for status change).
-3. **Industry Trends**:
-    - Number of jobs posted by industry or company (`company_name`).
+
+3. Top 10 companies Candidate designations
+4. Top 10 companies Candidate avg matching scores
 
 ---
 ### **Data Aggregations for Metrics**

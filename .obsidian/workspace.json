@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e1684cf939d0f76f",
+        "id": "f3dd0d5536327960",
         "type": "tabs",
         "children": [
           {
-            "id": "0fabadd69795d8f2",
+            "id": "5e7c2ef9660bec49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
+                "file": "Backend/server/sentry setup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks - A Deep Dive into the Unified Analytics Platform"
+              "title": "sentry setup"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "letse",
+                "query": "lets",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md"
+                "file": "Backend/server/sentry setup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks - A Deep Dive into the Unified Analytics Platform"
+              "title": "Outline of sentry setup"
             }
           },
           {
@@ -166,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -176,8 +177,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -186,8 +187,18 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "38469fed9f6962be",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
         ],
@@ -209,20 +220,25 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
       "omnisearch:Omnisearch": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "marp-slides:Show Slide Preview": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "0fabadd69795d8f2",
+  "active": "5e7c2ef9660bec49",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-02 21.42.33.excalidraw.md",
+    "Database/pgsql backup docker.md",
+    "Courses/Data Engineering/Assignment/Intelligent Candidate-Job Matching and Analytics Platform.md",
+    "Courses/Data Engineering/BigQuery - A Comprehensive Guide.md",
+    "AI/Projects.md",
+    "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
     "Courses/Data Engineering/GCP - DataProc.md",
     "Excalidraw/Drawing 2024-11-27 19.47.50.excalidraw.md",
     "Training/Tree.md",
@@ -238,13 +254,10 @@
     "Training/SQL Query Optimization.md",
     "Courses/Data Engineering/PySpark.md",
     "Courses/Data Engineering/Data Modeling.md",
-    "Courses/Data Engineering/BigQuery - A Comprehensive Guide.md",
     "Courses/Data Engineering/Apache Hive.md",
     "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
     "Courses/Data Engineering/database/SQL Question Answer.md",
     "Courses/Data Engineering/database/MongoDB Cheat Sheet (Advance).md",
-    "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
-    "Courses/Data Engineering/Assignment/Intelligent Candidate-Job Matching and Analytics Platform.md",
     "Training/Tree (Java).md",
     "Excalidraw/attachments/Pasted Image 20241127200223_278.png",
     "Excalidraw/attachments/Pasted Image 20241127195529_166.png",
@@ -258,9 +271,6 @@
     "Courses/Data Engineering/Bricqs.md",
     "Excalidraw/whatsapp bot.md",
     "Excalidraw/Tree.md",
-    "Excalidraw/RecruiterAssistance.md",
-    "Excalidraw/Python.md",
-    "Excalidraw/LinkedList.md",
     "Courses/Data Engineering/database/attachments",
     "Untitled",
     "AI/Research",
