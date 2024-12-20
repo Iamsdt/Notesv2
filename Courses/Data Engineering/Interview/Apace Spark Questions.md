@@ -13,12 +13,8 @@ Resilient Distribution Dataset (RDD) is an abstraction of data in Apache Spark. 
 + Dataset: It is a collection of data similar to collections in Scala.
 + Immutable: Data in RDD cannot be modified after creation. But we can transform it using a Transformation.
 
-
-
 ## What is a Transformation in Apache Spark?
 Transformation in Apache Spark is a function that can be applied to a RDD. Output of a Transformation is another RDD. Transformation in Spark is a lazy operation. It means it is not executed immediately. Once we call an action, transformation is executed. A Transformation does not change the input RDD. We can also create a pipeline of certain Transformations to create a Data flow.
-
-
 
 ## What are security options in Apache Spark?
 Apache Spark provides following security options:
@@ -27,15 +23,11 @@ Encryption: Apache Spark supports encryption by SSL. We can use HTTPS protocol f
 Authentication: We can perform authentication by a shared secret in Apache Spark. We can use spark.authenticate	to configure authentication in Spark.
 Event Logging: If we use Event Logging, then we can set the permissions on the directory where event logs are	stored.	These permissions can ensure access control for Event log.
 
-
-
 ## How will you monitor Apache Spark?
 We can use the Web UI provided by SparkContext to monitor Spark. We can access this Web UI at port 4040 to get the useful information. Some of the information that we can monitor is:
 + Scheduler tasks and stages RDD	Sizes	and	Memory usage Spark	Environment Information
 + Executors Information
 + Spark also provides a Metrics library. This library can be used to send Spark information to HTTP, JMX, CSV files etc.This is another option to collect Spark runtime information for monitoring another dashboard tool.
-
-
 
 ## What are the main libraries of Apache Spark?
 Main libraries of Apache Spark are as follows:
@@ -45,15 +37,11 @@ Main libraries of Apache Spark are as follows:
 + Spark SQL: This is another popular component that is used	for	processing	SQL queries on Spark platform.
 + SparkR: This is a package in Spark to use Spark from R language. We can use R data frames, dplyr etc from this package. We can also start SparkR from RStudio.
 
-
-
 ## What are the main functions of Spark Core in Apache Spark?
 Spark Core is the central component of Apache Spark. It serves following functions:
 + Distributed Task Dispatching
 + Job Scheduling
 + I/O Functions
-
-
 
 ## How will you do memory tuning in Spark?
 
@@ -66,21 +54,15 @@ In case of memory tuning we have to take care of these points.
 - It is a good practice to use numeric IDs instead of Strings for keys.
 - We can also use JVM flag `-XX:+UseCompressedOops` to	make pointers be four bytes instead of eight.
 
-
-
 ## What are the two ways to create RDD in Spark?
 We can create RDD in Spark in following two ways:
 + Internal: We can parallelize an existing collection of data within our Spark Driver program and create a RDD out of it.
 + External: We can also create RDD by referencing a Dataset in an external data source like AWS S3, HDFS, HBASE etc.
 
-
-
 ## What are the main operations that can be done on a RDD in Apache Spark?
 There are two main operations that can be performed on a RDD in Spark:
 + Transformation: This is a function that is used to create a new RDD out of an existing RDD.
 + Action: This is a function that returns a value to Driver program after running a computation on RDD.
-
-
 
 ## What are the common Transformations in Apache Spark?
 Some common transformations in Apache Spark are as follows:
@@ -90,8 +72,6 @@ Some common transformations in Apache Spark are as follows:
 + Intersection(other Dataset):	This transformation gives the elements common to two datasets.
 + Pipe(command, [envVars]): This transformation passes each partition of the dataset through a shell command.
 
-
-
 ## What are the common Actions in Apache Spark?
 Some commonly used Actions in Apache Spark are as follows:
 + Reduce(func): This Action aggregates the elements of a dataset by using func function.
@@ -100,7 +80,6 @@ Some commonly used Actions in Apache Spark are as follows:
 + First(): This action gives the first element of a collection.
 + Take(n): This action gives the first n elements of dataset.
 + Foreach(func): This action runs each element in dataset through a for loop and executes function func on each element.
-
 
 ## What is a Shuffle operation in Spark?
 Shuffle operation is used in Spark to re-distribute data across multiple partitions. It is a costly and complex operation. In general a single task in Spark operates on elements in one partition. To execute shuffle, we have to run an operation on all elements of all partitions. It is also called all-to-all operation.
@@ -699,29 +678,20 @@ Scheduling, distributing and monitoring jobs on a cluster Interacting with stora
 Apache defines PairRDD functions class as class PairRDDFunctions[K, V] extends Logging with HadoopMapReduceUtil with Serializable
 Special operations can be performed on RDDs in Spark using key/value pairs and such RDDs are referred to as Pair RDDs. Pair RDDs allow users to access each key in parallel. They have a reduceByKey() method that collects data based on each key and a join() method that combines different RDDs together, based on the elements having the same key.
 
-
-
 ## How is Streaming implemented in Spark? Explain with examples.
 Spark Streaming is used for processing real-time streaming data. Thus it is a useful addition to the core Spark API. It enables high-throughput and fault-tolerant stream processing of live data streams. The fundamental stream unit is DStream which is basically a series of RDDs (Resilient Distributed Datasets) to process the real-time data. The data from different sources like Flume, HDFS is streamed and finally processed to file systems, live dashboards and databases. It is similar to batch processing as the input data is divided into streams like batches.
-
-
 
 ## Is there an API for implementing graphs in Spark?
 GraphX is the Spark API for graphs and graph-parallel computation. Thus, it extends the Spark RDD with a Resilient Distributed Property Graph.
 The property graph is a directed multi-graph which can have multiple edges in parallel. Every edge and vertex have user defined properties associated with it. Here, the parallel edges allow multiple relationships between the same vertices. At a high-level, GraphX extends the Spark RDD abstraction by introducing the Resilient Distributed Property Graph: a directed multigraph with properties attached to each vertex and edge.
 To support graph computation, GraphX exposes a set of fundamental operators (e.g., subgraph, joinVertices, and mapReduceTriplets) as well as an optimized variant of the Pregel API. In addition, GraphX includes a growing collection of graph algorithms and builders to simplify graph analytics tasks.
 
-
-
 ## What is PageRank in GraphX?
 PageRank measures the importance of each vertex in a graph, assuming an edge from u to v represents an endorsement of v’s importance by u. For example, if a Twitter user is followed by many others, the user will be ranked highly.
 GraphX comes with static and dynamic implementations of PageRank as methods on the PageRank Object. Static PageRank runs for a fixed number of iterations, while dynamic PageRank runs until the ranks converge (i.e., stop changing by more than a specified tolerance). GraphOps allows calling these algorithms directly as methods on Graph.
 
-
-
 ## How is machine learning implemented in Spark?
 MLlib is scalable machine learning library provided by Spark. It aims at making machine learning easy and scalable with common learning algorithms and use cases like clustering, regression filtering, dimensional reduction, and alike.
-
 
 
 ## Is there a module to implement SQL in Spark? How does it work?
@@ -732,8 +702,6 @@ The following are the four libraries of Spark SQL.
 + DataFrame API
 + Interpreter & Optimizer
 + SQL Service
-
-
 
 ## What are receivers in Apache Spark Streaming?
 Receivers are those entities that consume data from different data sources and then move them to Spark for processing. They are created by using streaming contexts in the form of long-running tasks that are scheduled for operating in a round-robin fashion. Each receiver is configured to use up only a single core. The receivers are made to run on various executors to accomplish the task of data streaming. There are two types of receivers depending on how the data is sent to Spark:
@@ -753,13 +721,9 @@ Receivers are those entities that consume data from different data sources and t
 + What are the data formats supported by Spark?
   Spark supports both the raw files and the structured file formats for efficient reading and processing. File formats like paraquet, JSON, XML, CSV, RC, Avro, TSV, etc are supported by Spark.
 
-
-
 ## What do you understand by Shuffling in Spark?
 The process of redistribution of data across different partitions which might or might not cause data movement across the JVM processes or the executors on the separate machines is known as shuffling/repartitioning. Partition is nothing but a smaller logical division of data.
 It is to be noted that Spark has no control over what partition the data gets distributed across.
-
-
 
 ## How is Apache Spark different from MapReduce?
 + MapReduce
@@ -776,12 +740,8 @@ It is to be noted that Spark has no control over what partition the data gets di
     + Spark supports in-memory data storage and caching and makes it a low latency computation framework.
     + Spark has its own job scheduler due to the in-memory data computation.
 
-
-
 ## Explain the working of Spark with the help of its architecture.
 Spark applications are run in the form of independent processes that are well coordinated by the Driver program by means of a SparkSession object. The cluster manager or the resource manager entity of Spark assigns the tasks of running the Spark jobs to the worker nodes as per one task per partition principle. There are various iterations algorithms that are repeatedly applied to the data to cache the datasets across various iterations. Every task applies its unit of operations to the dataset within its partition and results in the new partitioned dataset. These results are sent back to the main driver application for further processing or to store the data on the disk. The following diagram illustrates this working as described above:
-
-
 
 ## What is the working of DAG in Spark?
 DAG stands for Direct Acyclic Graph which has a set of finite vertices and edges. The vertices represent RDDs and the edges represent the operations to be performed on RDDs sequentially. The DAG created is submitted to the DAG Scheduler which splits the graphs into stages of tasks based on the transformations applied to the data. The stage view has the details of the RDDs of that stage.
@@ -794,21 +754,15 @@ The stages are then passed to the Task Scheduler which launches the task via the
 The worker nodes then execute the task.
 Each RDD keeps track of the pointer to one/more parent RDD along with its relationship with the parent. For example, consider the operation val childB=parentA.map() on RDD, then we have the RDD childB that keeps track of its parentA which is called RDD lineage.
 
-
-
 ## Under what scenarios do you use Client and Cluster modes for deployment?
 In case the client machines are not close to the cluster, then the Cluster mode should be used for deployment. This is done to avoid the network latency caused while communication between the executors which would occur in the Client mode. Also, in Client mode, the entire process is lost if the machine goes offline.
 If we have the client machine inside the cluster, then the Client mode can be used for deployment. Since the machine is inside the cluster, there won’t be issues of network latency and since the maintenance of the cluster is already handled, there is no cause of worry in cases of failure.
-
-
 
 ## What is Spark Streaming and how is it implemented in Spark?
 Spark Streaming is one of the most important features provided by Spark. It is nothing but a Spark API extension for supporting stream processing of data from different sources.
 Data from sources like Kafka, Kinesis, Flume, etc are processed and pushed to various destinations like databases, dashboards, machine learning APIs, or as simple as file systems. The data is divided into various streams (similar to batches) and is processed accordingly.
 Spark streaming supports highly scalable, fault-tolerant continuous stream processing which is mostly used in cases like fraud detection, website monitoring, website click baits, IoT (Internet of Things) sensors, etc.
 Spark Streaming first divides the data from the data stream into batches of X seconds which are called Dstreams or Discretized Streams. They are internally nothing but a sequence of multiple RDDs. The Spark application does the task of processing these RDDs using various Spark APIs and the results of this processing are again returned as batches. The following diagram explains the workflow of the spark streaming process.
-
-
 
 ## What can you say about Spark Datasets?
 Spark Datasets are those data structures of SparkSQL that provide JVM objects with all the benefits (such as data manipulation using lambda functions) of RDDs alongside Spark SQL-optimised execution engine. This was introduced as part of Spark since version 1.6.
@@ -827,8 +781,6 @@ Persistent storage qualified: Since the datasets are both queryable and serializ
 Less Memory Consumed: Spark uses the feature of caching to create a more optimal data layout. Hence, less memory is consumed.
 Single Interface Multiple Languages: Single API is provided for both Java and Scala languages. These are widely used languages for using Apache Spark. This results in a lesser burden of using libraries for different types of inputs.
 
-
-
 ## Define Spark DataFrames.
 Spark Dataframes are the distributed collection of datasets organized into columns similar to SQL. It is equivalent to a table in the relational database and is mainly optimized for big data operations.
 Dataframes can be created from an array of data from different data sources such as external databases, existing RDDs, Hive Tables, etc. Following are the features of Spark Dataframes:
@@ -837,12 +789,8 @@ They support different data formats like CSV, Avro, elastic search, etc, and var
 By making use of SparkSQL catalyst optimizer, state of art optimization is achieved.
 It is possible to easily integrate Spark Dataframes with major Big Data tools using SparkCore.
 
-
-
 ## Define Executor Memory in Spark
 The applications developed in Spark have the same fixed cores count and fixed heap size defined for spark executors. The heap size refers to the memory of the Spark executor that is controlled by making use of the property spark.executor.memory that belongs to the -executor-memory flag. Every Spark applications have one allocated executor on each worker node it runs. The executor memory is a measure of the memory consumed by the worker node that the application utilizes.
-
-
 
 ## What are the functions of SparkCore?
 SparkCore is the main engine that is meant for large-scale distributed and parallel data processing. The Spark core consists of the distributed execution engine that offers various APIs in Java, Python, and Scala for developing distributed ETL applications.
@@ -852,12 +800,8 @@ Memory management and Storage system interactions
 Job monitoring, scheduling, and distribution
 Basic I/O functions
 
-
-
 ## What do you understand by worker node?
 Worker nodes are those nodes that run the Spark application in a cluster. The Spark driver program listens for the incoming connections and accepts them from the executors addresses them to the worker nodes for execution. A worker node is like a slave node where it gets the work from its master node and actually executes them. The worker nodes do data processing and report the resources used to the master. The master decides what amount of resources needs to be allocated and then based on their availability, the tasks are scheduled for the worker nodes by the master.
-
-
 
 ## What are some demerits of using Spark in applications?
 Despite Spark being the powerful data processing engine, there are certain demerits to using Apache Spark in applications. Some of them are:
@@ -869,21 +813,15 @@ While using files present on the path of the local filesystem, the files must be
 One of the biggest problems while using Spark is when using a large number of small files. When Spark is used with Hadoop, we know that HDFS gives a limited number of large files instead of a large number of small files. When there is a large number of small gzipped files, Spark needs to uncompress these files by keeping them on its memory and network. So large amount of time is spent in burning core capacities for unzipping the files in sequence and performing partitions of the resulting RDDs to get data in a manageable format which would require extensive shuffling overall. This impacts the performance of Spark as much time is spent preparing the data instead of processing them.
 Spark doesn’t work well in multi-user environments as it is not capable of handling many users concurrently.
 
-
-
 ## How can the data transfers be minimized while working with Spark?
 Data transfers correspond to the process of shuffling. Minimizing these transfers results in faster and reliable running Spark applications. There are various ways in which these can be minimized. They are:
 + Usage of Broadcast Variables: Broadcast variables increases the efficiency of the join between large and small RDDs.
 + Usage of Accumulators: These help to update the variable values parallelly during execution.
   Another common way is to avoid the operations which trigger these reshuffles.
 
-
-
 ## What is SchemaRDD in Spark RDD?
 SchemaRDD is an RDD consisting of row objects that are wrappers around integer arrays or strings that has schema information regarding the data type of each column. They were designed to ease the lives of developers while debugging the code and while running unit test cases on the SparkSQL modules. They represent the description of the RDD which is similar to the schema of relational databases. SchemaRDD also provides the basic functionalities of the common RDDs along with some relational query interfaces of SparkSQL.
 Consider an example. If you have an RDD named Person that represents a person’s data. Then SchemaRDD represents what data each row of Person RDD represents. If the Person has attributes like name and age, then they are represented in SchemaRDD.
-
-
 
 ## What module is used for implementing SQL in Apache Spark?
 Spark provides a powerful module called SparkSQL which performs relational data processing combined with the power of the functional programming feature of Spark. This module also supports either by means of SQL or Hive Query Language. It also provides support for different data sources and helps developers write powerful SQL queries using code transformations.
@@ -899,8 +837,6 @@ The four major libraries of SparkSQL are:
 
 It is recommended to use SparkSQL inside the Spark applications as it empowers the developers to load the data, query the data from databases and write the results to the destination.
 
-
-
 ## What are the steps to calculate the executor memory?
 Consider you have the below details regarding the cluster:
 Number of nodes = 10
@@ -913,8 +849,6 @@ Hence to calculate the number of executors, we follow the below approach:
 Number of executors = Number of cores/Concurrent Task = 15/5 = 3
 Number of executors = Number of nodes * Number of executor in each node = 10 * 3 = 30 executors per Spark job
 
-
-
 ## Why do we need broadcast variables in Spark?
 Broadcast variables let the developers maintain read-only variables cached on each machine instead of shipping a copy of it with tasks. They are used to give every node copy of a large input dataset efficiently. These variables are broadcasted to the nodes using different algorithms to reduce the cost of communication.
 Differentiate between Spark Datasets, Dataframes and RDDs.
@@ -924,16 +858,12 @@ Optimization	Datasets make use of catalyst optimizers for optimization.	Datafram
 Schema Projection	Datasets find out schema automatically using SQL Engine.	Dataframes also find the schema automatically.	Schema needs to be defined manually in RDDs.
 Aggregation Speed	Dataset aggregation is faster than RDD but slower than Dataframes.	Aggregations are faster in Dataframes due to the provision of easy and powerful APIs.	RDDs are slower than both the Dataframes and the Datasets while performing even simple operations like data grouping.
 
-
-
 ## Can Apache Spark be used along with Hadoop? If yes, then how?
 Yes! The main feature of Spark is its compatibility with Hadoop. This makes it a powerful framework as using the combination of these two helps to leverage the processing capacity of Spark by making use of the best of Hadoop’s YARN and HDFS features.
 Hadoop can be integrated with Spark in the following ways:
 HDFS: Spark can be configured to run atop HDFS to leverage the feature of distributed replicated storage.
 MapReduce: Spark can also be configured to run alongside the MapReduce in the same or different processing framework or Hadoop cluster. Spark and MapReduce can be used together to perform real-time and batch processing respectively.
 YARN: Spark applications can be configured to run on YARN which acts as the cluster management framework.
-
-
 
 ## What are Sparse Vectors? How are they different from dense vectors?
 Sparse vectors consist of two parallel arrays where one array is for storing indices and the other for storing values. These vectors are used to store non-zero values for saving space.
@@ -945,12 +875,8 @@ Dense vectors can be defines as follows:
 val denseVec = Vectors.dense(4405d,260100d,400d,5.0,4.0,198.0,9070d,1.0,1.0,2.0,0.0)
 Usage of sparse or dense vectors does not impact the results of calculations but when used inappropriately, they impact the memory consumed and the speed of calculation.
 
-
-
 ## How are automatic clean-ups triggered in Spark for handling the accumulated metadata?
 The clean-up tasks can be triggered automatically either by setting spark.cleaner.ttl parameter or by doing the batch-wise division of the long-running jobs and then writing the intermediary results on the disk.
-
-
 
 ## How is Caching relevant in Spark Streaming?
 Spark Streaming involves the division of data stream’s data into batches of X seconds called DStreams. These DStreams let the developers cache the data into the memory which can be very useful in case the data of DStream is used for multiple computations. The caching of data can be done using the cache() method or using persist() method by using appropriate persistence levels. The default persistence level value for input streams receiving data over the networks such as Kafka, Flume, etc is set to achieve data replication on 2 nodes to accomplish fault tolerance.
@@ -963,22 +889,14 @@ The main advantages of caching are:
 + Time-efficient: The computation reusage leads to saving a lot of time.
 + More Jobs Achieved: By saving time of computation execution, the worker nodes can perform/execute more jobs.
 
-
-
 ## Define Piping in Spark.
 Apache Spark provides the pipe() method on RDDs which gives the opportunity to compose different parts of occupations that can utilize any language as needed as per the UNIX Standard Streams. Using the pipe() method, the RDD transformation can be written which can be used for reading each element of the RDD as String. These can be manipulated as required and the results can be displayed as String.
-
-
 
 ## What API is used for Graph Implementation in Spark?
 Spark provides a powerful API called GraphX that extends Spark RDD for supporting graphs and graph-based computations. The extended property of Spark RDD is called as Resilient Distributed Property Graph which is a directed multi-graph that has multiple parallel edges. Each edge and the vertex has associated user-defined properties. The presence of parallel edges indicates multiple relationships between the same set of vertices. GraphX has a set of operators such as subgraph, mapReduceTriplets, joinVertices, etc that can support graph computation. It also includes a large collection of graph builders and algorithms for simplifying tasks related to graph analytics.
 
-
-
 ## How can you achieve machine learning in Spark?
 Spark provides a very robust, scalable machine learning-based library called MLlib. This library aims at implementing easy and scalable common ML-based algorithms and has the features like classification, clustering, dimensional reduction, regression filtering, etc. More information about this library can be obtained in detail from Spark’s official documentation site here: https://spark.apache.org/docs/latest/ml-guide.html
-
-
 
 ## What are the limitations of Spark?
 Does not have its file management system. Thus, it needs to integrate with Hadoop or other cloud-based data platforms.
@@ -986,8 +904,6 @@ In-memory capability can become a bottleneck. Especially when it comes to cost-e
 Memory consumption is very high. And the issues for the same are not handled in a user-friendly manner. d. It requires large data.
 MLlib lack in some available algorithms, for example, Tanimoto distance.
 Read more Apache Spark Limitations in detail.
-
-
 
 ## Compare Hadoop and Spark.
 + Cost Efficient – In Hadoop, during replication, a large number of servers, huge amount of storage, and the large data center is required. Thus, installing and using Apache Hadoop is expensive. While using Apache Spark is a cost effective solution for big data environment.
@@ -1008,12 +924,8 @@ Read more Apache Spark Limitations in detail.
 + Iterative Processing – In Apache Spark, the data iterates in batches. Here processing and scheduling of each iteration are separate. While in Apache Hadoop there is no provision for iterative processing.
 + Latency – The time taken for processing by Apache Spark is less as compared to Hadoop since it caches its data on memory by means of RDD, thus the latency of Apache Spark is less as compared to Hadoop.
 
-
-
 ## What is lazy evaluation in Spark?
 lazy evaluation known as call-by-need is a strategy that delays the execution until one requires a value. The transformation in Spark is lazy in nature. Spark evaluate them lazily. When we call some operation in RDD it does not execute immediately; Spark maintains the graph of which operation it demands. We can execute the operation at any instance by calling the action on the data. The data does not loads until it is necessary.
-
-
 
 ## What are the benefits of lazy evaluation?
 Using lazy evaluation we can:
@@ -1022,12 +934,8 @@ Using lazy evaluation we can:
 + Reduces the time and space complexity.
 + provides the optimization by reducing the number of queries.
 
-
-
 ## What do you mean by Persistence?
 RDD persistence is an optimization technique which saves the result of RDD evaluation. Using this we save the intermediate result for further use. It reduces the computation overhead. We can make persisted RDD through cache() and persist() methods. It is a key tool for the interactive algorithm. Because, when RDD is persisted each node stores any partition of it that it computes in memory. Thus makes it reusable for future use. This process speeds up the further computation ten times.
-
-
 
 ## Explain the run time architecture of Spark?
 The components of the run-time architecture of Spark are as follows:
@@ -1037,8 +945,6 @@ The components of the run-time architecture of Spark are as follows:
   There are two main roles of the executors:
 + Runs the task that makes up the application and returns the result to the driver.
 + Provide in-memory storage for RDDs that the user program cache.
-
-
 
 ## What is the difference between DSM and RDD?
 a) READ
@@ -1060,32 +966,22 @@ f) Behavior if not enough RAM:
 RDD: If there is not enough space to store RDD in RAM then the RDDs are shifted to disk.
 Distributed Shared Memory: In this type of system the performance decreases if the RAM runs out of storage.
 
-
-
 ## How can data transfer be minimized when working with Apache Spark?
 By minimizing data transfer and avoiding shuffling of data we can increase the performance. In Apache Spark, we can minimize the data transfer in three ways:
 By using a broadcast variable – Since broadcast variable increases the efficiency of joins between small and large RDDs. the broadcast variable allows keeping a read-only variable cached on every machine in place of shipping a copy of it with tasks. We create broadcast variable v by calling SparlContext.broadcast(v) and we can access its value by calling the value method.
 Using Accumulator – Using accumulator we can update the value of a variable in parallel while executing. Accumulators can only be added through the associative and commutative operation. We can also implement counters (as in MapReduce) or sums using an accumulator. Users can create named or unnamed accumulator. We can create numeric accumulator by calling SparkContext.longAccumulator() or SparkContext.doubleAccumulator() for Long or Double respectively.
 By avoiding operations like ByKey, repartition or any other operation that trigger shuffle. we can minimize the data transfer.
 
-
-
 ## How does Apache Spark handles accumulated Metadata?
 By triggering automatic cleanup Spark handles the automatic Metadata. We can trigger cleanup by setting the parameter “spark.cleaner.ttl“. the default value for this is infinite. It tells for how much duration Spark will remember the metadata. It is periodic cleaner. And also ensure that metadata older than the set duration will vanish. Thus, with its help, we can run Spark for many hours.
-
-
 
 ## What are the common faults of the developer while using Apache Spark?
 The common mistake by developers are:
 Customer hit web-service several time by using multiple clusters.
 Customer runs everything on local node instead of distributing it.
 
-
-
 ## Which among the two is preferable for the project- Hadoop MapReduce or Apache Spark?
 The answer to this question depends on the type of project one has. As we all know Spark makes use of a large amount of RAM and also needs a dedicated machine to provide an effective result. Thus the answer depends on the project and the budget of the organization.
-
-
 
 ## List the popular use cases of Apache Spark.
 The most popular use-cases of Apache Spark are:
@@ -1094,8 +990,6 @@ The most popular use-cases of Apache Spark are:
 3. interactive Analysis
 4. fog computing
 5. Using Spark in the real world
-
-
 
 ## What is Spark.executor.memory in a Spark Application?
 The default value for this is 1 GB. It refers to the amount of memory that will be used per executor process.
@@ -1106,12 +1000,8 @@ Follow this link to read more Spark Basic interview Questions with Answers.
 b. Spark SQL Interview Questions and Answers
 In this section, we will discuss some basic Spark SQL Interview Questions and Answers.
 
-
-
 ## What is DataFrames?
 It is a collection of data which organize in named columns. It is theoretically equivalent to a table in relational database. But it is more optimized. Just like RDD, DataFrames evaluates lazily. Using lazy evaluation we can optimize the execution. It optimizes by applying the techniques such as bytecode generation and predicate push-downs.
-
-
 
 ## What are the advantages of DataFrame?
 It makes large data set processing even easier. Data Frame also allows developers to impose a structure onto a distributed collection of data. As a result, it allows higher-level abstraction.
@@ -1122,12 +1012,8 @@ It provides Hive compatibility. As a result, we can run unmodified Hive queries 
 Catalyst tree transformation uses DataFrame in four phases: a) Analyze logical plan to solve references. b) Logical plan optimization c) Physical planning d) Code generation to compile part of the query to Java bytecode.
 It can scale from kilobytes of data on the single laptop to petabytes of data on the large cluster.
 
-
-
 ## What is DataSet?
 Spark Datasets are the extension of Dataframe API. It creates object-oriented programming interface and type-safety. Dataset is Spark 1.6 release. It makes use of Spark’s catalyst optimizer. It reveals expressions and data fields to a query optimizer. Dataset also influences fast in-memory encoding. It also provides provision for compile time type-safety. We can check for errors in an application when they run.
-
-
 
 ## What are the advantages of DataSets?
 It provides run-time type safety.
@@ -1136,8 +1022,6 @@ It provides a custom view of structured and semi-structured data.
 It owns rich semantics and an easy set of domain-specific operations, as a result, it facilitates the use of structured data.
 Dataset API decreases the use of memory. As Spark knows the structure of data in the dataset, thus it creates an optimal layout in memory while caching.
 
-
-
 ## Explain Catalyst framework.
 The Catalyst is a framework which represents and manipulate a DataFrame graph. Data flow graph is a tree of relational operator and expressions. The three main features of catalyst are:
 It has a TreeNode library for transforming tree. They are expressed as Scala case classes.
@@ -1145,29 +1029,19 @@ A logical plan representation for relational operator.
 Expression library.
 The TreeNode builds a query optimizer. It contains a number of the query optimizer. Catalyst Optimizer supports both rule-based and cost-based optimization. In rule-based optimization the optimizer use set of rule to determine how to execute the query. While the cost based optimization finds the most suitable way to carry out SQL statement. In cost-based optimization, many plans are generates using rules. And after this, it computes their cost. Catalyst optimizer makes use of standard features of Scala programming like pattern matching.
 
-
-
 ## What is DStream?
 DStream is the high-level abstraction provided by Spark Streaming. It represents a continuous stream of data. Thus, DStream is internally a sequence of RDDs. There are two ways to create DStream:
 by using data from different sources such as Kafka, Flume, and Kinesis.
 by applying high-level operations on other DStreams.
 
-
-
 ## Explain different transformation on DStream.
 DStream is a basic abstraction of Spark Streaming. It is a continuous sequence of RDD which represents a continuous stream of data. Like RDD, DStream also supports many transformations which are available on normal Spark RDD. For example, map(func), flatMap(func), filter(func) etc.
-
-
 
 ## What is written ahead log or journaling?
 The write-ahead log is a technique that provides durability in a database system. It works in the way that all the operation that applies on data, we write it to write-ahead log. The logs are durable in nature. Thus, when the failure occurs we can easily recover the data from these logs. When we enable the write-ahead log Spark stores the data in fault-tolerant file system.
 
-
-
 ## Explain first operation in Apache Spark RDD.
 It is an action and returns the first element of the RDD.
-
-
 
 ## Describe join operation. How is outer join supported?
 join() is transformation and is in package org.apache.spark.rdd.pairRDDFunction
@@ -1175,8 +1049,6 @@ def join[W](other: RDD[(K, W)]): RDD[(K, (V, W))]Permalink
 Return an RDD containing all pairs of elements with matching keys in this and other.
 Each pair of elements will returns as a (k, (v1, v2)) tuple, where (k, v1) is in this and (k, v2) is in other. Performs a hash join across the cluster.
 It is joining two datasets. When called on datasets of type (K, V) and (K, W), returns a dataset of (K, (V, W)) pairs with all pairs of elements for each key. Outer joins are supported through leftOuterJoin, rightOuterJoin, and fullOuterJoin.
-
-
 
 ## Describe coalesce operation. When can you coalesce to a larger number of partitions? Explain.
 It is a transformation and it’s in a package org.apache.spark.rdd.ShuffledRDD
@@ -1186,8 +1058,6 @@ However, if you’re doing a drastic coalesce, e.g. to numPartitions = 1, this m
 Note: With shuffle = true, you can actually coalesce to a larger number of partitions. This is useful if you have a small number of partitions, say 100, potentially with a few partitions being abnormally large. Calling coalesce(1000, shuffle = true) will result in 1000 partitions with the data distributed using a hash partitioner.
 Coalesce() operation changes a number of the partition where data is stored. It combines original partitions to a new number of partitions, so it reduces the number of partitions. Coalesce() operation is an optimized version of repartition that allows data movement, but only if you are decreasing the number of RDD partitions. It runs operations more efficiently after filtering large datasets.
 
-
-
 ## Describe Partition and Partitioner in Apache Spark.
 Partition in Spark is similar to split in HDFS. A partition in Spark is a logical division of data stored on a node in the cluster. They are the basic units of parallelism in Apache Spark. RDDs are a collection of partitions. When some actions are executed, a task is launched per partition.
 By default, partitions are automatically created by the framework. However, the number of partitions in Spark are configurable to suit the needs. For the number of partitions, if spark.default.parallelism is set, then we should use the value from SparkContext defaultParallelism, othewrwise we should use the max number of upstream partitions. Unless spark.default.parallelism is set, the number of partitions will be the same as that of the largest upstream RDD, as this would least likely cause out-of-memory errors.
@@ -1195,16 +1065,14 @@ A partitioner is an object that defines how the elements in a key-value pair RDD
 We should choose a partitioner to use for a cogroup-like operations. If any of the RDDs already has a partitioner, we should choose that one. Otherwise, we use a default HashPartitioner.
 
 There are three types of partitioners in Spark :
-Hash Partitioner
-Range Partitioner
-Custom Partitioner
+	Hash Partitioner
+	Range Partitioner
+	Custom Partitioner
 Hash – Partitioner: Hash- partitioning attempts to spread the data evenly across various partitions based on the key.
 Range – Partitioner: In Range- Partitioning method, tuples having keys with same range will appear on the same machine.
 RDDs can create with specific partitioning in two ways :
-i) Providing explicit partitioner by calling partitionBy method on an RDD
-ii) Applying transformations that return RDDs with specific partitioners.
-
-
+	i) Providing explicit partitioner by calling partitionBy method on an RDD
+	ii) Applying transformations that return RDDs with specific partitioners.
 
 ## How can you manually partition the RDD?
 When we create the RDD from a file stored in HDFS.
@@ -1215,15 +1083,11 @@ data = context.textFile("/user/dataflair/file-name", 20)
 It will create 20 partitions for the file. ie for each block 2 partitions will create.
 NOTE: It is often recommended to have more no of partitions than no of the block, it improves the performance
 
-
-
 ## Explain API create Or Replace TempView.
 It’s basic Dataset function and under org.apache.spark.sql
 def createOrReplaceTempView(viewName: String): Unit
 Creates a temporary view using the given name.
 scala> df.createOrReplaceTempView("titanicdata")
-
-
 
 ## What are the various advantages of DataFrame over RDD in Apache Spark?
 DataFrames are the distributed collection of data. In DataFrame, data is organized into named columns. It is conceptually similar to a table in a relational database.
@@ -1231,8 +1095,6 @@ we can construct DataFrames from a wide array of sources. Such as structured dat
 As same as RDDs, DataFrames are evaluated lazily(Lazy Evaluation). In other words, computation only happens when an action (e.g. display result, save output) is required.
 Out of the box, DataFrame supports reading data from the most popular formats, including JSON files, Parquet files, Hive tables. Also, can read from distributed file systems (HDFS), local file systems, cloud storage (S3), and external relational database systems through JDBC. In addition, through Spark SQL’s external data sources API, DataFrames can extend to support any third-party data formats or sources. Existing third-party extensions already include Avro, CSV, ElasticSearch, and Cassandra.
 There is much more to know about DataFrames. Refer link: Spark SQL DataFrame
-
-
 
 ## What is a DataSet and what are its advantages over DataFrame and RDD?
 In Apache Spark, Datasets are an extension of DataFrame API. It offers object-oriented programming interface. Through Spark SQL, it takes advantage of Spark’s Catalyst optimizer by exposing e data fields to a query planner.
@@ -1247,14 +1109,10 @@ As Dataset introduced after RDD and DataFrame, it clubs the features of both. It
    Hence, we have observed that Datasets provides a more functional programming interface to work with structured data.
    To know more detailed information about DataSets, refer link: Spark Dataset
 
-
-
 ## On what all basis can you differentiate RDD and DataFrame and DataSet?
 DataFrame: A Data Frame is used for storing data into tables. It is equivalent to a table in a relational database but with richer optimization. Spark DataFrame is a data abstraction and domain-specific language (DSL) applicable on a structure and semi-structured data. It is distributed the collection of data in the form of named column and row. It has a matrix-like structure whose column may be different types (numeric, logical, factor, or character ). We can say data frame has the two-dimensional array like structure where each column contains the value of one variable and row contains one set of values for each column and combines feature of list and matrices
 RDD is the representation of a set of records, immutable collection of objects with distributed computing. RDD is a large collection of data or RDD is an array of reference of partitioned objects. Each and every dataset in RDD is logically partitioned across many servers so that they can compute on different nodes of the cluster. RDDs are fault tolerant i.e. self-recovered/recomputed in the case of failure. The dataset can load externally by the users which can be in the form of JSON file, CSV file, text file or database via JDBC with no specific data structure.
 DataSet in Apache Spark, Datasets are an extension of DataFrame API. It offers object-oriented programming interface. Through Spark SQL, it takes advantage of Spark’s Catalyst optimizer by exposing e data fields to a query planner.
-
-
 
 ## Explain the level of parallelism in Spark Streaming.
 In order to reduce the processing time, one need to increase the parallelism. In Spark Streaming, there are three ways to increase the parallelism:
@@ -1262,8 +1120,6 @@ Increase the number of receivers : If there are too many records for single rece
 Re-partition the receive data : If one is not in a position to increase the no. of receivers in that case redistribute the data by re-partitioning.
 Increase parallelism in aggregation :
 for complete guide on Spark Streaming you may refer to Apache Spark-Streaming guide
-
-
 
 ## Discuss writeahead logging in Apache Spark Streaming.
 There are two types of failures in any Apache Spark job – Either the driver failure or the worker failure.
@@ -1275,19 +1131,13 @@ WAL can enable by performing the below:
 1. Setting the checkpoint directory, by using streamingContext.checkpoint(path)
 2. Enabling the WAL logging, by setting spark.stream.receiver.WriteAheadLog.enable to True.
 
-
-
 ## What do you mean by Speculative execution in Apache Spark?
 The Speculative task in Apache Spark is task that runs slower than the rest of the task in the job.It is health check process that verifies the task is speculated, meaning the task that runs slower than the median of successfully completed task in the task sheet. Such tasks are submitted to another worker. It runs the new copy in parallel rather than shutting down the slow task.
 
 In the cluster deployment mode, the thread starts as TaskSchedulerImp1with spark.speculation enabled. It executes periodically every spark.speculation.interval after the initial spark.speculation.interval passes.
 
-
-
 ## How do you parse data in XML? Which kind of class do you use with java to pass data?
 One way to parse the XML data in Java is to use the JDOM library. One can download it and import the JDOM library in your project. You can get help from Google. If still, required help post your problem in the forum. I will try to give you the solution. For Scala, Scala has the inbuilt library for XML parsing. Scala-xml_2.11-1.0.2 jar (please check them for new version if available).
-
-
 
 ## Explain Machine Learning library in Spark.
 It is a scalable machine learning library. It delivers both blazing speed (up to 100x faster than MapReduce) and high-quality algorithms (e.g., multiple iterations to increase accuracy). We can use this library in Java, Scala, and Python as part of Spark applications so that you can include it incomplete workflows. There are many tools, which are provided by MLlib. Such as-
@@ -1297,8 +1147,6 @@ Pipelines: Tools for constructing, evaluating, and tuning ML Pipelines.
 Persistence: Saving and load algorithms, models, and Pipelines.
 Utilities: Linear algebra, statistics, data handling, etc.
 For detailed insights, follow link: Apache Spark MLlib (Machine Learning Library)
-
-
 
 ## List various commonly used Machine Learning Algorithm.
 Basically, there are three types of Machine Learning Algorithms :
@@ -1318,57 +1166,35 @@ Dimensionality Reduction Algorithm
 Gradient Boost and Adaboost
 For what is MLlib see Apache Spark Ecosystem
 
-
-
 ## Explain the Parquet File format in Apache Spark. When is it the best to choose this?
 Parquet is the columnar information illustration that is that the best choice for storing long run massive information for analytics functions. It will perform each scan and write operations with Parquet file. It could be a columnar information storage format.
-
-
 
 ## What is Lineage Graph?
 The RDDs in Spark, depend on one or more other RDDs. The representation of dependencies in between RDDs is known as the lineage graph. Lineage graph information is used to compute each RDD on demand, so that whenever a part of persistent RDD is lost, the data that is lost can be recovered using the lineage graph information.
 
-
-
 ## How can you Trigger Automatic Cleanups in Spark to Handle Accumulated Metadata?
 You can trigger the clean-ups by setting the parameter spark.cleaner.ttl or by dividing the long running jobs into different batches and writing the intermediary results to the disk.
-
-
 
 ## What are the benefits of using Spark With Apache Mesos?
 It renders scalable partitioning among various Spark instances and dynamic partitioning between Spark and other big data frameworks.
 
-
-
 ## What is the Significance of Sliding Window Operation?
 Sliding Window controls transmission of data packets between various computer networks. Spark Streaming library provides windowed computations where the transformations on RDDs are applied over a sliding window of data. Whenever the window slides, the RDDs that fall within the particular window are combined and operated upon to produce new RDDs of the windowed DStream.
-
-
 
 ## When running Spark Applications is it necessary to install Spark on all Nodes of Yarn Cluster?
 Spark need not be installed when running a job under YARN or Mesos because Spark can execute on top of YARN or Mesos clusters without affecting any change to the cluster.
 
-
-
 ## What is Catalyst Framework?
 Catalyst framework is a new optimization framework present in Spark SQL. It allows Spark to automatically transform SQL queries by adding new optimizations to build a faster processing system.
-
-
 
 ## Which Spark Library allows reliable File Sharing at Memory Speed across different cluster frameworks?
 Tachyon
 
-
-
 ## Why is Blinkdb used?
 BlinkDB is a query engine for executing interactive SQL queries on huge volumes of data and renders query results marked with meaningful error bars. BlinkDB helps users balance query accuracy with response time.
 
-
-
 ## How can you compare Hadoop and Spark in terms of ease of use?
 Hadoop MapReduce requires programming in Java which is difficult, though Pig and Hive make it considerably easier. Learning Pig and Hive syntax takes time. Spark has interactive APIs for different languages like Java, Python or Scala and also includes Shark i.e. Spark SQL for SQL lovers - making it comparatively easier to use than Hadoop.
-
-
 
 ## What are the common mistakes developers make when running Spark Applications?
 Developers often make the mistake of:-
@@ -1376,14 +1202,10 @@ Hitting the web service several times by using multiple clusters.
 Run everything on the local node instead of distributing it.
 Developers need to be careful with this, as Spark makes use of memory for processing.
 
-
-
 ## What are the various Data Sources available in Sparksql?
 Parquet file
 JSON Datasets
 Hive tables
-
-
 
 ## What are the Key Features of Apache Spark that you like?
 Spark provides advanced analytic options like graph algorithms, machine learning, streaming data, etc
@@ -1391,11 +1213,8 @@ It has built-in APIs in multiple languages like Java, Scala, Python and R
 It has good performance gains, as it helps run an application in the Hadoop cluster ten times faster on disk and 100 times faster in memory.
 
 
-
 ## What do you understand by Pair Rdd?
 Special operations can be performed on RDDs in Spark using key/value pairs and such RDDs are referred to as Pair RDDs. Pair RDDs allow users to access each key in parallel. They have a reduceByKey () method that collects data based on each key and a join () method that combines different RDDs together, based on the elements having the same key.
-
-
 
 ## Explain about different Types of Transformations on Dstreams?
 - Stateless Transformations:
@@ -1404,9 +1223,7 @@ Special operations can be performed on RDDs in Spark using key/value pairs and s
 - Stateful Transformations:
   - Processing of the batch depends on the intermediary results of the previous batch.
   - Examples: Transformations that depend on sliding windows.
-
-
-
+  
 ## Explain about popular use cases of Apache Spark?
 Apache Spark is mainly used for:
 - Iterative machine learning.
@@ -1414,126 +1231,80 @@ Apache Spark is mainly used for:
 - Stream processing
 - Sensor data processing
 
-
-
 ## Is Apache Spark a good fit for reinforcement Learning?
 No. Apache Spark works well only for simple machine learning algorithms like clustering, regression, classification.
-
-
 
 ## What is Spark Core?
 It has all the basic functionalities of Spark, like - memory management, fault recovery, interacting with storage systems, scheduling tasks, etc.
 
-
-
 ## How can you remove the elements with a Key present in any other Rdd?
 Use the subtractByKey () function.
-
-
 
 ## What is the difference between Persist and Cache?
 persist () allows the user to specify the storage level where as cache () uses the default storage level.
 
-
-
 ## How Spark handles Monitoring and Logging in Standalone Mode?
 Spark has a web based user interface for monitoring the cluster in standalone mode that shows the cluster and job statistics. The log output for each job is written to the work directory of the slave nodes.
-
-
 
 ## Does Apache Spark provide check pointing?
 Lineage graphs are always useful to recover RDDs from a failure but this is generally time consuming if the RDDs have long lineage chains. Spark has an API for check pointing i.e. a REPLICATE flag to persist. However, the decision on which data to checkpoint - is decided by the user. Checkpoints are useful when the lineage graphs are long and have wide dependencies.
 
-
-
 ## How can you launch Spark Jobs inside Hadoop Mapreduce?
 Using SIMR (Spark in MapReduce) users can run any spark job inside MapReduce without requiring any admin rights.
-
-
 
 ## How can you achieve High Availability in Apache Spark?
 Implementing single node recovery with local file system
 Using StandBy Masters with Apache ZooKeeper.
 
-
-
 ## Hadoop uses Replication to achieve Fault Tolerance and how is this achieved in Apache Spark?
 Data storage model in Apache Spark is based on RDDs. RDDs help achieve fault tolerance through lineage. RDD always has the information on how to build from other datasets. If any partition of a RDD is lost due to failure, lineage helps build only that particular lost partition.
-
-
 
 ## Explain about Core Components of a distributed Spark Application?
 Driver: The process that runs the main () method of the program to create RDDs and perform transformations and actions on them.
 Executor: The worker processes that run the individual tasks of a Spark job.
 Cluster Manager: A pluggable component in Spark, to launch Executors and Drivers. The cluster manager allows Spark to run on top of other external managers like Apache Mesos or YARN.
 
-
-
 ## What do you understand by Lazy Evaluation?
 Spark is intellectual in the manner in which it operates on data. When you tell Spark to operate on a given dataset, it heeds the instructions and makes a note of it, so that it does not forget - but it does nothing, unless asked for the final result.
 When a transformation like map () is called on a RDD-the operation is not performed immediately. Transformations in Spark are not evaluated till you perform an action. This helps optimize the overall data processing workflow.
 
-
-
 ## Define a Worker Node?
 A node that can run the Spark application code in a cluster can be called as a worker node. A worker node can have more than one worker which is configured by setting the SPARK_ WORKER_INSTANCES property in the spark-env.sh file. Only one worker is started if the SPARK_ WORKER_INSTANCES property is not defined.
-
-
 
 ## What do you understand by Schemardd?
 An RDD that consists of row objects (wrappers around basic string or integer arrays) with schema information about the type of data in each column.
 
-
-
 ## What are the disadvantages of using Apache Spark over Hadoop Mapreduce?
 Apache spark does not scale well for compute intensive jobs and consumes large number of system resources. Apache Spark’s in-memory capability at times comes a major roadblock for cost efficient processing of big data. Also, Spark does have its own file management system and hence needs to be integrated with other cloud based data platforms or apache hadoop.
 
-
-
 ## Is it necessary to install Spark on all Nodes of Yarn Cluster while running Apache Spark on Yarn?
 No , it is not necessary because Apache Spark runs on top of YARN.
-
-
 
 ## What do you understand by Executor Memory in Spark Application?
 Every spark application has same fixed heap size and fixed number of cores for a spark executor. The heap size is what referred to as the Spark executor memory which is controlled with the spark.executor.memory property of the –executor-memory flag.
 Every spark application will have one executor on each worker node. The executor memory is basically a measure on how much memory of the worker node will the application utilize.
 
-
-
 ## What does the Spark Engine do?
 Spark engine schedules, distributes and monitors the data application across the spark cluster.
-
-
 
 ## What makes Apache Spark good at Low latency Workloads like Graph Processing and Machine Learning?
 Apache Spark stores data in-memory for faster model building and training. Machine learning algorithms require multiple iterations to generate a resulting optimal model and similarly graph algorithms traverse all the nodes and edges.
 These low latency workloads that need multiple iterations can lead to increased performance. Less disk access and  controlled network traffic make a huge difference when there is lots of data to be processed.
 
-
-
 ## What is Dstream in Apache Spark?
 Dstream stands for Discretized Stream. It is a sequence of Resilient Distributed Database (RDD) representing a continuous stream of data. There are several ways to create Dstream from various sources like HDFS, Apache Flume, Apache Kafka, etc.
-
-
 
 ## What do you understand by YARN?
 Just like in Hadoop, YARN is one of the key features in Apache Spark, which is used to provide a central and resource management platform to deliver scalable operations across the cluster. Spark can run on YARN, as the same way Hadoop Map Reduce can run on YARN.
 
-
-
 ## Is it necessary to install Spark on all nodes of the YARN cluster?
 No. It doesn't seem necessary to install Spark on all YARN cluster nodes because Spark runs on top of the YARN. Apache Spark runs independently from its installation. Spark provides some options to use YARN when dispatching jobs to the cluster, rather than its built-in manager or Mesos. Besides this, there are also some configurations to run YARN, such as master, deploy-mode, driver-memory, executor-memory, executor-cores, and queue.
-
-
 
 ## What are the different data sources available in SparkSQL?
 There are the following three data sources available in SparkSQL:
 JSON Datasets
 Hive tables
 Parquet file
-
-
 
 ## Which are some important internal daemons used in Apache Spark?
 Following are the important internal daemons used in Spark:
@@ -1545,17 +1316,11 @@ Worker
 Executor
 Tasks etc.
 
-
-
 ## What is the method to create a Data frame in Apache Spark?
 In Apache Spark, we can create a data frame using Tables in Hive and Structured data files.
 
-
-
 ## What do you understand by accumulators in Apache Spark?
 Accumulators are the write-only variables that are initialized once and sent to the workers. Then, these workers update based on the logic written, which will send back to the driver.
-
-
 
 ## What is the default level of parallelism in Apache Spark?
 If it is not specified, then the number of partitions is called the default level of parallelism in Apache Spark.
