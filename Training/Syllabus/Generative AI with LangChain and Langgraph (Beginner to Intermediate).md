@@ -7,7 +7,6 @@ tags:
   - syllabus
 ---
 
-
 **Course Duration**: 12 Weeks
 **Total Class Time per Week:** 10 hours
 

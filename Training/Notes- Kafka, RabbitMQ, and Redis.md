@@ -129,3 +129,11 @@ A SaaS company requires a reliable message broker for handling background jobs l
 You are building a high-traffic web application that requires real-time response for user sessions, counters, and caching. The application must store session data and provide quick access to frequently requested information. The data volume isn't huge, but low latency is critical to ensure a fast user experience. Persistence is important, but it’s acceptable for some temporary data to be lost during a failure.
 
 **Question:** How would Redis be useful in this scenario for real-time caching and session management? What are the benefits and trade-offs of using Redis in terms of throughput, simplicity, and persistence for this type of application?
+
+
+### Question 4:
+
+You are building a high-traffic application that requires real-time processing of events such as user activity tracking, log aggregation, and analytics. The application must handle a high volume of streaming data and ensure messages are processed in order with minimal delay. The system needs to be highly durable, ensuring that event data is not lost in the event of failures, while also allowing for scaling as the traffic grows.
+
+### Question 5:
+You are building a high-traffic application that requires real-time message delivery between services for tasks like user notifications, session management, and workflow coordination. The application demands low latency for processing messages and must guarantee that critical tasks are reliably delivered, while allowing for some flexibility in temporary message loss for less critical data. Scalability and efficient routing of messages to appropriate consumers are key.
