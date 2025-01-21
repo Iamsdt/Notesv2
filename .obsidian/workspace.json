@@ -4,38 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "74da81c5660a1b4f",
+        "id": "e62daa294e58db35",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a98c0b5b53a376",
+            "id": "c87927d66accad0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hire10x/Training 10X Project.md",
+                "file": "Courses/Data Engineering/snowflake/Snowflake.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Training 10X Project"
-            }
-          },
-          {
-            "id": "e98fcab8aa5186b2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Train10x.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Train10x"
+              "title": "Snowflake"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Train10x.md"
+                "file": "Courses/Data Engineering/snowflake/Snowflake.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Train10x"
+              "title": "Outline of Snowflake"
             }
           },
           {
@@ -241,14 +228,16 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "marp-slides:Show Slide Preview": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e98fcab8aa5186b2",
+  "active": "c87927d66accad0b",
   "lastOpenFiles": [
-    "Hire10x/Training 10X Project.md",
     "Excalidraw/Train10x.md",
+    "Courses/Data Engineering/snowflake/Snowflake.md",
+    "Excalidraw/Train10x.png",
+    "Courses/Data Engineering/snowflake",
+    "Hire10x/Training 10X Project.md",
     "Excalidraw/attachments/Pasted Image 20250120003024_416.png",
     "Excalidraw/attachments/Pasted Image 20250120000126_070.png",
     "Excalidraw/attachments/Pasted Image 20250120000019_681.png",
@@ -279,19 +268,16 @@
     "Courses/cs/OWSAP TOP 10.md",
     "Excalidraw/Resume.md",
     "Courses/cs/Introduction.md",
-    "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
     "Courses/cs",
     "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108210406.png",
     "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108205226.png",
     "Courses/Data Engineering/Data Bricks/attachments",
-    "Courses/Data Engineering/attachments/Pasted image 20241223182124.png",
     "Courses/DevOps, MLOPS/attachments",
     "Courses/DevOps, MLOPS",
     "lyrics",
     "Courses/Data Engineering/Data Bricks",
     "Courses/Data Engineering/attachments",
     "Excalidraw/attachments",
-    "Untitled.canvas",
-    "Courses/Data Engineering/database/attachments"
+    "Untitled.canvas"
   ]
 }

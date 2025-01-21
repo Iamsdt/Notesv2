@@ -4,6 +4,7 @@ User Types:
 2. Trainer
 3. Vendor
 4. Marketing
+5. Admin
 
 ## Student
 1. Dashboard (Performance, Marketing Efforts, How many applied, Mock Interview Date, How Many coding problems solved) + Coding Platform Link
