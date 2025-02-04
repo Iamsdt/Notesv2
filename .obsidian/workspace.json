@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e62daa294e58db35",
+        "id": "d8e5a678278b3eff",
         "type": "tabs",
         "children": [
           {
-            "id": "c87927d66accad0b",
+            "id": "39dbc9703043d5d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Data Engineering/snowflake/Snowflake.md",
+                "file": "Training/Interview/Sai Keertana Padmanabham (Questions).md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Snowflake"
+              "title": "Sai Keertana Padmanabham (Questions)"
             }
           }
         ]
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "letse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -129,7 +129,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -155,10 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Data Engineering/snowflake/Snowflake.md"
+                "file": "Training/Interview/Sai Keertana Padmanabham (Questions).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Snowflake"
+              "title": "Outline of Sai Keertana Padmanabham (Questions)"
             }
           },
           {
@@ -202,12 +207,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,13 +235,37 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "c87927d66accad0b",
+  "active": "39dbc9703043d5d0",
   "lastOpenFiles": [
-    "Excalidraw/Train10x.md",
+    "Training/Interview/Sai Keertana Padmanabham.md",
+    "Training/Interview/Keertana Feedback.md",
+    "Training/Interview/Sai Keertana Padmanabham (Questions).md",
+    "Courses/cs/Introduction.md",
+    "Courses/cs/OWSAP TOP 10.md",
+    "Training/LeetCode Patterns (Java).md",
+    "Training/LeetCode Patterns (Python).md",
+    "Excalidraw/Resume.md",
+    "Courses/Data Engineering/Interview/Databricks Interview Questions.md",
+    "Training/Interview",
+    "Courses/Data Engineering/Interview/Hadoop Interview Question.md",
+    "Courses/Data Engineering/Interview/TODO.md",
+    "Courses/Data Engineering/Interview/Snowflake.md",
+    "Courses/Data Engineering/Interview/Data-Proc Interview Questions.md",
+    "Courses/Data Engineering/Interview/Data Modeling Interview Questions.md",
+    "Courses/Data Engineering/Interview/Data Engineering.md",
+    "Courses/Data Engineering/Interview/Data Engineering Questions(companies).md",
+    "Courses/Data Engineering/Interview/Data Engineering (Scenario).md",
+    "Courses/Data Engineering/Interview/BigQuery Interview Questions.md",
+    "Courses/Data Engineering/Interview/Beam and Dataflow.md",
+    "Courses/Data Engineering/Interview/Apace Spark Questions.md",
     "Courses/Data Engineering/snowflake/Snowflake.md",
+    "Courses/Data Engineering/Data Modeling.md",
+    "Training/Java Threading - A Deep Dive.md",
+    "Excalidraw/Drawing 2025-01-30 19.53.53.excalidraw.md",
+    "Backend/JWT Benchmark.md",
+    "Courses/Data Engineering/Data Engineering Architecture.md",
     "Excalidraw/Train10x.png",
     "Courses/Data Engineering/snowflake",
-    "Hire10x/Training 10X Project.md",
     "Excalidraw/attachments/Pasted Image 20250120003024_416.png",
     "Excalidraw/attachments/Pasted Image 20250120000126_070.png",
     "Excalidraw/attachments/Pasted Image 20250120000019_681.png",
@@ -245,29 +273,7 @@
     "Excalidraw/attachments/Pasted Image 20250119171301_567.png",
     "Excalidraw/attachments/Pasted Image 20250119171105_578.png",
     "Excalidraw/attachments/Pasted Image 20250119122117_250.png",
-    "Excalidraw/Drawing 2025-01-06 18.10.16.excalidraw.md",
-    "Excalidraw/Interview Bot.md",
-    "Training/Syllabus/Cybersecurity Program Syllabus (v2).md",
-    "Training/Syllabus/Comprehensive Data Analysis Course Outline.md",
-    "Training/Syllabus/Comprehensive Cybersecurity Program v1.md",
-    "Courses/Data Engineering/Interview/Data-Proc Interview Questions.md",
-    "Courses/Data Engineering/Interview/Databricks Interview Questions.md",
-    "Courses/Data Engineering/Interview/Hadoop Interview Question.md",
-    "Courses/Data Engineering/mocs/Day 2.md",
-    "Courses/Data Engineering/Interview/Apace Spark Questions.md",
     "Courses/Data Engineering/mocs",
-    "Courses/Data Engineering/Apache Airflow.md",
-    "Courses/Data Engineering/Apache Airflow -  A Python Hands-On Guide.md",
-    "Courses/Data Engineering/Apache Hive.md",
-    "Courses/Data Engineering/BigQuery - A Comprehensive Guide.md",
-    "Courses/Data Engineering/Data Engineering Architecture.md",
-    "Courses/Data Engineering/Data Modeling.md",
-    "Training/Cloud Engeering.md",
-    "Training/System Design - Online Course App.md",
-    "Courses/Data Engineering/Assignment/Project - Building an ETL Pipeline for E-commerce Data.md",
-    "Courses/cs/OWSAP TOP 10.md",
-    "Excalidraw/Resume.md",
-    "Courses/cs/Introduction.md",
     "Courses/cs",
     "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108210406.png",
     "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108205226.png",
@@ -277,7 +283,6 @@
     "lyrics",
     "Courses/Data Engineering/Data Bricks",
     "Courses/Data Engineering/attachments",
-    "Excalidraw/attachments",
     "Untitled.canvas"
   ]
 }
