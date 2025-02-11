@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d8e5a678278b3eff",
+        "id": "6519afa883b79851",
         "type": "tabs",
         "children": [
           {
-            "id": "39dbc9703043d5d0",
+            "id": "1bd5672f445f10ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Training/Interview/Sai Keertana Padmanabham (Questions).md",
+                "file": "Learning Resources/All Courses/Reasoning with 01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sai Keertana Padmanabham (Questions)"
+              "title": "Reasoning with 01"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "letsen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Training/Interview/Sai Keertana Padmanabham (Questions).md",
+                "file": "Learning Resources/All Courses/Reasoning with 01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sai Keertana Padmanabham (Questions)"
+              "title": "Outline of Reasoning with 01"
             }
           },
           {
@@ -211,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,54 +237,53 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "39dbc9703043d5d0",
+  "active": "1bd5672f445f10ac",
   "lastOpenFiles": [
-    "Training/Interview/Sai Keertana Padmanabham.md",
-    "Training/Interview/Keertana Feedback.md",
-    "Training/Interview/Sai Keertana Padmanabham (Questions).md",
-    "Courses/cs/Introduction.md",
-    "Courses/cs/OWSAP TOP 10.md",
-    "Training/LeetCode Patterns (Java).md",
-    "Training/LeetCode Patterns (Python).md",
-    "Excalidraw/Resume.md",
-    "Courses/Data Engineering/Interview/Databricks Interview Questions.md",
+    "Learning Resources/books/How to Design a Good API and Why it Matters.pdf",
+    "Learning Resources/attachments/Pasted image 20240830171614.png",
+    "Learning Resources/attachments/Pasted image 20240830171501.png",
+    "Learning Resources/papers/genai/Agent Planning with World Knowledge Model.md",
+    "Learning Resources/papers/genai/Plan-and-Solve Prompting Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.md",
+    "Learning Resources/papers/genai/AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation.md",
+    "Learning Resources/papers/genai/REAC T SYNERGIZING REASONING AND ACTING INLANGUAGE MODELS.md",
+    "Learning Resources/papers/genai/SELF-DISCOVER Large Language Models Self-Compose Reasoning Structures.md",
+    "Learning Resources/papers/server/3593856.3595909.pdf",
+    "Learning Resources/papers/server/Modular Monolith.md",
+    "Learning Resources/Paper.md",
+    "Learning Resources/Courses.md",
+    "Learning Resources/attachments/Pasted image 20240925182224.png",
+    "Learning Resources/attachments/Pasted image 20240903164545.png",
+    "Learning Resources/attachments/Pasted image 20240903162429.png",
+    "Learning Resources/attachments/Pasted image 20240903162334.png",
+    "Learning Resources/attachments/Pasted image 20240903161658.png",
+    "Learning Resources/attachments/Pasted image 20240903160911.png",
+    "Learning Resources/attachments/Pasted image 20240830172201.png",
+    "Learning Resources/All Courses/Reasoning with 01.md",
+    "Religion/Findings.md",
+    "Religion/Glory.md",
+    "Religion/Was Mata Radha was Shri Krishna's.md",
+    "Courses/Data Engineering/database/Casandra.md",
+    "Courses/Data Engineering/database/Casandra Cheat Sheet.md",
+    "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
+    "Courses/Data Engineering/database/SQL Question Answer.md",
+    "Training/Interview/Veera Lokesh Reddy.md",
+    "Training/Interview/Veera Lokesh Reddy Feedback.md",
+    "Untitled.md",
+    "Backend/server/sentry setup.md",
+    "Training/Interview/VARSHA REDDY RAVULA.md",
+    "Training/Interview/VARSHA Feedback.md",
+    "Training/Interview/Nikhitha Nandikonda.md",
+    "Training/Interview/Prudhvi Nelaturi Feedback.md",
+    "Training/Interview/Prudhvi Nelaturi (Questions).md",
     "Training/Interview",
-    "Courses/Data Engineering/Interview/Hadoop Interview Question.md",
-    "Courses/Data Engineering/Interview/TODO.md",
-    "Courses/Data Engineering/Interview/Snowflake.md",
-    "Courses/Data Engineering/Interview/Data-Proc Interview Questions.md",
-    "Courses/Data Engineering/Interview/Data Modeling Interview Questions.md",
-    "Courses/Data Engineering/Interview/Data Engineering.md",
-    "Courses/Data Engineering/Interview/Data Engineering Questions(companies).md",
-    "Courses/Data Engineering/Interview/Data Engineering (Scenario).md",
-    "Courses/Data Engineering/Interview/BigQuery Interview Questions.md",
-    "Courses/Data Engineering/Interview/Beam and Dataflow.md",
-    "Courses/Data Engineering/Interview/Apace Spark Questions.md",
-    "Courses/Data Engineering/snowflake/Snowflake.md",
-    "Courses/Data Engineering/Data Modeling.md",
-    "Training/Java Threading - A Deep Dive.md",
-    "Excalidraw/Drawing 2025-01-30 19.53.53.excalidraw.md",
-    "Backend/JWT Benchmark.md",
-    "Courses/Data Engineering/Data Engineering Architecture.md",
     "Excalidraw/Train10x.png",
     "Courses/Data Engineering/snowflake",
-    "Excalidraw/attachments/Pasted Image 20250120003024_416.png",
-    "Excalidraw/attachments/Pasted Image 20250120000126_070.png",
-    "Excalidraw/attachments/Pasted Image 20250120000019_681.png",
-    "Excalidraw/attachments/Pasted Image 20250119222758_785.png",
-    "Excalidraw/attachments/Pasted Image 20250119171301_567.png",
-    "Excalidraw/attachments/Pasted Image 20250119171105_578.png",
-    "Excalidraw/attachments/Pasted Image 20250119122117_250.png",
     "Courses/Data Engineering/mocs",
     "Courses/cs",
-    "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108210406.png",
-    "Courses/Data Engineering/Data Bricks/attachments/Pasted image 20250108205226.png",
     "Courses/Data Engineering/Data Bricks/attachments",
     "Courses/DevOps, MLOPS/attachments",
     "Courses/DevOps, MLOPS",
     "lyrics",
-    "Courses/Data Engineering/Data Bricks",
-    "Courses/Data Engineering/attachments",
     "Untitled.canvas"
   ]
 }
