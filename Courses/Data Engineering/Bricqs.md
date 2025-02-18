@@ -1,1 +1,0 @@
-https://github.com/tsmatz/azure-databricks-exercise?tab=readme-ov-file

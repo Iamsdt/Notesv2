@@ -103,7 +103,7 @@ server {
 docker run -it --rm -p 80:80 --name certbot \
          -v "/etc/letsencrypt:/etc/letsencrypt" \
          -v "/var/lib/letsencrypt:/var/lib/letsencrypt" \
-         certbot/certbot certonly --standalone -d testserver.10xscale.in
+         certbot/certbot certonly --standalone -d medical.10xscale.ai
 
 # renew ssl
 docker run -it --rm --name certbot \

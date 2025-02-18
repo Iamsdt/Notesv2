@@ -6,8 +6,6 @@ tags:
   - pyspark
   - de
 ---
-
-
 ### Objective
 In this assignment, you will use the Apache Beam framework to analyze a dataset of mobile device usage and user behavior. You will build on the provided pipeline code to implement additional transformations and write the results to output files.
 

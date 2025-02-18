@@ -357,3 +357,6 @@ CDC tracks changes (inserts, updates, deletes) in a source database and propagat
 **Visualizations**
 ![Change Data Capture](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Cv62FuY3v8Tt0jIA)
 
+
+
+Also snowflake

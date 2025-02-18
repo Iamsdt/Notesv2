@@ -3,7 +3,6 @@
 This project aims to develop a comprehensive data engineering pipeline that processes candidate and job data to deliver actionable insights. Using **Apache Spark** and **BigQuery** on **Google Cloud Platform (GCP)**, the platform enables advanced analytics and visualization via **BI tools** such as **Google Looker Studio**. The system’s primary objectives include matching candidates to jobs based on compatibility, analyzing hiring trends, and assessing company hiring efficiencies.
 
 ---
-
 ## **Key Objectives**
 1. **Data Processing**: Clean and transform raw data from multiple sources (e.g., candidates, job descriptions, education, work experience) into structured, analyzable formats.
 2. **Matching Algorithm**: Build a robust candidate-job matching algorithm using job description (JD) and curriculum vitae (CV) data to compute compatibility scores.
@@ -11,7 +10,6 @@ This project aims to develop a comprehensive data engineering pipeline that proc
 4. **Visualization**: Use BI tools to create interactive dashboards highlighting hiring trends, skills distribution, and job metrics.
 
 ---
-
 ## **Technology Stack**
 - **Data Storage**: Google Cloud Storage (GCS), BigQuery
 - **Data Processing**: Apache Spark (PySpark)

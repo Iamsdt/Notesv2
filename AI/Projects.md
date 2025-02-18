@@ -34,3 +34,7 @@ Develop an AI-powered Code PR (Pull Request) Agent that reviews code for bugs, d
 - **Knowledge Sharing:** Enhance developer understanding through detailed feedback and documentation.
 - **Quality Improvement:** Improve overall code quality by identifying and correcting issues early.
 
+
+
+
+gcloud dataproc batches submit --region us-central1 pyspark --batch job1 gs://10xscale_dev/nyc_jobs2.py --version 2.2 --subnet default --properties spark.dataproc.appContext.enabled=true
