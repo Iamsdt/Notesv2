@@ -1,0 +1,78 @@
+# Duration: 3
+
+Leet Code: 5 week common for everyone
+Then Course 1 and Course 2 Will continue the Cloud Engineering Course
+
+Course 1: Java - React Full Stack Development
+Entire Course: 3 months
+Java - 2 months
+    - Core Java - 2 weeks
+        - Java Fundamentals + Java 8, 17, 21  - 1 week
+        - Design Patterns, Concurrency, Reflection, Working with files
+        - Assignment: (Generate 2 or 3)
+    - Java Application Development - 1 week
+        - Java Applications, Modules, Junit, Maven, Logging
+
+    - Spring Boot - 2 weeks
+    - Hibernate - 1 week
+        - Postgres Database 
+        - Mongo DB
+    
+React - 2 months
+    - Java Script + Html + Css - 1 week
+    - React - Eco system, Components, Hooks, Redux, Zustand, Router, tanstack query - 2 weeks
+    - React Advanced - 2 weeks
+        - Module Federation, Micro Frontend, Server Side Rendering, Next JS, Tailwind CSS
+    - React Testing - 1 week
+        - Jest, React Testing Library, Cypress, Storybook
+
+Last Month:
+    - DevOps
+    - Clean Code
+    - Interview Preparation
+
+As a student
+First Two months:
+3 class
+1. Leet code / System Design
+2. Java
+3. React
+
+Last Month:
+1. One Class Only
+
+
+# Live Project and Assignments
+First Month: Only Assignments
+Second Month: Live Project
+Third Month: Live Project
+
+First Live Project: Java + React
+Second Live Project: Java + React
+
+Project: 
+1. One of the Module of Training10x (3 sprints)
+1. Employee Management System (3 sprints)
+2. Leet Code System (3 sprints)
+
+
+Course 2: Java + Data Engineering
+Entire Course: 3 months
+Java - 1.5 months
+Data Engineering - 1.5 months
+
+Project:
+1. Analytics Dashboard (DE) (3 sprints)
+2. One of the Module of Training10x (3 sprints)
+
+Course 3: Data Analysis + AI/ML
+Entire Course: 3 months
+Data Analysis - 1.5 months
+AI/ML - 1.5 months
+
+Project:
+1. Fine-tune model (3 sprints)
+2. Code Review System
+3. Interactive Problem Solving (When user submit code, it will generate feedback) will be attached to Leet Code System
+4. Smart Problem Recommendations
+5. Identifying knowledge gaps and recommending courses
