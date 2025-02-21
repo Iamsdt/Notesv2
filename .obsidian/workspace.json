@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b3777760c052ccd6",
+        "id": "25934091e3a05456",
         "type": "tabs",
         "children": [
           {
-            "id": "4a280d11a8529d04",
+            "id": "48dfdf45b0646cb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/EDT/Final Ideas.md",
+                "file": "Training/Syllabus v2/Java + Data Eng + AI.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Final Ideas"
+              "title": "Java + Data Eng + AI"
             }
           }
         ]
@@ -45,8 +43,6 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false
-                "sortOrder": "alphabetical",
-                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -58,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "letsen",
+                "query": "letse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -134,9 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -162,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/EDT/Final Ideas.md",
+                "file": "Training/Syllabus v2/Java + Data Eng + AI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Final Ideas"
+              "title": "Outline of Java + Data Eng + AI"
             }
           },
           {
@@ -177,18 +170,6 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "5df4cac99ccdcf00",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
@@ -204,7 +185,7 @@
             }
           },
           {
-            "id": "3d87e50569e3acec",
+            "id": "7cedf77420591ce3",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -218,12 +199,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "marp-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -235,51 +214,53 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
       "omnisearch:Omnisearch": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "4a280d11a8529d04",
+  "active": "48dfdf45b0646cb5",
   "lastOpenFiles": [
-    "Ideas/EDT/AI Ideas.md",
-    "Ideas/Assistance Bot.md",
-    "Ideas/EduTech.md",
+    "Training/Syllabus v2/hire10x-user-analytics.md",
+    "Training/Syllabus v2/Java + Data Eng + AI.md",
+    "Training/Syllabus v2/hire10x-user-module.md",
+    "Training/Syllabus v2/Java React FullStack.md",
+    "Training/Syllabus v2/full-stack-project.md",
+    "Training/Syllabus v2/new_project.md",
+    "Training/Syllabus v2/new_project.py",
+    "Training/Syllabus v2/AI.md",
+    "Training/Syllabus v2/data enge.md",
+    "Training/Syllabus v2/Assignment.md",
+    "Training/Syllabus v2/Cloud Engineering.md",
+    "Training/Syllabus v2/Java React FullStack copy.md",
+    "Training/Syllabus v2/data_engineering.md",
+    "Training/Syllabus v2/data-eng.md",
+    "Projects/hire10x-project-specs.md",
+    "Projects/hire10x-communication/architecture.md",
+    "Projects/hire10x-communication/README.md",
+    "Projects/hire10x-communication",
+    "Projects/hire10x-job-module.md",
+    "Projects",
+    "Training/Interview/Pooja Feedback.md",
+    "Training/Interview/Pooja Questions.md",
+    "Courses/Data Engineering/database/Casandra Cheat Sheet.md",
+    "Training/Syllabus v2/Untitled.md",
     "Training/Syllabus/Generative AI with LangChain and Langgraph (Beginner to Intermediate).md",
     "Training/Syllabus/Generative AI (Advanced).md",
-    "Training/Syllabus v2/Cloud Engineering.md",
+    "Training/Syllabus/GenAI Advance.md",
+    "Training/Syllabus/Data Analyst & Data Engineer.md",
+    "Training/Syllabus v2/react.md",
     "Training/Syllabus v2/data-eng",
-    "Training/Cloud Engeering.md",
-    "Training/System Design - Online Course App.md",
-    "Training/Syllabus v2/Problem Solving.md",
-    "Training/LeetCode Patterns (Python).md",
-    "Training/Syllabus v2/Java.md",
-    "Training/Syllabus v2/Problem Solving & Cloud Engineering.md",
-    "Training/Sliding Window.md",
-    "Training/Untitled.md",
     "Training/Syllabus v2",
-    "Courses/Data Engineering/Assignment/Intelligent Candidate-Job Matching and Analytics Platform.md",
-    "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
-    "Courses/Data Engineering/GCP - DataProc.md",
-    "Excalidraw/Drawing 2024-11-27 19.47.50.excalidraw.md",
-    "Training/Tree.md",
     "Excalidraw/attachments/Pasted Image 20241129212749_830.png",
     "Excalidraw/attachments/Pasted Image 20241129212640_436.png",
     "Excalidraw/attachments/Pasted Image 20241129211503_104.png",
     "Excalidraw/attachments/Pasted Image 20241129210156_792.png",
-    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
-    "Backend/server/sentry setup.md",
-    "Backend/nginx.md",
-    "Training/Neo4j.md",
-    "Untitled.md",
-    "Training/SQL Query Optimization.md",
-    "Courses/Data Engineering/PySpark.md",
     "Excalidraw/attachments/Pasted Image 20241127200223_278.png",
     "Excalidraw/attachments/Pasted Image 20241127195529_166.png",
     "Excalidraw/attachments/Pasted Image 20241127195504_369.png",
@@ -291,9 +272,6 @@
     "Courses/Data Engineering/database/attachments",
     "Untitled",
     "AI/Research",
-    "Untitled 1",
-    "Weekly Activities/attachments",
-    "Learning Resources/books/32713.pdf",
-    "Courses/Data Engineering/database"
+    "Untitled 1"
   ]
 }

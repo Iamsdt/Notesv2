@@ -31,7 +31,8 @@
     "iconIdentifier": ":",
     "debugMode": false,
     "iconInTitlePosition": "above",
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "AI/basic": "✒",
   "Backend/email/SMTP.md": "📬"
