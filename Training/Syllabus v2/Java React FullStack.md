@@ -34,9 +34,10 @@ levels:
 
 # Table of Contents
 
-- Introduction
-- Course Duration: 3 Months
-- Learning Approach:
+- Java to Data Engineering & AI: A 3-Month Intensive Career Accelerator
+    - Introduction
+    - Course Duration: 3 Months
+    - Learning Approach:
 - Problem Solving
     - Module 1: Course Kickoff & Fundamentals
     - Module 2: Linked Lists & Stack
@@ -135,104 +136,103 @@ levels:
             - Requirements
             - Technical Requirements
         - Evaluation Criteria for All Assignments
-- React Web Development
-    - Module 1: JavaScript, HTML & CSS Fundamentals
-        - Class 1: Modern JavaScript Essentials
-        - Class 2: DOM Manipulation & Events
-        - Class 3: Advanced JavaScript Concepts
-        - Class 4: CSS Modern Features
-        - Class 5: Modern Web APIs
-    - Module 2: React Core Concepts (2 Weeks)
-        - Class 1: React Ecosystem & Setup
-        - Class 2: JSX & Components Fundamentals
-        - Class 3: Component Lifecycle & Hooks Basics
-        - Class 4: Advanced Hooks
-        - Class 5: Forms & User Input
-        - Class 6: State Management with Redux
-        - Class 7: Modern State Management
-        - Class 8: Routing & Navigation
-        - Class 9: Data Fetching & API Integration
-        - Class 10: Performance & Best Practices
-    - Module 3: Advanced React Development
-        - Class 1: Next.js Fundamentals
-        - Class 2: Advanced Next.js Features
-        - Class 3: Module Federation Basics
-        - Class 4: Advanced Module Federation
-        - Class 5: Server Components & Streaming
-        - Class 6: Performance Optimization
-        - Class 7: Advanced Design Patterns
-        - Class 8: Modern Styling Solutions
-        - Class 9: Animation & Transitions
-        - Class 10: Advanced Production Optimization
-    - Module 4: Testing & Quality Assurance
-        - Class 1: Jest Fundamentals
-        - Class 2: React Testing Library
-        - Class 3: End-to-End Testing
-        - Class 4: Component Documentation
-        - Class 5: Quality Assurance
-    - Assignments
-        - Assignment 1: Dashboard UI with State Management
+- Data Engineering
+    - Module 1: Database Systems & Data Modeling (1 Week)
+        - Class 1: Advanced PostgreSQL
+        - Class 2: MongoDB at Scale
+        - Class 3: Data Modeling & Architecture
+        - Class 4: Data Lake Architecture
+        - Class 5: Modern Data Warehouse
+    - Module 2: Big Data Processing (2 Weeks)
+        - Week 1: Distributed Computing
+            - Class 1: Hadoop Ecosystem
+            - Class 2: Apache Spark
+            - Class 3: Advanced Spark
+            - Class 4: Stream Processing
+            - Class 5: Apache Flink
+        - Week 2: Data Pipeline & Integration
+            - Class 1: Apache Kafka
+            - Class 2: Apache Beam
+            - Class 3: Data Integration
+            - Class 4: Workflow Orchestration
+            - Class 5: Performance & Monitoring
+    - Module 3: Cloud Data Platforms (2 Weeks)
+        - Week 1: Google Cloud Platform
+            - Class 1: DataProc & GCS
+            - Class 2: Advanced BigQuery
+            - Class 3: Data Pipeline Tools
+            - Class 4: Security & Governance
+            - Class 5: Performance Optimization
+        - Week 2: Modern Data Platforms
+            - Class 1: Databricks
+            - Class 2: Advanced Snowflake
+            - Class 3: Cassandra
+            - Class 4: Real-time Analytics
+            - Class 5: Modern Architecture
+    - Assignments:
+        - Advanced Data Manipulation and Predictive Analysis with Apache Spark
+            - Dataset Fields
+            - Assignment Tasks
+            - Submission
+- Advanced GenAI & Prompt Engineering
+    - Week 1: Foundation & Advanced Prompting
+        - Class 1: Advanced Prompt Engineering
+        - Class 2: RAG & Vector Databases
+        - Class 3: LangChain Framework
+        - Class 4: Advanced RAG Patterns
+        - Class 5: LangGraph & Workflows
+    - Week 2: Agents & Advanced Applications
+        - Class 1: AI Agents Architecture
+        - Class 2: Multi-Agent Systems
+        - Class 3: Advanced Embedding
+        - Class 4: Production Deployment
+        - Class 5: Advanced Applications
+    - Assignments:
+        - Advanced GenAI System Implementation
             - Requirements
-            - Technical Requirements
-        - Assignment 2: E-commerce Platform with API Integration
-            - Requirements
-            - Technical Requirements
-            - Evaluation Criteria for All Assignments
+            - Technical Components
+            - Evaluation Criteria
+        - Enterprise Knowledge Assistant
+            - Objective
+            - Specific Requirements
+            - Deliverables
+            - Evaluation Rubric
+            - Submission Guidelines
 - Live Projects
-    - Hire10x Job Module
+    - Hire10x User Module - Backend Service
         - Tech Stack
-            - Frontend
-            - Backend
         - Project Overview
-            - Key Features
-            - 1. Job Description Management
-            - 2. AI-Powered JD Parsing
-            - 3. JD Assignment System
-            - 4. Application Form Builder
-        - User Roles
-        - Security Features
-        - Integration Points
-    - Hire10x Communication Module
+        - API Endpoints & Features
+            - 1. Authentication & Authorization
+            - 2. Role Management
+            - 3. User Onboarding
+            - 4. Tenant Management
+            - 5. Team Management
+        - Database Design
+        - Security Implementation
+        - Testing Strategy
+        - Deployment Configuration
+    - Hire10x User Analytics Platform
         - Tech Stack
-            - Frontend
-            - Backend
         - Project Overview
-        - Key Features
-            - 1. Multi-Channel Messaging
-            - 2. Email Management
-            - 3. WhatsApp Integration
-                - Business API
-                - Personal WhatsApp
-            - 4. Unified Inbox
-        - User Interface Features
-        - Security Features
-        - Integration Points
-```
-
-
-
-# Problem Solving
-## Module 1: Course Kickoff & Fundamentals
-Classes: 
- 1. Overview of the course, problem-solving strategies, and complexity analysis
- 2. Arrays - Two Pointer & Prefix Sum 
-    - LeetCode 1 (Two Sum)
-    - LeetCode 11 (Container With Most Water)
-    - LeetCode 15 (3Sum)
-    - LeetCode 42 (Trapping Rain Water)
-    - LeetCode 560 (Subarray Sum Equals K)
-    - LeetCode 238 (Product of Array Except Self)
-    - LeetCode 283 (Move Zeroes)
-    - LeetCode 303 (Range Sum Query)
- 3. Arrays - Advanced Techniques
-    - LeetCode 33 (Search in Rotated Sorted Array)
-    - LeetCode 304 (Range Sum Query 2D)
-    - LeetCode 152 (Maximum Product Subarray)
-    - LeetCode 53 (Maximum Subarray)
-    - LeetCode 4 (Median of Two Sorted Arrays) [Modified Binary Search]
- 4. Arrays - Top K Elements & Others
-    - LeetCode 215 (Kth Largest Element)
-    - LeetCode 347 (Top K Frequent Elements)
+        - ETL Pipeline Components
+            - 1. Data Extraction Layer
+            - 2. Data Transformation
+                - Batch Processing
+                - Stream Processing
+            - 3. Data Loading
+                - Data Warehouse Schema (BigQuery)
+        - Analytics Dashboards
+            - 1. User Engagement Dashboard
+            - 2. Tenant Analytics
+            - 3. Security Analytics
+            - 4. System Performance
+        - Security & Compliance
+        - Performance Optimization
+        - Monitoring & Alerting
+        - Development Workflow
+        - Infrastructure Setup
+``` - LeetCode 347 (Top K Frequent Elements)
     - LeetCode 121 (Best Time to Buy and Sell Stock)
     - LeetCode 153 (Find Minimum in Rotated Sorted Array)
     - LeetCode 217 (Contains Duplicate)
