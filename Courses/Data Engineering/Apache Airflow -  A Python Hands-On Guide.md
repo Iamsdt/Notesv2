@@ -335,12 +335,11 @@ branch_task >> spark_job_4 >> end
     - The workflow ensures sequential execution from `spark_job_1` to `spark_job_2` and conditional branching to `spark_job_3` or `spark_job_4`.
 
 ---
-
 ### **Python Cheatsheet for Spark in Airflow**
 
-|**Component**|**Python Example**|
-|---|---|
-|**SparkSubmitOperator**|`SparkSubmitOperator(application='/path/app.py', ...)`|
-|**BranchPythonOperator**|`BranchPythonOperator(python_callable=my_func, ...)`|
-|**Conditional Execution**|`branch_task >> task_1 >> end` or `branch_task >> task_2`|
-|**Task Dependency**|`task_1 >> task_2 >> task_3`|
+| **Component**             | **Python Example**                                        |
+| ------------------------- | --------------------------------------------------------- |
+| **SparkSubmitOperator**   | `SparkSubmitOperator(application='/path/app.py', ...)`    |
+| **BranchPythonOperator**  | `BranchPythonOperator(python_callable=my_func, ...)`      |
+| **Conditional Execution** | `branch_task >> task_1 >> end` or `branch_task >> task_2` |
+| **Task Dependency**       | `task_1 >> task_2 >> task_3`                              |

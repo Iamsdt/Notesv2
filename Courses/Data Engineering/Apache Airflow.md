@@ -108,3 +108,5 @@ sudo AIRFLOW_UID=50000 docker compose up airflow-init
 ```sh
 sudo AIRFLOW_UID=50000 docker compose --profile flower up -d
 ```
+
+The webserver is available at: `http://localhost:8080`. The default account has the login `airflow` and the password `airflow`.

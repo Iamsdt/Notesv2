@@ -16,22 +16,6 @@ This comprehensive 3-month Java Full Stack course is designed to provide hands-o
 - **Mock Interviews:** Technical and behavioral interview preparation
 - **Assessments:** Weekly quizzes and individual assignments
 
-```insta-toc
----
-title:
-  name: Table of Contents
-  level: 1
-  center: false
-exclude: ""
-style:
-  listType: dash
-omit:
-  - Java Full Stack Development with React – Intensive 3-Month Program
-levels:
-  min: 1
-  max: 6
----
-
 # Table of Contents
 
 - Java to Data Engineering & AI: A 3-Month Intensive Career Accelerator
@@ -232,7 +216,7 @@ levels:
         - Monitoring & Alerting
         - Development Workflow
         - Infrastructure Setup
-``` - LeetCode 347 (Top K Frequent Elements)
+ - LeetCode 347 (Top K Frequent Elements)
     - LeetCode 121 (Best Time to Buy and Sell Stock)
     - LeetCode 153 (Find Minimum in Rotated Sorted Array)
     - LeetCode 217 (Contains Duplicate)
