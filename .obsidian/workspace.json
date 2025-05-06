@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9f6771a25e9593a1",
+        "id": "2cc69a2614a0674c",
         "type": "tabs",
         "children": [
           {
-            "id": "4cd3d1d9c01b04e6",
+            "id": "dadc3986038ae9e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Training/Syllabus v2/Data Analyst + AI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Data Analyst + AI"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -225,12 +221,22 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "4cd3d1d9c01b04e6",
+  "active": "dadc3986038ae9e9",
   "lastOpenFiles": [
+    "Excalidraw/whatsapp bot.md",
+    "Excalidraw/JD Scrapper.md",
+    "Excalidraw/attachments/Pasted Image 20250504210409_425.png",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
+    "AI/LLM.md",
+    "AI/Langchain Saver.md",
+    "AI/Plans.md",
+    "AI/Projects.md",
+    "AI/Syllabus for Generative AI.md",
+    "Training/Syllabus v2/Data Analyst + AI.md",
     "Hire10x Product.md",
     "Roles And Permission.md",
     "10xScale Note.md",
-    "Training/Syllabus v2/Data Analyst + AI.md",
     "Hire10x/Medical Bot.md",
     "Backend/server/sentry setup.md",
     "Hire10x/Backend Code Guideline.md",
@@ -243,16 +249,6 @@
     "Training/Syllabus v2/Java React FullStack.md",
     "Improvements.md",
     "Postgresql.md",
-    "Database/pgsql backup docker.md",
-    "Courses/Data Engineering/Interview/Apace Spark Questions.md",
-    "Courses/Data Engineering/Interview/Data Engineering (Scenario).md",
-    "Courses/Data Engineering/Interview/Data Engineering Questions(companies).md",
-    "Courses/Data Engineering/Interview/Data Engineering.md",
-    "Courses/Data Engineering/Interview/BigQuery Interview Questions.md",
-    "Courses/Data Engineering/Interview/Beam and Dataflow.md",
-    "Courses/Data Engineering/Hadoop Lecture Notes.md",
-    "Courses/Data Engineering/GCP - DataProc.md",
-    "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
     "Learning Resources/LLM",
     "Training/Syllabus v2/new_project.py",
     "Projects/hire10x-communication",
@@ -268,7 +264,6 @@
     "Excalidraw/attachments/Pasted Image 20241127195504_369.png",
     "Excalidraw/attachments/Pasted Image 20241127195243_278.png",
     "Excalidraw/attachments/Pasted Image 20241127195126_881.png",
-    "Excalidraw/attachments/Pasted Image 20241127195037_818.png",
     "Excalidraw/attachments",
     "Untitled.canvas",
     "Courses/Data Engineering/database/attachments",
