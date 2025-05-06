@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2cc69a2614a0674c",
+        "id": "4ffbc88f918a6050",
         "type": "tabs",
         "children": [
           {
-            "id": "dadc3986038ae9e9",
+            "id": "621fb2fe3cf27a57",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hire10x/GCP Instance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "GCP Instance"
             }
           }
         ]
@@ -221,10 +226,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "dadc3986038ae9e9",
+  "active": "621fb2fe3cf27a57",
   "lastOpenFiles": [
-    "Excalidraw/whatsapp bot.md",
     "Excalidraw/JD Scrapper.md",
+    "Excalidraw/attachments/bot.zip",
+    "Excalidraw/Drawing 2024-11-27 19.47.50.excalidraw.md",
+    "Excalidraw/Interview Bot.md",
+    "Excalidraw/Math.md",
+    "Hire10x/GCP Instance.md",
+    "Excalidraw/whatsapp bot.md",
     "Excalidraw/attachments/Pasted Image 20250504210409_425.png",
     "Excalidraw/Untitled.md",
     "Excalidraw/Drawing 2024-05-28 23.24.36.excalidraw.md",
@@ -242,13 +252,9 @@
     "Hire10x/Backend Code Guideline.md",
     "Backend/nginx.md",
     "Learning Resources/Math.md",
-    "Excalidraw/Drawing 2025-03-24 21.00.06.excalidraw.md",
     "Hire10x/AWS (Service Worker).md",
     "Hire10x/Training 10X Project.md",
     "Training/Syllabus v2/Java + Data Eng + AI.md",
-    "Training/Syllabus v2/Java React FullStack.md",
-    "Improvements.md",
-    "Postgresql.md",
     "Learning Resources/LLM",
     "Training/Syllabus v2/new_project.py",
     "Projects/hire10x-communication",
@@ -267,7 +273,6 @@
     "Excalidraw/attachments",
     "Untitled.canvas",
     "Courses/Data Engineering/database/attachments",
-    "Untitled",
-    "AI/Research"
+    "Untitled"
   ]
 }
