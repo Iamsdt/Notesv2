@@ -1,7 +1,7 @@
 # Date: 8/6/25
-Course: Java Full-Stack,  GEN-AI/Big Data (Include pyspark)
+Course: Java Full-Stack,  GEN-AI/Big Data (Include pyspark, beam, flink, airflow)
 Duration: 3 months
-2 Case Study: Banking Architecture
+2 Case Study: Banking Architecture + Other sector
 
 Main Course
 1. Build micro-service and deploy using ci/cd
@@ -48,3 +48,6 @@ Code:
 Project Idea:
 Multi-model Review Agent, Multiple Model Can review the code and aggregate,
 and performance identify ....
+
+
+Project:
