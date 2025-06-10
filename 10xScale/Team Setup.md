@@ -25,3 +25,33 @@ George:
 ## Testing
 1. Kaveya
 2. Mideen
+
+
+
+
+
+
+
+
+## Hire10x:
+1. Ranking Deploy with Neo4j
+2. Typesense Embedding
+3. Ai Assistance
+4. Inbox whatsapp message
+5. ContactOut API (p1)
+6. Whatsapp API (twillio)
+7. Bugs
+8. Testing
+
+## Training10x:
+1. Testing in Backend
+## Resume Builder
+1. 10 Templates
+
+## Job Assistant
+1. Scraping Workloads (Today) -> 1000
+2. 100 new Companies (Current Count: 400 + Dice)
+3. Hiring cafe
+
+## AI Interview
+1. Coding Compiler (Motilal)
