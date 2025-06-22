@@ -1,10 +1,9 @@
-8.7
 This document provides practical guidelines for Agile teams, covering daily standups, estimation techniques, workflow states, and issue labeling. It is designed to help teams collaborate efficiently, maintain transparency, and deliver high-quality results.
 
 ---
 ## 🕒 Daily Standup & Demo Times
 
-- **Daily Standup:** Every weekday at 10:15 AM (15 minutes, all team members)
+- **Daily Standup:** Every weekday at 11:00 AM (15 minutes, all team members)
 - **Sprint Demo:** Every week Monday at 11:00 AM
 
 ---
