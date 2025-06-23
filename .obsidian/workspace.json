@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "97441352fe8444c6",
+        "id": "d3054b6a12b6a27b",
         "type": "tabs",
         "children": [
           {
-            "id": "07b48eba65aac5a9",
+            "id": "27300068c0f48415",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Leetcode/Time Complexity & Space Complexity.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Time Complexity & Space Complexity"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Devops",
+                "query": "linear time",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -218,12 +223,20 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "07b48eba65aac5a9",
+  "active": "65074b51342875b8",
   "lastOpenFiles": [
+    "Courses/Leetcode/Time Complexity & Space s.md",
+    "Courses/Leetcode/Time Complexity & Space Complexity.md",
+    "Courses/Leetcode/Time Complexity.md",
+    "Training/Leetcode Preparation.md",
+    "Interview Questions/Coding Session.md",
+    "Courses/Leetcode",
+    "10xScale/12-Week Full Stack Java React Course High-Level Plan.md",
+    "React.md",
+    "10xScale/Java Backend.md",
     "10xScale/10xScale Agile Guidelines.md",
     "Aarambh MVP – Package Comparison Table.md",
     "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
-    "10xScale/12-Week Full Stack Java React Course High-Level Plan.md",
     "Training/Cloud Engeering.md",
     "Training/attachments/Solid.md",
     "Courses/DevOps, MLOPS/Linux Intro.md",
@@ -239,16 +252,9 @@
     "Untitled 1.md",
     "Training/Syllabus v2/Data Analyst + AI.md",
     "Hire10x/Ranking/Ranking.md",
-    "Training/Syllabus v2/Java + Data Eng + AI.md",
     "10xScale/meetings",
-    "10xScale/📘 Infrastructure & Cost Viability Report for Agile Tool  (Plane).md",
-    "10xScale Note.md",
     "10xScale",
-    "Plane Deplopyment.md",
-    "Untitled.md",
     "Untitled.canvas",
-    "UI Ideas.md",
-    "Database/Cloud Sql.md",
     "Hire10x/Ranking",
     "Excalidraw/attachments/bot.zip",
     "Excalidraw/attachments/Pasted Image 20250504210409_425.png",
@@ -257,7 +263,6 @@
     "Projects/hire10x-communication",
     "Projects",
     "Training/Syllabus v2/data-eng",
-    "Training/Syllabus v2",
     "Excalidraw/attachments/Pasted Image 20241129212749_830.png",
     "Excalidraw/attachments/Pasted Image 20241129212640_436.png",
     "Excalidraw/attachments/Pasted Image 20241129211503_104.png",
