@@ -208,14 +208,18 @@ If you need inspiration, here’s an example project scope:
 
 
 # Product Overview:
+
+AI Prompt:
+We are designing a leetcode type coding platform using AI, We need these pages
+
 Features:
 1. Signup/Login
-2. Problem Page
+2. Problem Page (List of Problems, with some metrics)
 	1. Problem Details Page (Tab as leetcode)
 		1. Description
 		2. Solution
 		3. Submissions
-		4. Code Editor
+		4. Code Editor (Right Side)
 3. Competition Page (List of competition)
 	1. Competition Details Page (As Tabs)
 		1. Descriptions
