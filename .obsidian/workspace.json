@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4014bf6f02c3b2f",
+            "id": "a9e4a5c30fe7fe58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Online Jude Deploy.md",
+                "file": "3 Week Java Course Plans.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Online Jude Deploy"
+              "title": "3 Week Java Course Plans"
             }
           }
         ]
@@ -190,6 +190,16 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c1da0ffe1f95f5ce",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
@@ -211,6 +221,7 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-day-planner:Open Timeline": false,
@@ -219,17 +230,19 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "f4014bf6f02c3b2f",
+  "active": "a9e4a5c30fe7fe58",
   "lastOpenFiles": [
+    "10xScale/12-Week Full Stack Java React Course High-Level Plan.md",
+    "3 Week Java Course Plans.md",
+    "10xScale/📘 Infrastructure & Cost Viability Report for Agile Tool  (Plane).md",
+    "Backend/Online Jude Deploy.md",
     "Backend/Setup Jupyter Lab for assignment.md",
     "Backend/nginx.md",
     "Backend/server/sentry setup.md",
     "Courses/Data Engineering/Interview/Data-Proc Interview Questions.md",
-    "Backend/Online Jude Deploy.md",
     "Hire10x/Training 10X Project.md",
     "Interview Questions/Python Question.md",
     "Interview Questions/Coding Session.md",
@@ -240,8 +253,6 @@
     "Courses/Leetcode/Arrays & Selected LeetCode Problems (Day 1).md",
     "Courses/Leetcode/Time Complexity & Space Complexity.md",
     "Excalidraw/L.md",
-    "10xScale/12-Week Full Stack Java React Course High-Level Plan.md",
-    "10xScale/📘 Infrastructure & Cost Viability Report for Agile Tool  (Plane).md",
     "Courses/Leetcode/Time Complexity & Space s.md",
     "Courses/Leetcode/Time Complexity.md",
     "Training/Leetcode Preparation.md",
@@ -252,7 +263,6 @@
     "Aarambh MVP – Package Comparison Table.md",
     "Courses/Data Engineering/database/PostgreSQL Cheatsheet (Advance).md",
     "Training/Cloud Engeering.md",
-    "Training/attachments/Solid.md",
     "10xScale/meetings",
     "10xScale",
     "Untitled.canvas",
