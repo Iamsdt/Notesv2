@@ -4,35 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5377713a3d9c6123",
+        "id": "5288c62179320fa1",
         "type": "tabs",
         "children": [
           {
-            "id": "f4014bf6f02c3b2f",
+            "id": "c8ac25ed94ee3863",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/AI Leetcode Platform.md"
+                "file": "10xScale/meetings/Meeting 13-7-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "AI Leetcode Platform"
-            }
-          },
-          {
-            "id": "cb4d8f5166cc42b6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/AI Leetcode Platform.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "AI Leetcode Platform"
+              "icon": "lucide-file",
+              "title": "Meeting 13-7-25"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -234,8 +223,9 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "cb4d8f5166cc42b6",
+  "active": "c8ac25ed94ee3863",
   "lastOpenFiles": [
+    "10xScale/meetings/Meeting 13-7-25.md",
     "Excalidraw/AI Leetcode Platform.md",
     "Excalidraw/attachments/Pasted Image 20250713212350_411.png",
     "10xScale/3 Week Java Course Plans.md",
