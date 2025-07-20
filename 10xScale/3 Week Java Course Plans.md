@@ -209,7 +209,6 @@ If you need inspiration, here’s an example project scope:
 
 # Product Overview:
 
-AI Prompt:
 We are designing a leetcode type coding platform using AI, We need these pages
 
 Features:
@@ -228,3 +227,23 @@ Features:
 4. Setting Page
 	1. Profile Setting
 	2. App Settings
+
+
+**AlgoEdge**  
+_"Gain your edge in competitive coding with AI."_
+
+
+
+Backend:
+Poornendu
+Charan
+Gannendra
+Jawhar
+Pavan
+
+Frontend:
+Suresh
+Savanti
+Jawhar
+Pavan
+

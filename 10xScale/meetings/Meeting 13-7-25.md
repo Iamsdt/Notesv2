@@ -11,3 +11,7 @@ Next week:
 	- Open Source Product of security
 	- Dashboard
 
+Interrogations
+1. Monoster ($5K)
+2. Career Builder ($5k)
+3. Dice Team (No Update)
