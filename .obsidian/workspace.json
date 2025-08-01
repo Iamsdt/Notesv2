@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10xScale/Product Overview.md",
+                "file": "10xScale/meetings/Meeting 3-8-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Product Overview"
+              "title": "Meeting 3-8-25"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -236,8 +235,19 @@
   },
   "active": "c8ac25ed94ee3863",
   "lastOpenFiles": [
-    "10xScale/3 Week Java Course Plans.md",
+    "10xScale/meetings/Meeting 27-7-25.md",
+    "10xScale/meetings/Meeting 3-8-25.md",
+    "10xScale/meetings/Meeting 20-7-25.md",
+    "Training/Cloud Engeering.md",
+    "Training/Cracking the LeetCode Code.md",
+    "Postgresql.md",
+    "Plane Deplopyment.md",
+    "Devops Work, Improvement.md",
+    "Improvements.md",
+    "Hire10x Product.md",
+    "Detailed Explanation of Subarray Ranges Solution.md",
     "10xScale/Product Overview.md",
+    "10xScale/3 Week Java Course Plans.md",
     "Untitled",
     "10xScale/meetings/Meeting 13-7-25.md",
     "Excalidraw/AI Leetcode Platform.md",
@@ -259,14 +269,7 @@
     "Hire10x/Training 10X Project.md",
     "Interview Questions/Python Question.md",
     "Interview Questions/Coding Session.md",
-    "Courses/Data Engineering/Interview/Apace Spark Questions.md",
-    "Daily Notes/2024-05-10.md",
-    "Excalidraw/Leetcode day 1.md",
     "Excalidraw/attachments/Pasted Image 20250624193825_340.png",
-    "Courses/Leetcode/Arrays & Selected LeetCode Problems (Day 1).md",
-    "Courses/Leetcode/Time Complexity & Space Complexity.md",
-    "Excalidraw/L.md",
-    "Courses/Leetcode/Time Complexity & Space s.md",
     "Courses/Leetcode",
     "10xScale/meetings",
     "10xScale",
@@ -278,7 +281,6 @@
     "Training/Syllabus v2/new_project.py",
     "Projects/hire10x-communication",
     "Projects",
-    "Excalidraw/attachments/Pasted Image 20241129212749_830.png",
-    "Excalidraw/attachments/Pasted Image 20241129212640_436.png"
+    "Excalidraw/attachments/Pasted Image 20241129212749_830.png"
   ]
 }
