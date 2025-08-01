@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10xScale/meetings/Meeting 3-8-25.md",
+                "file": "AI/Ideas/Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Meeting 3-8-25"
+              "title": "Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA"
             }
           }
         ]
@@ -235,8 +235,10 @@
   },
   "active": "c8ac25ed94ee3863",
   "lastOpenFiles": [
-    "10xScale/meetings/Meeting 27-7-25.md",
+    "AI/Ideas",
     "10xScale/meetings/Meeting 3-8-25.md",
+    "AI/Ideas/Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA.md",
+    "10xScale/meetings/Meeting 27-7-25.md",
     "10xScale/meetings/Meeting 20-7-25.md",
     "Training/Cloud Engeering.md",
     "Training/Cracking the LeetCode Code.md",
@@ -267,8 +269,6 @@
     "Backend/server/sentry setup.md",
     "Courses/Data Engineering/Interview/Data-Proc Interview Questions.md",
     "Hire10x/Training 10X Project.md",
-    "Interview Questions/Python Question.md",
-    "Interview Questions/Coding Session.md",
     "Excalidraw/attachments/Pasted Image 20250624193825_340.png",
     "Courses/Leetcode",
     "10xScale/meetings",
