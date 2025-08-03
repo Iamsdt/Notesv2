@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Ideas/Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA.md",
+                "file": "10xScale/meetings/Aug/Meeting 3-8-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA"
+              "title": "Meeting 3-8-25"
             }
           }
         ]
@@ -235,11 +235,15 @@
   },
   "active": "c8ac25ed94ee3863",
   "lastOpenFiles": [
-    "AI/Ideas",
-    "10xScale/meetings/Meeting 3-8-25.md",
+    "10xScale/meetings/June/Meeting 8-6-25.md",
+    "10xScale/meetings/Aug",
+    "10xScale/meetings/July",
+    "10xScale/meetings/June",
+    "10xScale/meetings/Aug/Meeting 3-8-25.md",
+    "10xScale/meetings/July/Meeting 27-7-25.md",
+    "10xScale/meetings/July/Meeting 20-7-25.md",
     "AI/Ideas/Fine-Tuning Qwen 3 1.7B on a Psychology Book using Alpaca-style and LoRA.md",
-    "10xScale/meetings/Meeting 27-7-25.md",
-    "10xScale/meetings/Meeting 20-7-25.md",
+    "AI/Ideas",
     "Training/Cloud Engeering.md",
     "Training/Cracking the LeetCode Code.md",
     "Postgresql.md",
@@ -251,7 +255,7 @@
     "10xScale/Product Overview.md",
     "10xScale/3 Week Java Course Plans.md",
     "Untitled",
-    "10xScale/meetings/Meeting 13-7-25.md",
+    "10xScale/meetings/July/Meeting 13-7-25.md",
     "Excalidraw/AI Leetcode Platform.md",
     "Excalidraw/attachments/Pasted Image 20250713212350_411.png",
     "Excalidraw/attachments/Pasted Image 20250713205440_881.png",
@@ -277,10 +281,6 @@
     "Hire10x/Ranking",
     "Excalidraw/attachments/bot.zip",
     "Excalidraw/attachments/Pasted Image 20250504210409_425.png",
-    "Learning Resources/LLM",
-    "Training/Syllabus v2/new_project.py",
-    "Projects/hire10x-communication",
-    "Projects",
     "Excalidraw/attachments/Pasted Image 20241129212749_830.png"
   ]
 }
