@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1c1f466379fbe7b6",
+        "id": "0367f2a6d7d723c3",
         "type": "tabs",
         "children": [
           {
-            "id": "20bf72938ee262d6",
+            "id": "192fe24d4b913cdb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Religion/Mantra/অযিগিরি নংদিনি.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "অযিগিরি নংদিনি"
             }
           }
         ]
@@ -74,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -230,8 +234,18 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "20bf72938ee262d6",
+  "active": "192fe24d4b913cdb",
   "lastOpenFiles": [
+    "Religion/Mantra/সিদ্ধকুঞ্জিকাস্তোত্রম্.md",
+    "Religion/Mantra/অযিগিরি নংদিনি.md",
+    "Religion/Mantra/32 Name of Durga.md",
+    "Religion/Untitled.md",
+    "Religion/Mantra",
+    "Training/Syllabus v2/DevOps.md",
+    "Training/Syllabus v2/Testing.md",
+    "Training/Syllabus v2/Java React FullStack.md",
+    "Training/Syllabus v2/Java + Data Eng + AI.md",
+    "Training/Syllabus v2/Data Analyst + AI.md",
     "Hire10x/Agile.md",
     "Hire10x/attachments/sprint.jpg",
     "Hire10x/attachments/Pasted image 20250911135913.png",
@@ -243,9 +257,6 @@
     "Hire10x/attachments/Pasted image 20240627182644.png",
     "Hire10x/attachments/Pasted image 20250911135554.png",
     "Hire10x/attachments/Pasted image 20250911135650.png",
-    "Training/Syllabus v2/Data Analyst + AI.md",
-    "Training/Syllabus v2/Java React FullStack.md",
-    "Training/Syllabus v2/Java + Data Eng + AI.md",
     "Postgresql.md",
     "UI Ideas.md",
     "Useful Links.md",
@@ -263,11 +274,6 @@
     "Assignment- Zoo Management System.md",
     "Aarambh MVP – Package Comparison Table.md",
     "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
-    "Courses/Data Engineering/GCP - DataProc.md",
-    "Courses/Data Engineering/BigQuery - A Comprehensive Guide.md",
-    "Medibot/AI Plans.md",
-    "Medibot/Cost.md",
-    "10xScale/Policies/Hire10x Record Retention Policy.md",
     "Medibot",
     "10xScale/Policies",
     "10xScale/meetings/Aug",
@@ -276,7 +282,6 @@
     "AI/Ideas",
     "Courses/Leetcode",
     "10xScale/meetings",
-    "10xScale",
-    "Hire10x/Ranking"
+    "10xScale"
   ]
 }

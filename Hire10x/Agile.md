@@ -1,15 +1,40 @@
 # 📘 Sprint Management & Workflow Guide
 
+---
+
+## **Document Information**
+
+| **Field** | **Details** |
+|-----------|-------------|
+| **Document Title** | Sprint Management & Workflow Guide |
+| **Document Version** | v1.0 |
+| **Effective Date** | September 11, 2025 |
+| **Last Reviewed Date** | September 11, 2025 |
+| **Next Review Date** | December 1, 2025 |
+| **Document Owner** | VP of Engineering |
+| **Approved By** | Executive Team |
+| **Classification** | Internal Use Only |
+| **Last Updated By** | Shudipto Trafder |
+| **Last Updated Date** | September 11, 2025 |
+
+---
+
+## **Executive Summary**
+
+This Sprint Management & Workflow Guide provides a comprehensive framework for planning, executing, and delivering agile projects at Hire10x. It outlines standardized processes for sprint planning, work item management, team responsibilities, and performance evaluation. The guide ensures transparency, accountability, and continuous improvement across all agile teams, supporting successful project delivery and alignment with organizational goals.
+
+---
+
 ## Table of Contents
 
-1. [Overview](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#overview)
-2. [Work Item Hierarchy](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#work-item-hierarchy)
-3. [Sprint Workflow](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#sprint-workflow)
-4. [Task Status Management](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#task-status-management)
-5. [Performance Evaluation](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#performance-evaluation)
-6. [Estimation Guidelines](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#estimation-guidelines)
-7. [Team Responsibilities](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#team-responsibilities)
-8. [Quality Assurance](https://claude.ai/chat/4967800f-ab29-40ed-a93b-54b8495d651b#quality-assurance)
+1. [Overview](#overview)
+2. [Work Item Hierarchy](#work-item-hierarchy)
+3. [Sprint Workflow](#sprint-workflow)
+4. [Task Status Management](#task-status-management)
+5. [Performance Evaluation](#performance-evaluation)
+6. [Estimation Guidelines](#estimation-guidelines)
+7. [Team Responsibilities](#team-responsibilities)
+8. [Quality Assurance](#quality-assurance)
 
 ---
 
@@ -61,6 +86,8 @@ graph TD
 - **Connection**: **Not directly connected to any sprint**
 - **Purpose**: Organize related User Stories under business objectives
 - **Estimation**: Not estimated at Epic level
+- **Date Management**: Start and End dates for tracking, but not for sprint planning
+- **Completion**: Marked Done when all associated User Stories are completed
 
 ### 2.3 User Story
 
@@ -81,10 +108,12 @@ graph TD
     - Title
     - Estimate (story points/hours)
     - Clear scope definition
+- **Completion**: Marked Done when the specific task is completed, Developer responsible for status updates
 
 ---
 
 ## 3. Sprint Workflow
+
 ![[sprint.jpg]]
 
 ### 3.1 Backlog Preparation
@@ -131,16 +160,23 @@ graph TD
 
 ### 4.1 Status Definitions
 
-| Status          | Owner             | Actions Required                                        | Performance Impact                        |
-| --------------- | ----------------- | ------------------------------------------------------- | ----------------------------------------- |
-| **Backlog**     | Scrum Master      | Item creation and prioritization                        | None                                      |
-| **To-Do**       | Scrum Master      | Assignment to developers                                | None                                      |
-| **In Progress** | Developer         | Add estimates, start/end dates, create sub-stories      | Yes - incomplete items impact performance |
-| **PR Review**   | Developer         | Code review, testing on deployed platform               | None                                      |
-| **Testing**     | Developer         | Quality validation, move to Done or back to In Progress | None                                      |
-| **On Hold**     | Scrum Master Only | Urgent task management, no performance impact           | No                                        |
-| **Done**        | Developer         | Task completion                                         | Positive impact                           |
-| **Canceled**    | Scrum Master      | Task cancellation with proper documentation             | None                                      |
+| Status          | Owner             | Actions Required                                            | Performance Impact                        |
+| --------------- | ----------------- | ----------------------------------------------------------- | ----------------------------------------- |
+| **Backlog**     | Scrum Master      | Item creation and prioritization                            | None                                      |
+| **To-Do**       | Scrum Master      | Assignment to developers                                    | None                                      |
+| **In Progress** | Developer         | Add estimates, start/end dates, create sub-stories          | Yes - incomplete items impact performance |
+| **PR Review**   | Developer         | Code review, testing on deployed platform                   | None                                      |
+| **Testing**     | Developer/Tester  | Quality validation, move to Done or back to In Progress     | None                                      |
+| **On Hold**     | Scrum Master Only | Urgent task management, no performance impact for developer | No                                        |
+| **Done**        | Tester            | Task completion on acceptance criteria                      | Positive impact                           |
+| **Canceled**    | Scrum Master      | Task cancellation with proper documentation                 | None                                      |
+
+Note: 
+1. Tasks in **PR Review** are not considered complete for sprint metrics.
+2. Tasks must be moved to **Testing** by Friday of the first half of the sprint to avoid being marked as Spillover.
+3. **Sub-story** must be created for all User Stories, and estimates must be provided. Developers are responsible for maintaining accurate status updates, from inprogress to completion(done).
+4. Developers must ensure all tasks are moved to **Testing** or **Done** by the end of the sprint. But they can not move tasks to Done directly, it must be done by Tester or Scrum Master after testing.
+
 
 ### 4.2 Critical Rules
 
@@ -152,6 +188,14 @@ When moving to "In Progress", developers must:
 - Provide story point estimates
 - Create detailed sub-stories
 - **Incomplete items in this status negatively impact performance evaluation**
+- During Standup, that will be evaluated
+
+#### PR Review Protocol
+- Testing Coverage Report must be attached in PR description
+- Code quality must meet team standards (linting, formatting, etc.)
+- No direct merges to main branch without PR review
+- All PRs must be linked to corresponding User Stories
+- At least one peer review required before merging
 
 #### On Hold Protocol
 
@@ -159,12 +203,16 @@ When moving to "In Progress", developers must:
 - Used exclusively for urgent tasks from leadership
 - Developer must confirm with Scrum Master before requesting On Hold
 - Tasks completed in following sprint with no performance penalty
+- Developer not penalized for On Hold tasks
 
 #### Testing Guidelines
 
 - No code changes allowed once moved to Testing
 - Developer responsible for thorough validation
 - Move to Done if passed, back to In Progress if issues found
+- Testing should be done based on acceptance criteria defined in User Story
+- Reopened bugs due to developer error negatively impact performance evaluation
+- All tasks must be in Testing or Done state by sprint end for successful completion
 
 ---
 
@@ -218,10 +266,10 @@ pie title Performance Evaluation Weightage
 |Points|Complexity|Time Estimate|Examples|
 |---|---|---|---|
 |**1**|Bug fix/Tiny change|30 mins - 1 hour|CSS fixes, text updates|
-|**2**|Small feature update|Half day|Form field additions|
-|**4**|New component/page/API|1 day|New React component|
-|**8**|Complex feature/integration|2 days|Third-party API integration|
-|**16**|Large feature|4-5 days (≈1 sprint)|Complete module functionality|
+|**2**|Small feature update|Half day (4 hours)|Form field additions|
+|**4**|New component/page/API|1 day (8 hours)|New React component|
+|**8**|Complex feature/integration|2 days (16 hours)|Third-party API integration|
+|**16**|Large feature|4-5 days (≈1 sprint, 32 hours)|Complete module functionality|
 |**32**|Epic-level work|**Must be broken down**|Multi-sprint initiatives|
 
 ### 6.2 Estimation Rules
@@ -276,7 +324,7 @@ pie title Performance Evaluation Weightage
 ### 8.2 Definition of Done
 
 - [ ] Code developed and unit tested locally
-- [ ] Pull request created and reviewed
+- [ ] Pull request created, reviewed by peers
 - [ ] Code merged to main branch
 - [ ] Feature tested on deployed platform
 - [ ] Acceptance criteria validated
@@ -358,8 +406,10 @@ graph TD
 
 ---
 
-_This document is a living guide that will be updated based on team feedback and process improvements. All team members are expected to familiarize themselves with these guidelines and follow them consistently._
+**Document Control:**
+- Classification: Internal Use Only
+- Distribution: All Developers, Testers, POs, Scrum Masters
+- Next Review Date: December 1, 2025
+---
 
-**Document Version**: 2.0  
-**Last Updated**: September 2025  
-**Review Cycle**: Monthly
+*This policy is effective immediately upon approval and supersedes all previous versions.*
