@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0367f2a6d7d723c3",
+        "id": "ab5ab3ea7bc08a13",
         "type": "tabs",
         "children": [
           {
-            "id": "192fe24d4b913cdb",
+            "id": "a0aa01da714279da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Religion/Mantra/অযিগিরি নংদিনি.md",
+                "file": "Learning Resources/English/Idiom.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "অযিগিরি নংদিনি"
+              "title": "Idiom"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Hire10x/attachments/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 232.5
   },
   "right": {
     "id": "ee49d911c92e7964",
@@ -234,11 +234,26 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "192fe24d4b913cdb",
+  "active": "a0aa01da714279da",
   "lastOpenFiles": [
+    "Tutorial/VS Code.md",
+    "Learning Resources/English/Idiom.md",
+    "Learning Resources/English",
+    "Untitled 2.md",
+    "Tutorial",
+    "Untitled 1.md",
+    "Backend/JWT Benchmark.md",
+    "Hire10x/Authentication.md",
+    "Hire10x/Hire10x.ai.md",
+    "Hire10x/Policy.md",
+    "Hire10x/Agile.md",
+    "Healthcare Assistant Bot.md",
+    "Untitled.md",
+    "Hire10x/Medical Bot.md",
+    "Religion/Mantra/32 Name of Durga.md",
     "Religion/Mantra/সিদ্ধকুঞ্জিকাস্তোত্রম্.md",
     "Religion/Mantra/অযিগিরি নংদিনি.md",
-    "Religion/Mantra/32 Name of Durga.md",
+    "Religion/Was Mata Radha was Shri Krishna's.md",
     "Religion/Untitled.md",
     "Religion/Mantra",
     "Training/Syllabus v2/DevOps.md",
@@ -246,7 +261,6 @@
     "Training/Syllabus v2/Java React FullStack.md",
     "Training/Syllabus v2/Java + Data Eng + AI.md",
     "Training/Syllabus v2/Data Analyst + AI.md",
-    "Hire10x/Agile.md",
     "Hire10x/attachments/sprint.jpg",
     "Hire10x/attachments/Pasted image 20250911135913.png",
     "Hire10x/attachments/Pasted image 20250911140315.png",
@@ -261,27 +275,13 @@
     "UI Ideas.md",
     "Useful Links.md",
     "Untitled.canvas",
-    "Untitled.md",
-    "Untitled 1.md",
     "Training/React.md",
-    "10xScale Note.md",
-    "Problem Solving/Detailed Explanation of Subarray Ranges Solution.md",
-    "Roles And Permission.md",
-    "Backend/Plane Deplopyment.md",
-    "Devops Work, Improvement.md",
-    "Hire10x/Ranking/Ranking.md",
-    "Contact and Credits Management.md",
-    "Assignment- Zoo Management System.md",
-    "Aarambh MVP – Package Comparison Table.md",
-    "Courses/Data Engineering/Databricks - A Deep Dive into the Unified Analytics Platform.md",
     "Medibot",
     "10xScale/Policies",
     "10xScale/meetings/Aug",
     "10xScale/meetings/July",
     "10xScale/meetings/June",
     "AI/Ideas",
-    "Courses/Leetcode",
-    "10xScale/meetings",
-    "10xScale"
+    "Courses/Leetcode"
   ]
 }
