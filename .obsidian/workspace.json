@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Hire10x/attachments/\" ",
+                "query": "\"Time Com",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -303,8 +303,6 @@
     "10xScale/meetings/July",
     "10xScale/meetings/June",
     "AI/Ideas",
-    "Courses/Leetcode",
-    "10xScale/meetings",
-    "10xScale"
+    "Courses/Leetcode"
   ]
 }
