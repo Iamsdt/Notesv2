@@ -15,7 +15,7 @@
 | **Approved By** | Executive Team |
 | **Classification** | Internal Use Only |
 | **Last Updated By** | Shudipto Trafder |
-| **Last Updated Date** | September 11, 2025 |
+| **Last Updated Date** | November 12, 2025 |
 
 ---
 
@@ -35,6 +35,11 @@ This Sprint Management & Workflow Guide provides a comprehensive framework for p
 6. [Estimation Guidelines](#estimation-guidelines)
 7. [Team Responsibilities](#team-responsibilities)
 8. [Quality Assurance](#quality-assurance)
+9. [Emergency and Exception Handling](#emergency-and-exception-handling)
+10. [Tools and Platform Usage](#tools-and-platform-usage)
+11. [Continuous Improvement](#continuous-improvement)
+12. [User Story Template](#user-story-template)
+13. [Example User Stories](#example-user-stories)
 
 ---
 
@@ -405,7 +410,161 @@ graph TD
 - Team satisfaction scores
 
 ---
+## 12. User Story Template
+```
+---
 
+## User Story
+
+**As a** [Application user role]
+**I want** [feature/action]  
+**So that** [benefit/value]
+
+---
+
+## Story Description
+[Provide additional context about the user story, including background information, business justification, or any relevant details that help the team understand the why behind this story]
+
+---
+
+## Acceptance Criteria
+
+**Scenario 1:**
+
+Tips: Add these info the description
+- **Given** [context]
+- **When** [action]
+- **Then** [outcome]
+
+**Scenario 2:**
+
+Tips: Add these info the description
+- **Given** [context]
+- **When** [action]
+- **Then** [outcome]
+
+**Additional Requirements:**
+
+- [ ] [Specific condition]
+- [ ] [Specific condition]
+- [ ] [Error handling]
+
+---
+
+## Notes
+
+- **Dependencies:** [If any]
+  
+```
+
+---
+## 13. Example User Stories
+
+Below are a few example user stories to help teams write clear, testable, and well-scoped work items.
+
+### Example 1 — Small Bug Fix (1 point)
+
+**As a** User
+**I want** the account display name on my profile page to show first and last name on the same line
+**So that** my profile looks correct and consistent across browsers
+
+**Story Description:**
+- A cosmetic rendering issue was found in the profile page where long names can break into multiple lines in smaller viewports due to CSS flex and word-wrap rules. This story ensures a robust cross-browser fix with minimal layout changes.
+
+**Acceptance Criteria:**
+- Given I'm on the profile page, when the name is displayed, then it shows First Last with no line-breaks
+- Unit tests to verify trimming and spacing are correct
+- QA verifies display across Chrome, Safari, and Firefox
+
+**Sub-tasks:**
+- [ ] Fix CSS/markup
+- [ ] Add unit test
+- [ ] QA verification
+
+**Notes / Dependencies:**
+- Check for existing CSS variables and global styles that affect whitespace and overflow. No backend changes required.
+
+### Example 2 — Small Feature (4 points)
+
+**As a** Registered User
+**I want** to receive an email notification when I request a password reset
+**So that** I can recover my account securely
+
+**Story Points:** 4
+
+**Story Description:**
+- When users request a password reset the backend currently logs the event but does not send an email — likely because of a missing integration. This story adds mailer integration and safeguards against leaking tokens.
+
+**Acceptance Criteria:**
+- When a user requests password reset, an email is sent with a reset link valid for 1 hour
+- Email contains proper branding and instruction text
+- Link leads to a password reset page and the token is validated
+- Manual QA verifies sending behavior and edge-cases (invalid email, expired token)
+
+**Sub-tasks:**
+- [ ] Add backend endpoint for password reset generation
+- [ ] Integrate with email provider to send templated email
+- [ ] Add unit/integration tests to cover token expiry and validation
+- [ ] QA verification
+
+**Notes / Dependencies:**
+- Depends on email provider credentials and existing auth-service token format. Ensure SES/Postmark credentials are present in staging.
+
+### Example 3 — Integration (8 points)
+
+**As a** Product User
+**I want** to sync my events from my Google Calendar into the app
+**So that** I can see my schedules in one place
+
+**Story Points:** 8
+
+**Story Description:**
+- Product users want a one-click import of calendars. We will implement Google OAuth and a scheduled sync job in background to load events. The scope is the last 7 days of events on initial sync, with periodic incremental updates.
+
+
+**Acceptance Criteria:**
+- OAuth flow connects a Google account and stores tokens securely
+- User can view the last 7 days of events in the app
+- Sync job paginates results and handles rate-limits/retries
+- Test and QA validate a successful sync and graceful error handling
+
+**Sub-tasks:**
+- [ ] Add OAuth connector and token storage
+- [ ] Build background sync job with pagination and retry
+- [ ] Add UI to show synced events and last-sync status
+- [ ] Add integration test and QA validation
+
+**Notes / Dependencies:**
+- Requires Google Calendar API credentials, token storage, and background job scheduling infrastructure. Ensure data privacy policy is observed.
+
+### Example 4 — Large Feature (16 points)
+
+**As a** Security-Conscious User
+**I want** Multi-Factor Authentication (MFA) on login
+**So that** I can add an extra layer of security to my account
+
+**Story Points:** 16
+
+**Story Description:**
+- Implement end-to-end Multi-Factor Authentication using TOTP as primary, SMS as optional. Focus on enroll, verify, and recovery flows. This is a security-critical feature and will require a design review and possibly changes in the authentication microservice.
+
+**Acceptance Criteria:**
+- Support Time-based One-Time Passwords (TOTP) and SMS (optional)
+- Provide UI flow to enable/disable MFA and to recover when lost
+- Enforce MFA on critical flows and optionally on all logins
+- Add unit, integration, and E2E tests for the flow
+- QA verifies TOTP codes and SMS delivery
+
+**Sub-tasks:**
+- [ ] Back-end implementation for TOTP and SMS
+- [ ] Front-end flow for enrolling and verifying methods
+- [ ] Add recovery and backup codes
+- [ ] Security review and QA
+
+**Notes / Dependencies:**
+- Requires changes to auth service and user settings storage. SMS provider integration is optional but recommended for enterprise users. Coordinate with the security team for compliance checks.
+
+---
 **Document Control:**
 - Classification: Internal Use Only
 - Distribution: All Developers, Testers, POs, Scrum Masters

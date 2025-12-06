@@ -66,7 +66,7 @@ https://github.com/ShepAlderson/copilot-orchestra
 2. HandOff https://code.visualstudio.com/docs/copilot/customization/custom-chat-modes#_handoffs
 
 # MCP Server
-MCP (Model Control Plane) server allows organizations to manage and configure AI models used in Copilot Chat. It provides centralized control over model selection, usage policies, and monitoring.
+MCP (Model Control Protocol) server allows organizations to manage and configure AI models used in Copilot Chat. It provides centralized control over model selection, usage policies, and monitoring.
 https://github.com/mcp?utm_source=vscode-website&utm_campaign=mcp-registry-server-launch-2025
 
 Helpful Tools:
@@ -141,7 +141,7 @@ Prompt Tips:
 
 Prompt 1:
 
-"Design a responsive login form for a React app. Use Material-UI components, include email and password fields with validation, and a submit button. Attach #login-styles.css for styling reference. Do not include backend logic, focus only on the UI component. Use vision model for layout suggestions. When design complete, test it using #playwright for responsiveness across devices.
+"Design a responsive login form for a React app. Use Material-UI components, include email and password fields with validation, and a submit button. Attach #login-styles.css for styling reference. Do not include backend logic, focus only on the UI component. When design complete, test it using #playwright for responsiveness across devices.
 "
 
 Prompt 2:
